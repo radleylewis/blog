@@ -22,7 +22,7 @@ a:hover {
 }
 
 img {
-  width: 60vw;
+  width: 100%;
 }
 
 p {
@@ -61,7 +61,8 @@ p {
 }
 
 @media(max-width: 400px) {
-  .navbar-right { min-width: 100%; }
+  .navbar-right { min-width: 100vw; }
+
 }
 
 .footer-top, .navbar-left-text-top {
