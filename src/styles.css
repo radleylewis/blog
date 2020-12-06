@@ -60,7 +60,7 @@ p {
   justify-content: space-between;
 }
 
-@media(max-width: 400px) {
+@media(max-width: 275px) {
   .navbar-right { min-width: 100vw; }
 
 }
