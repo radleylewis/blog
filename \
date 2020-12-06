@@ -6,9 +6,6 @@
 
 .navbar-left {
   margin-top: 10px;
-  display: flex; 
-  flex-direction: row;
-  justify-content: start;
 }
 
 .navbar-left, .navbar-right {
@@ -21,30 +18,12 @@
   justify-content: space-between;
 }
 
-.navbar-left-text-top {
-  font-size: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-family: roboto;
-  color: #AEAEAE;
-  font-style: italic;
-}
-
-.navbar-left-text-bottom {
-  margin-left: 0px;
-  margin-top: 10px;
-  font-family: roboto;
-  font-style: bold;
-}
-
-.navbar-link {
+#navbar-link {
   cursor: pointer;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 5px;
   margin-right: 5px;
-  font-family: roboto;
-  font-size: 14px;
 }
 
 #navbar-link:focus {
@@ -52,8 +31,12 @@
   padding: 5px;
 }
 
+.navbar-title {
+  font-family: roboto;
+  font-size: 24px;
+}
+
 .profile-picture {
-  margin-right: 10px;
   height: 50px;
   border-radius: 50%;
 }
@@ -61,8 +44,4 @@
 a {
   color: #000000;
   text-decoration: none;
-}
-
-a:hover {
-  color: #AEAEAE;
 }
