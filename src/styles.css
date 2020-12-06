@@ -48,7 +48,7 @@ p {
   justify-content: space-between;
 }
 
-.navbar-left-text-top {
+.footer-top, .navbar-left-text-top {
   font-size: 10px;
   margin-top: 7.5px;
   margin-bottom: 5px;
@@ -57,15 +57,19 @@ p {
   font-style: italic;
 }
 
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+}
+
 .navbar-left-text-bottom {
   margin-left: 0px;
   margin-top: 10px;
   font-family: roboto;
   font-style: bold;
 }
-
 .navbar-link {
-  color: #000000; !important
   cursor: pointer;
   margin-top: 10px;
   margin-bottom: 10px;
