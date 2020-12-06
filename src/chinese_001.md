@@ -1,11 +1,14 @@
 # Yes, you can learn Chinese in 4 months. Well, some Chinese.
 
-> “China is a big country, inhabited by many Chinese. ” 
-> ― **Charles de Gaulle**
+###### 29th April 2019
 
-
+“China is a big country, inhabited by many Chinese. ” ― **Charles de Gaulle**
 
 ![The Great Wall of China](../assets/29APR2019_chinese.png)
+
+
+
+
 
 China—and France for that matter — are different places than they were when le général uttered those words. In Purchasing Power Parity terms the economy of the People’s Republic  of China is already almost twenty percent larger than the United States. Both of these gigantic nations occupy just shy of 7 percent of the  planet a piece, and — officially at least — China is the most populace  place on the planet. Of course there is no shortage titbits upon which  to positively remark when it comes to the middle kingdom, nor would it  be considered a strenuous task to draft an army of China doubters.
 

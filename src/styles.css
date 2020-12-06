@@ -1,7 +1,34 @@
-.navbar {
+body {
   width: 60vw;
   margin-left: auto;
   margin-right: auto;
+}
+
+#Articles {
+ margin-top: 50px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #AEAEAE;
+}
+
+img {
+  width: 60vw;
+}
+
+p {
+  font-family: roboto;
+  color: #1E1E1E;
+  line-height: 1.5em;
+}
+
+.navbar {
+  margin-bottom: 50px;
 }
 
 .navbar-left {
@@ -23,7 +50,7 @@
 
 .navbar-left-text-top {
   font-size: 10px;
-  margin-top: 5px;
+  margin-top: 7.5px;
   margin-bottom: 5px;
   font-family: roboto;
   color: #AEAEAE;
@@ -38,6 +65,7 @@
 }
 
 .navbar-link {
+  color: #000000; !important
   cursor: pointer;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -54,15 +82,7 @@
 
 .profile-picture {
   margin-right: 10px;
+  width: 50px;
   height: 50px;
   border-radius: 50%;
-}
-
-a {
-  color: #000000;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #AEAEAE;
 }
