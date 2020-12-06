@@ -12,7 +12,7 @@ Drop me a line if you think we could work together, or even just catch up over a
 
 ### Articles
 
-[4 Months Intensive Mandarin in Beijing](file:///home/rad/Documents/Projects/canary_ecuador/dist/chinese_001.html) 
+[4 Months Intensive Mandarin in Beijing](https://radleylewis.herokuapp.com/dist/chinese_001.html) 
 
  
 
