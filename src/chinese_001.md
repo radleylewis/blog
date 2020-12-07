@@ -1,5 +1,7 @@
 ###### 29th April 2019
 
+###### 1,367 words / 4 minute read
+
 # Yes, you can learn Chinese in 4 months. Well, some Chinese.
 
 “China is a big country, inhabited by many Chinese.” ― **Charles de Gaulle**
