@@ -2,9 +2,9 @@
 
 ###### 29th April 2019
 
-“China is a big country, inhabited by many Chinese. ” ― **Charles de Gaulle**
+“China is a big country, inhabited by many Chinese.” ― **Charles de Gaulle**
 
-![The Great Wall of China](../assets/29APR2019_chinese.png)
+![The Great Wall of China](../assets/chinese-001.png)
 
 
 
