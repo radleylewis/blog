@@ -1,7 +1,39 @@
-# Radley Edward Sidwell-Lewis
+# Radley Edward Sidwell-Lewis 🇦🇺
 
 ![about-author](../assets/about-author-001.jpeg)
 
-Originally from Australia, I have also lived in China, Hong Kong, Malaysia, New York and Germany. I speak German (C1) and some Mandarin (HSK4). I am avid hiker, amateur sailor and am most passionate about two things: 1) global political affairs and 2) revolutionising business through technology. 
+## Introduction
 
-Currently studying a Masters of Advanced Cyber Security from King's College London, I also hold a Bachelor of Commerce & Bachelor of Arts degree from Monash University, Melbourne.
+Growing up in the beautiful, hilly outskirts of Melbourne, Australia, I was fascinated by the world, languages and technology from a young age. As a young kid I would listen to the BBC World Service on radio late into the night, a habit I've never kicked although these days its YouTube and Podcasts. 
+
+My first computer ran a Pentium III 733mhz processor and introduced me to the world of technology, gaming and programming. While I spent my 20's studying and working in international finance, I finally came full circle in 2018 when I left banking and turned my life long passion for tech into my profession.
+
+Since a 10 week school exchange to Schwerin in the former East Germany at the age of 16 I have dedicated myself to exploring and learning about the world. Fluent in German and conversant in Mandarin Chinese, I love languages. I've been lucky enough to live in Beijing, Hong Kong, Kuala Lumpur, New York, Munich and also spend significant stints in Israel, India and Spain. 
+
+I am an avid hiker, amateur sailor and am most passionate about two things: 1) global political affairs; and, 2) revolutionising business through technology.
+
+## Professional experience
+
+In late 2020 I co-founded RT Reporting, a cloud based financial forecasting software solution for accountants, bookkeepers and businesses. Before founding RT Reporting worked as a software engineer in Munich, Germany. 
+
+Before switching to software engineering and FinTech I worked in international banking for more than 5 years across Melbourne, and New York, Sydney and Hong Kong for both the Australia and New Zealand Banking Group and later HSBC. Most of this time was spent focused on financial institutions coverage, including funds, hedge funds, banks, public sector and insurers.
+
+During my time at university I served part-time in the Australian Army Reserve for more than 3 years.
+
+## Hobbies
+
+Languages, hiking, sailing, japanese cars, reading, economics, finance, investment, travel, fitness among others.
+
+## Education
+
+**Monash University, Melbourne**
+
+*Bachelor of Commerce (Finance) & Bachelor of Arts (Politics)*
+
+Graduation: 2012
+
+**King's College, London**
+
+*Masters of Advanced Cyber Security*
+
+Graduation: due 2022
