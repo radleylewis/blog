@@ -41,3 +41,17 @@ Graduation: 2012
 *Masters of Advanced Cyber Security*
 
 Graduation: due 2022
+
+## Certifications
+
+##### telc, C1 Deutsch Zertifikat
+
+Issued: November 2020 (ID 1082171)
+
+##### Hanban Confucius Institute, HSK IV
+
+Issued: July 2018
+
+##### Codeworks, Software Engineering Bootcamp
+
+Issued: February 2019
