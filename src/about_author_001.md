@@ -2,7 +2,7 @@
 
 ![about-author](../assets/about-author-001.jpeg)
 
-## Introduction
+## Background
 
 Growing up in the beautiful, hilly outskirts of Melbourne, Australia, I was fascinated by the world, languages and technology from a young age. As a young kid I would listen to the BBC World Service on radio late into the night, a habit I've never kicked although these days its YouTube and Podcasts. 
 
@@ -11,6 +11,10 @@ My first computer ran a Pentium III 733mhz processor and introduced me to the wo
 Since a 10 week school exchange to Schwerin in the former East Germany at the age of 16 I have dedicated myself to exploring and learning about the world. Fluent in German and conversant in Mandarin Chinese, I love languages. I've been lucky enough to live in Beijing, Hong Kong, Kuala Lumpur, New York, Munich and also spend significant stints in Israel, India and Spain. 
 
 I am an avid hiker, amateur sailor and am most passionate about two things: 1) global political affairs; and, 2) revolutionising business through technology.
+
+My favourite tech stack is Python with Flask, MongoDB, Vue.js with TypeScript hosted on AWS.
+
+My favourite programming language is python. I plan on learning more C/C++ next.
 
 ## Professional experience
 
@@ -22,7 +26,7 @@ During my time at university I served part-time in the Australian Army Reserve f
 
 ## Hobbies
 
-Languages, hiking, sailing, japanese cars, reading, economics, finance, investment, travel, fitness among others.
+Languages, technology, hiking, sailing, japanese cars, reading, economics, finance, investment, travel, fitness among others.
 
 ## Education
 
