@@ -61,8 +61,10 @@ p {
 }
 
 @media(max-width: 550px) {
-  .navbar-right { min-width: 100vw; }
-
+  .navbar-right { 
+    min-width: 95vw; 
+    margin-left: 5px;
+  }
 }
 
 .footer-top, .navbar-left-text-top {
