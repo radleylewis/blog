@@ -2,11 +2,11 @@
 
 ###### 1,268 words / 4 minute read
 
+# Why I left banking for tech
+
 ![HSBC Shanghai](../assets/banking_001.jpg)
 
 *HSBC's Shanghai offices, built in 1923*
-
-# Why I left banking for tech
 
 It was late, sitting at my desk of the iconic HSBC Main Building at 1 Queen's Road Central, Hong Kong. The light show had started and colours splashed against the monitors, desks and windows of the 16th floor. **[The Hongkong and Shanghai Banking Corporation](https://www.hsbc.com/who-we-are/our-history)** is the place I had wanted to work since I first visited Shangai in 2011. No institution better embodied a bet on the Asian century than this monolithic financial institution founded by a Scotsman more than 150 years earlier. But here I was, working for this leading bank, in a great job, in a fascinating city, and yet completely lost. It wasn't the bank, HSBC wasn't the first bank I worked for, and frankly speaking is still the world's leading international bank despite its shortcomings. Nor was it the job: my boss was great, my colleagues were talented and my customers offered some of the most interesting, complex deals any banker could ask for. Ultimately, that itch in the back of my skull that grew more and more uncomfortable with each and every waking day was the feeling that everything here had already been done.
 
