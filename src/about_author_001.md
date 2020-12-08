@@ -16,6 +16,8 @@ Preferred tech-stack: is Python with Flask, MongoDB, Vue.js with TypeScript host
 
 Favourite programming language: Python (I plan on learning more C/C++ next).
 
+Oh, and I ❤️ Italy.
+
 ## Professional experience
 
 In late 2020 I co-founded RT Reporting, a cloud based financial forecasting software solution for accountants, bookkeepers and businesses. Prior to founding RT Reporting worked as a software engineer in Munich, Germany. 
