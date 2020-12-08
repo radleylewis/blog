@@ -114,4 +114,7 @@ p {
   .footer {
     display: none;
   }
+  #Articles {
+    margin-top: 20px;
+  }
 }

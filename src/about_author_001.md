@@ -12,17 +12,15 @@ Since a 10 week school exchange to Schwerin in the former East Germany at the ag
 
 I am an avid hiker, amateur sailor and am most passionate about two things: 1) global political affairs; and, 2) revolutionising business through technology.
 
-My favourite tech stack is Python with Flask, MongoDB, Vue.js with TypeScript hosted on AWS.
+Preferred tech-stack: is Python with Flask, MongoDB, Vue.js with TypeScript hosted on AWS.
 
-My favourite programming language is python. I plan on learning more C/C++ next.
+Favourite programming language: Python (I plan on learning more C/C++ next).
 
 ## Professional experience
 
-In late 2020 I co-founded RT Reporting, a cloud based financial forecasting software solution for accountants, bookkeepers and businesses. Before founding RT Reporting worked as a software engineer in Munich, Germany. 
+In late 2020 I co-founded RT Reporting, a cloud based financial forecasting software solution for accountants, bookkeepers and businesses. Prior to founding RT Reporting worked as a software engineer in Munich, Germany. 
 
-Before switching to software engineering and FinTech I worked in international banking for more than 5 years across Melbourne, and New York, Sydney and Hong Kong for both the Australia and New Zealand Banking Group and later HSBC. Most of this time was spent focused on financial institutions coverage, including funds, hedge funds, banks, public sector and insurers.
-
-During my time at university I served part-time in the Australian Army Reserve for more than 3 years.
+Before pivoting to software engineering and FinTech I worked in international banking for more than 5 years across Melbourne, and New York, Sydney and Hong Kong for both the Australia and New Zealand Banking Group and later HSBC. Most of this time was spent focused on financial institutions coverage, including funds, hedge funds, banks, public sector and insurers. During my time at university I served part-time in the Australian Army Reserve for more than 3 years.
 
 ## Hobbies
 
@@ -44,14 +42,14 @@ Graduation: due 2022
 
 ## Certifications
 
-##### telc, C1 Deutsch Zertifikat
+**telc, C1 Deutsch Zertifikat**
 
 Issued: November 2020 (ID 1082171)
 
-##### Hanban Confucius Institute, HSK IV
+**Hanban Confucius Institute, HSK IV**
 
 Issued: July 2018
 
-##### Codeworks, Software Engineering Bootcamp
+**Codeworks, Software Engineering Bootcamp**
 
 Issued: February 2019
