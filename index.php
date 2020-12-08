@@ -1,1 +1,1 @@
-<?php header( 'Location: /blog/index.html' ) ;  ?>
+<?php require( '/blog/index.html' ) ;  ?>
