@@ -60,13 +60,6 @@ p {
   justify-content: space-between;
 }
 
-@media(max-width: 550px) {
-  .navbar-right { 
-    min-width: 95vw; 
-    margin-left: 5px;
-  }
-}
-
 .footer-top, .navbar-left-text-top {
   font-size: 10px;
   margin-top: 5px;
@@ -83,7 +76,6 @@ p {
   padding-left: 10px;
   height: 60px;
   width: 100%;
-  background-color: #ffffff;
 }
 
 .navbar-left-text-bottom {
@@ -112,4 +104,14 @@ p {
   width: 50px;
   height: 50px;
   border-radius: 50%;
+}
+
+@media(max-width: 550px) {
+  .navbar-right { 
+    min-width: 90vw; 
+    margin-left: 5px;
+  }
+  .footer {
+    display: none;
+  }
 }
