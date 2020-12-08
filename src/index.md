@@ -4,15 +4,14 @@ thank you for visiting my blog. My name is Rad and I am a coder, investor, trave
 
 I hope you enjoy my material.
 
+### Hacking & Tech
+
+*[You need to try Pop!_OS](http://www.radleylewis.com/blog/pop_os_001.html)* - 9th December 2020
+
 ### Economics & Finance
 
-*[Why I left banking for tech](http://www.radleylewis.com/blog/banking_001.html)* - 07 December 2020
+*[Why I left banking for tech](http://www.radleylewis.com/blog/banking_001.html)* - 7th December 2020
 
 ### Languages & Travel
 
-*[4 Months Intensive Mandarin in Beijing](http://www.radleylewis.com/blog/chinese_001.html)* - 29 April 2019
-
-### Hacking & Tech
-
-Coming soon!
-
+*[4 Months Intensive Mandarin in Beijing](http://www.radleylewis.com/blog/chinese_001.html)* - 29th April 2019
