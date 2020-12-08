@@ -1,1 +1,1 @@
-<?php include '/blog/index.html';?>
+<?php include './blog/index.html';?>
