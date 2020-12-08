@@ -4,7 +4,7 @@
 
 ###### 467 words / 2 minute read
 
-![Pop!_OS Background](/home/rad/Documents/Projects/canary_ecuador/assets/pop_os_001.png)
+![Pop!_OS Background](../assets/pop_os_001.png)
 
 *A standard Pop!_OS 20.10 background on my XMG Fusion 15*
 
