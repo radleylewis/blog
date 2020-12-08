@@ -1,1 +1,1 @@
-<?php require( '/blog/index.html' ) ;  ?>
+<?php include '/blog/index.html';?>
