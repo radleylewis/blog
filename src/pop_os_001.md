@@ -1,8 +1,8 @@
-# You need to try Pop!_OS
-
 ###### 09 December 2020
 
 ###### 467 words / 2 minute read
+
+# You need to try Pop!_OS
 
 ![Pop!_OS Background](../assets/pop_os_001.png)
 
