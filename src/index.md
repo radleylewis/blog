@@ -14,4 +14,5 @@ I hope you enjoy my material.
 
 ### Languages & Travel
 
+*[Time and tide wait for no man](http://www.radleylewis.com/blog/time_001.html)* - 12th December 2020
 *[4 Months Intensive Mandarin in Beijing](http://www.radleylewis.com/blog/chinese_001.html)* - 29th April 2019
