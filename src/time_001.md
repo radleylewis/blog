@@ -1,6 +1,6 @@
 ###### 12 December 2020
 
-###### 1043 words / 3 minutes
+###### 1043 words / 3 minute read
 
 # Time and tide wait for no man.
 
