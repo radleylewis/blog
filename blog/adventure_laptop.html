@@ -15,7 +15,9 @@
 </head>
 
 <body>
-
+<div>
+    <img src="./assets/tick.svg" id="subscribed-tick" title="you're subscribed!" >
+</div>
 <nav class="navbar">
   <div class="navbar-left">
     <div>
@@ -89,16 +91,18 @@
        <input type="email" id="email" placeholder="email address...">
        <input id="subscribe-button"  type="submit" value="Subscribe">
      </form> 
-  <div>
+  </div>
 </footer>
 <script type="text/javascript">
    (function checkSubscription() {
-      console.log('checking subscription');
       const subscribed = localStorage.getItem('subscribed');
       if (subscribed) {
          const form = document.getElementById("sub-form");
-         form.style.display = "none";
-      }; 
+         form.style.visibility = "hidden";
+      } else {
+         const tick = document.getElementById("subscribed-tick");
+         tick.style.visibility = "hidden";
+      };
    })();
  
    function subscribe() {
@@ -115,10 +119,14 @@
       fetch(url, options)
       .then(res => res.json())
       .then(({ subscribed }) => {
-         localStorage.setItem('subscribed', true);
-         localStorage.setItem('name', name);
-         const form = document.getElementById("sub-form");
-         form.style.display = "none";
+         if (subscribed) {
+           localStorage.setItem('subscribed', true);
+           localStorage.setItem('name', name);
+           const form = document.getElementById("sub-form");
+           form.style.visibility = "hidden";
+           const tick = document.getElementById("subscribed-tick");
+           tick.style.visibility = "visible";
+        };
       })
       .catch(err => { console.log(err); });
     };
