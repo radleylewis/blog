@@ -16,7 +16,6 @@
 </footer>
 <script type="text/javascript">
    (function checkSubscription() {
-      console.log('checking subscription');
       const subscribed = localStorage.getItem('subscribed');
       if (subscribed) {
          const form = document.getElementById("sub-form");
@@ -38,10 +37,13 @@
       fetch(url, options)
       .then(res => res.json())
       .then(({ subscribed }) => {
-         localStorage.setItem('subscribed', true);
-         localStorage.setItem('name', name);
-         const form = document.getElementById("sub-form");
-         form.style.display = "none";
+         if (subscribed) {
+           localStorage.setItem('subscribed', true);
+           localStorage.setItem('name', name);
+           const form = document.getElementById("sub-form");
+           form.style.display = "none";
+
+        };
       })
       .catch(err => { console.log(err); });
     };
