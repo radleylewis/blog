@@ -81,6 +81,21 @@ p {
   width: 100%;
 }
 
+.subscription-box {
+  margin-top: 20px;
+}
+
+#subscribe-button {
+  height: 34px;
+  margin-right: 15px;
+}
+
+textarea:focus, 
+input:focus,
+#subscribe-button:focus {
+  outline: 0;
+}
+
 .navbar-left-text-bottom {
   margin-left: 0px;
   margin-top: 10px;
