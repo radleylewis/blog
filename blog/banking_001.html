@@ -75,7 +75,7 @@
      <form onsubmit="subscribe()">
        <input type="text" id="name" placeholder="name">
        <input type="email" id="email" placeholder="email address...">
-     <input type="submit">
+     <input type="submit" value="Subscribe">
 </form> 
   <div>
 </footer>
@@ -86,7 +86,7 @@
       const email = document.querySelector('#email').value;
       const subscriber = { name: name, email: email };
       console.log('this is the subscriber', subscriber);
-      const url = 'https://8zz61io6p0.execute-api.ap-southeast-2.amazonaws.com/production';
+      const url = 'https://e94nqk77ka.execute-api.ap-southeast-2.amazonaws.com/api';
       const options = {
         method: 'POST',
         mode: 'cors',
