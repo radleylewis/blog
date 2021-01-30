@@ -6,7 +6,7 @@
 
 
 
-# Introducing Lenovo's T480: The (cheap) Adventurer's Laptop [Part 1]
+# Introducing Lenovo's T480: The (value) Adventurer's Laptop [Part 1]
 
 ![Lenovo T480](../assets/adventure_laptop_001.png)
 
@@ -36,7 +36,7 @@ Of course its running Pop!_OS and I installed Windows 10 on the second drive (fo
 
 **Long battery life** - for long trips on the road, hiking, sailing, camping etc;
 
-**Value** - this is my second machine, and its for long, rough hikes, sailing and so forth so it will probably break or be lost at sea;
+**Good Value** - this is my second machine, and its for long, rough hikes, sailing and so forth so it will probably break or be lost at sea;
 
 **Bonuses** - bright screen, good keyboard, Wireless WAN, decent speakers etc.
 
@@ -52,7 +52,7 @@ Not bad right?
 
 Or so I thought. Actually, and to be expected, the laptop was cheap for a reason. But it wouldn't be any fun if it worked right? Between a faulty screen, BIOS Supervisor password, missing hard drive and extensive wear and tear, this unit was potentially unsalvageable.
 
-## Part 2: auf Vordermann bringen (get it into shape)
+## Part 2: auf Vordermann bringen (whip it into shape)
 
-Stay tuned for *Part 2.* where we deal with BIOS password issues, damaged screens, missing RAM/Hard Drives, and install Arch Linux to turn this Lemon of a laptop into a digital nomad's scimitar. 
+Stay tuned for *Part 2.* where we deal with BIOS password issues, damaged screens, missing RAM/Hard Drives, WWAN cards and install Arch Linux to turn this Lemon of a laptop into a digital nomad's scimitar. 
 
