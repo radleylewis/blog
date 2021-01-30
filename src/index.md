@@ -13,6 +13,7 @@ I hope you enjoy my material.
 ### Hacking & Tech
 
 *[The (cheap) Adventurer's Laptop - Part 1](https://www.radleylewis.com/adventure_laptop_001.md)* - 30th January 2021
+
 *[You need to try Pop!_OS](https://www.radleylewis.com/pop_os_001.html)* - 9th December 2020
 
 ### Economics & Finance
