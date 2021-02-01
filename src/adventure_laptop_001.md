@@ -46,7 +46,7 @@ So between the long coding sessions I was doing in mandatory quarantine in Darwi
 
 *"$400 - Lenovo Thinkpad T480 i5 8th gen - issues"* - Seller, Gumtree.
 
-Gumtree is like *Craigslist/Ebay Classifieds* in the States or *Ebaykleinanzeigen* in Germany (in fact it's owned by Ebay). Unfortunately, asides from two grainy photos, the advertisement offered no further details on my future side kick. I tried to contact the seller to garner more details, but to no avail. So I put in a bid for A$200 (approx. 125€). Most listings in Germany put the price around 700-800€ or more than A$1,200. So this offer was about a tenth of what I might have expected to pay for it in Germany. In Australia listing prices were only slightly more attractive. The mandatory haggling took place, and ultimately I secured the unit for A$300 or ~190€. 
+Gumtree is like *Craigslist/Ebay Classifieds* in the States or *Ebaykleinanzeigen* in Germany (in fact it's owned by Ebay). Unfortunately, asides from two grainy photos, the advertisement offered no further details on my future side kick. I tried to contact the seller to garner more details, but to no avail. So I put in a bid for A$200 (approx. 125€). Most listings in Germany put the price around 700-800€ or more than A$1,200. So this offer was about a fifth of what I might have expected to pay for it in Germany. In Australia listing prices were only slightly more attractive. The mandatory haggling took place, and ultimately I secured the unit for A$300 or ~190€. 
 
 Not bad right?
 
