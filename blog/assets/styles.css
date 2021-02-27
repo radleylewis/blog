@@ -1,5 +1,8 @@
-body {
+html {
   font-family: 'Fira Code', 'monospace', monospace, 'Droid Sans Fallback';
+}
+
+body {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
@@ -28,7 +31,6 @@ a:hover {
 }
 
 p {
-  font-family: roboto;
   color: #1E1E1E;
   line-height: 1.5em;
 }
@@ -65,7 +67,6 @@ p {
 .footer-top, .navbar-left-text-top {
   font-size: 10px;
   margin-bottom: 5px;
-  font-family: roboto;
   color: #AEAEAE;
   font-style: italic;
 }
@@ -111,7 +112,6 @@ input:focus,
 .navbar-left-text-bottom {
   margin-left: 0px;
   margin-top: 10px;
-  font-family: roboto;
   font-style: bold;
 }
 .navbar-link {
