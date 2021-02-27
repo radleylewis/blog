@@ -6,6 +6,8 @@ I hope you enjoy my material.
 
 ### Languages & Travel
 
+*[Dankeschön, Germany](https://www.radleylewis.com/dankeschoen_001.html]* - 27th February 2021
+
 *[Time and tide wait for no man](https://www.radleylewis.com/time_001.html)* - 12th December 2020
 
 *[4 Months Intensive Mandarin in Beijing](https://www.radleylewis.com/chinese_001.html)* - 29th April 2019
