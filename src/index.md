@@ -12,7 +12,7 @@ I hope you enjoy my material.
 
 *[Time and tide wait for no man](https://www.radleylewis.com/time_001.html)* - 12th December 2020
 
-*[4 Months Intensive Mandarin in Beijing](https://www.radleylewis.com/chinese_001.html)* - 29th April 2019
+*[4 Months Intensive Mandarin in Beijing](https://www.radleylewis.com/chinese_001.html)* - 29th April 2019  
 
 ### Hacking & Tech
 
