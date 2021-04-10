@@ -2,7 +2,7 @@
 
 ###### 2061 words / 8 minute read
 
-# Wheels of War
+# Waves of War
 
 ![Australian coal vessels](../assets/waves_of_war_001.jpg)
 *An artificial island in the South China Sea*     
