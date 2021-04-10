@@ -4,7 +4,7 @@
 
 # Wheels of War
 
-![Australian coal vessels](../assets/wheels_of_war_001.jpg)
+![Australian coal vessels](../assets/waves_of_war_001.jpg)
 *An artificial island in the South China Sea*     
 
 A core theme of the 2006 film *Letters from Iwo Jima* directed by Clint Eastwood, which portrayed that brutal battle from the Japanese perspective, was the sheer industrial might of the United States. In one scene, General Kuribayashi who had previously spent time in the United States, remarks on his having to watch for automobiles when he crosses the street in America. So many cars, such massive material and industrial capacity. While the outcome of the war has long since been decided, the Japanese continue the fight in the name of honour and empire. 
