@@ -6,7 +6,7 @@ I hope you enjoy my material.
 
 ### Hacking & Tech
 
-**\*new\*** *[The Adventurer's (value) Laptop - Part 2](https://www.radleylewis.com/adventure_laptop_002.html)* - 17th April 2021
+***new*** *[The Adventurer's (value) Laptop - Part 2](https://www.radleylewis.com/adventure_laptop_002.html)* - 17th April 2021
 
 *[The Adventurer's (value) Laptop - Part 1](https://www.radleylewis.com/adventure_laptop_001.html)* - 30th January 2021
 
@@ -14,7 +14,7 @@ I hope you enjoy my material.
 
 ### Languages & Travel
 
-**\*new\*** *[Waves of War](https://www.radleylewis.com/waves_of_war_001.html)* - 6th April 2021  
+***new*** *[Waves of War](https://www.radleylewis.com/waves_of_war_001.html)* - 6th April 2021  
 
 *[Dankeschön, Germany](https://www.radleylewis.com/dankeschoen_001.html)* - 27th February 2021
 
