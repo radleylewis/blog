@@ -2,9 +2,7 @@
 
 
 
-###### 971 words / x minute read
-
-
+###### 971 words / 3 minute read
 
 # Lenovo T480: The Adventurer's (value) Laptop [Part 2]
 
@@ -26,29 +24,29 @@ Emphasis on the *relatively*. Most of the work I do is on Linux, and with the ex
 
 Other than the socketed CPUs, there is still a fair bit of upgradeability to these units. In the end I fitted it with the following parts:
 
-[2 x 8GB 2666MHz DDR4 Kingston HyperX Ram](https://www.amazon.com.au/gp/product/B0722Q3243/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1) = A$122
+###### [2 x 8GB 2666MHz DDR4 Kingston HyperX Ram](https://www.amazon.com.au/gp/product/B0722Q3243/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1) = A$122
 
-[mBeat Gorilla Travel Charger](https://www.amazon.com.au/gp/product/B078PW24RQ/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1) = A$66
+###### [mBeat Gorilla Travel Charger](https://www.amazon.com.au/gp/product/B078PW24RQ/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1) = A$66
 
-[Samsung 500GB 860 EVO 2.5 SATA III](https://www.amazon.com.au/500GB-SSD-860-EVO-SATA/dp/B079FL9YQ6/ref=sr_1_4?dchild=1&keywords=samsung+sata&qid=1618621799&s=computers&sr=1-4) = A$89
+###### [Samsung 500GB 860 EVO 2.5 SATA III](https://www.amazon.com.au/500GB-SSD-860-EVO-SATA/dp/B079FL9YQ6/ref=sr_1_4?dchild=1&keywords=samsung+sata&qid=1618621799&s=computers&sr=1-4) = A$89
 
-[Arctic Silver Thermal Paste](https://www.amazon.com.au/Arctic-Silver-High-Density-AS5-3-5G-Compound/dp/B0087X728K/ref=sr_1_1?crid=35Z62SQYHB8NJ&dchild=1&keywords=artic+silver+thermal+paste&qid=1618627233&sprefix=artic+silver+the%2Caps%2C360&sr=8-1) = A$10
+###### [Arctic Silver Thermal Paste](https://www.amazon.com.au/Arctic-Silver-High-Density-AS5-3-5G-Compound/dp/B0087X728K/ref=sr_1_1?crid=35Z62SQYHB8NJ&dchild=1&keywords=artic+silver+thermal+paste&qid=1618627233&sprefix=artic+silver+the%2Caps%2C360&sr=8-1) = A$10
 
-[Trackpad](https://www.aliexpress.com/item/4000388336308.html?spm=a2g0s.9042311.0.0.60de4c4d8RZJQp) = A$34
+###### [Trackpad](https://www.aliexpress.com/item/4000388336308.html?spm=a2g0s.9042311.0.0.60de4c4d8RZJQp) = A$34
 
-[Harddrive Caddy](https://www.aliexpress.com/item/1005001949307182.html?spm=a2g0s.9042311.0.0.60de4c4d8RZJQp) = A$7
+###### [Harddrive Caddy](https://www.aliexpress.com/item/1005001949307182.html?spm=a2g0s.9042311.0.0.60de4c4d8RZJQp) = A$7
 
-[ThinkPad Screws](https://trade.aliexpress.com/orderList.htm?spm=a2g0o.home.1000001.31.650c2145HN2dzG&tracelog=ws_topbar) = A$12
+###### [ThinkPad Screws](https://trade.aliexpress.com/orderList.htm?spm=a2g0o.home.1000001.31.650c2145HN2dzG&tracelog=ws_topbar) = A$12
 
-[FHD IPS Panel](https://www.aliexpress.com/item/4001153042037.html?spm=a2g0s.9042311.0.0.60de4c4d8RZJQp) = A$125
+###### [FHD IPS Panel](https://www.aliexpress.com/item/4001153042037.html?spm=a2g0s.9042311.0.0.60de4c4d8RZJQp) = A$125
 
-T480 ThinkPad Laptop = A$250
+###### T480 ThinkPad Laptop = A$250 (originally A$300 but I got A$50 back once I sold some old parts)
 
 ###### Total = A$715
 
 Its actually possible to fit the T480 with an NVMe SSD using an M.2 adaptor. That being said, you won't see the maximum possible performance from the drive given T480's only offer two PCIe lanes. Given that I had an only 2.5 inch SATA III drive lying around, I decided to opt for this, but keep in mind it is possible to run either. As previously mentioned, the panel was damaged, but this was an essential upgrade regardless. 
 
-NOTE: An astute reader might have noticed the CH341a chip reader in the photo. [Wolfgang's Channel](https://www.youtube.com/watch?v=ce7kqUEccUM) does a nice video on reading off the BIOS chip, if you want to do that for any reason whatsoever. You'll be able to find this on Amazon for around A$10. 
+*NOTE: An astute reader might have noticed the CH341a chip reader in the photo. [Wolfgang's Channel](https://www.youtube.com/watch?v=ce7kqUEccUM) does a nice video on reading off the BIOS chip, if you want to do that for any reason whatsoever. You'll be able to find this on Amazon for around A$10.*
 
 **Good Value** 
 
