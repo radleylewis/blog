@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />	
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0" />
+	<meta http-equiv="cache-control" content="max-age=0" />
+	<meta http-equiv="expires" content="0" />
+	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<link rel="stylesheet" href="./assets/styles.css">
+	<link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.png">
+	<title>Rad's Blog</title>
+</head>
+
+<body>
+<div>
+    <img src="./assets/tick.svg" id="subscribed-tick" title="you're subscribed!" >
+</div>
+<nav class="navbar">
+  <div class="navbar-left">
+    <div>
+      <img class="profile-picture" src="./assets/brand/rl-white-bg.png">
+    </div>
+    <div>
+      <p class="navbar-left-text-top">blog by:</p>
+      <a href="/" class="navbar-left-text-bottom">Radley Edward Sidwell-Lewis</a>
+    </div>
+  </div>
+  <ul class="navbar-right">
+    <li class="navbar-link"><a target="_blank" title="Instagram" href="https://www.instagram.com/radleylewis"><img alt="Instagram" src="./assets/instagram.svg" /></a></li>
+    <li class="navbar-link"><a target="_blank" title="YouTube" href="https://youtube.com/channel/UCt7AzHv_-ECbPPF3zsm3BLg"><img alt="YouTube" src="./assets/youtube.svg"/></a></li>
+    <li class="navbar-link"><a target="_blank" title="GitHub" href="https://www.github.com/radleylewis"><img alt="GitHub" src="./assets/github.svg" /></a></li>
+    <li class="navbar-link"><a target="_blank" title="E-Mail"  href="mailto: radley.lewis@gmail.com"><img alt="YouTube" src="./assets/gmail.svg" /></a></li>
+    <li class="navbar-link"><a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/rad-e-sidwell-lewis"><img alt="LinkedIn" src="./assets/linkedin.svg" /></a></li>
+  </ul>
+</nav>
+
+</body>
+</html>
+<h1 id="Flask%20vs%20Node.js">Flask vs Node.js</h1>
+
+<p>For more than two years now I have been using Node.js for almost all of the backend servers I have built. The vast majority of these were using Express.js, although I did play around with Koa.js towards the beginning, and even made a brief foray into bare Node.js as part of the bootcamp I participated in. Node.js has one distinct advantage which is that being a JavaScript runtime environment on the server, it allows for the use of a single language up and down the stack, meaning that developers can - in theory - seamlessly switch between sections of a project. With frameworks like React.Native now enabling JavaScript development for mobile devices, it is <em>theoretically</em> possible to build an entire application exclusively in one language. </p>
+
+<p>After 18 months working with React.Native I have serious reservations about it, and implore anyone looking to the framework as the silver bullet to consider the potential pitfalls - a whole different topic. Node.js on the other hand is far more mature, and to be fair, it has allowed me to build a variety of applications with notable success. But the first language I learned wasn&#8217;t JavaScript, it was Python. I imagine this is quite common, as Python appears to have a sexier reputation amongst non-engineers, for the most part due to its association with data science, academia, fintech and the the fact many people I&#8217;d worked with in banking had, at one point or another, written a few lines of Python. Although I am far more proficient in JavaScript than in Python, I often think about building applications in the latter. I built one application with Django, which I found too bloated and opinionated for my liking. Recently, the opportunity arose to do just that with the Flask web framework. These are my thoughts on how Flask and Python compare to Node.js. </p>
+
+<pre><code class="language-python">flask = 0
+</code></pre>
+
+<pre><code class="language-javascript">let node = 0;
+</code></pre>
+
+<h2 id="Single%20Language%20Across%20the%20Stack">Single Language Across the Stack</h2>
+
+<p>For a long time I really didn&#8217;t see how having JavaScript in both the back and Front-End was all that valuable. With time I have concluded that it is an advantage, albeit not a huge one. My thinking was essentially that, having hired and managed teams of engineers, my experience tells me, that unless its a tiny startup with less than a couple of engineers, the team ends up specialising anyway, at least to some extent in a specific part of the project. The concept of the <em>Production Possibilities Frontier</em> in economics it quite applicable to the fields of software engineering in this case. The moment you have more than a single engineer working on a project, it is highly possible that the optimal output and project execution speed and quality will be achieved through some degree of specialisation. So the argument becomes less that the developer can shift across the project and more that the developer can understand the code in other parts of it. This is true, but it is also true that the shift from JavaScript to Python is not a tremendous one, and that any engineer worth their salt should be at least able to handle that gap, although this theory wouldn&#8217;t be quite so true in the case of a shift from JavaScript to C++ or Java for example. Nevertheless, while the technology most appropriate to the task should be chosen - where practical -, Python is not an option in the browser while JavaScript does run on the server. This simple truth means Node takes a point.</p>
+
+<pre><code class="language-javascript">node++;
+</code></pre>
+
+<h2 id="Syntax">Syntax</h2>
+
+<p>JavaScript&#8217;s syntax has grown on me with time, and, despite the language&#8217;s strangeness in many aspects, is not always visually that dissimilar to other languages. Python on the other hand is famed for its simple syntax that <em>reads like English</em>. Even now, having come to appreciate JavaScript&#8217;s flexibility and quirks, I still prefer the way Python reads, including the use significant white space. The easier it is to express your thoughts in code the better, because, at least in my view, it allows for greater concentration on the actual underlying problem rather than on the implementation. It is for this reason that I can understand Python&#8217;s success in non-IT fields such as finance and economics where those employing the language are themselves not programmers, and see a language as a tool or a means to an ends. While JavaScript&#8217;s evolution leaves it feeling more modern, it is still less beautiful in my opinion, and far more difficult for a beginner to grasp too. </p>
+
+<pre><code class="language-python">python += 1
+</code></pre>
+
+<h2 id="Types">Types</h2>
+
+<p>It is possible to use type declarations in Python, but when it comes to the successful implementation of types more broadly, JavaScript (well TypeScript obviously) wins hands down. In fact even the army of JavaScript haters are likely to concede that TypeScript has been transformative for the JavaScript ecosystem. Not only does TypeScript drastically improve the development experience from the standpoint of the engineer, it also promotes better structures and practices and more often than not leads to a cleaner, more well structured and better maintained code base. For myself personally, TypeScript was a watershed moment, and addressed many of the frustrations that I had with JavaScript. The first time I built a module using TypeScript, it worked the first time I ran it. Anyone with experience writing JavaScript will be all too aware of how significant this is.</p>
+
+<p>The growing prevalence of TypeScript also builds upon the aforementioned advantage of using the <em>single language across the stack</em> advantage. Specifically through the sharing of common types. Type declarations on the front and backend of the project and can easily be modularised and imported into each respective repository. This definitely results not only in less time spent coding the same features, but also promotes consistency across the project. </p>
+
+<pre><code class="language-javascript">node++;
+</code></pre>
+
+<h2 id="Performance">Performance</h2>
+
+<h2 id="Asyncronous%20I&amp;#47;O">Asyncronous I&#47;O</h2>
+
+<h2 id="Deployment">Deployment</h2>
+
+<h2 id="Libraries">Libraries</h2>
+
+<h2 id="Conclusion">Conclusion</h2>
+<!DOCTYPE html>
+<html lang="en">
+
+<footer class="footer" onload="checkSubscription()">
+  <div>
+    <p class="footer-top">Built using:</p>
+    <a href="https://romanzolotarev.com/ssg.html" class="footer-ssg"><b>SSG</b> by Roman Zolotarev</a>
+    <div>Icons made by <a href="" title="srip"><b>srip</b></a> and <a href="https://www.freepik.com" title="Freepik"><b>Freepik</b></a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+  </div>
+  <div>
+     <form onsubmit="subscribe()" class="subscription-box" id="sub-form">
+       <input type="text" id="name" placeholder="name...">
+       <input type="email" id="email" placeholder="email address...">
+       <input id="subscribe-button"  type="submit" value="Subscribe">
+     </form> 
+  </div>
+</footer>
+<script type="text/javascript">
+   (function checkSubscription() {
+      const subscribed = localStorage.getItem('subscribed');
+      if (subscribed) {
+         const form = document.getElementById("sub-form");
+         form.style.visibility = "hidden";
+      } else {
+         const tick = document.getElementById("subscribed-tick");
+         tick.style.visibility = "hidden";
+      };
+   })();
+ 
+   function subscribe() {
+      event.preventDefault();
+      const name = document.querySelector('#name').value;
+      const email = document.querySelector('#email').value;
+      const subscriber = { name: name, email: email };
+      const url = 'https://e94nqk77ka.execute-api.ap-southeast-2.amazonaws.com/api';
+      const options = {
+        method: 'POST',
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(subscriber),
+      };
+      fetch(url, options)
+      .then(res => res.json())
+      .then(({ subscribed }) => {
+         if (subscribed) {
+           localStorage.setItem('subscribed', true);
+           localStorage.setItem('name', name);
+           const form = document.getElementById("sub-form");
+           form.style.visibility = "hidden";
+           const tick = document.getElementById("subscribed-tick");
+           tick.style.visibility = "visible";
+        };
+      })
+      .catch(err => { console.log(err); });
+    };
+</script>
+
+</html>
