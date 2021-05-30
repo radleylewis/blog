@@ -6,7 +6,7 @@
 
 
 
-# Introducing Lenovo's T480: The (value) Adventurer's Laptop [Part 1]
+# Introducing Lenovo's T480: The Adventurer's (value) Laptop [Part 1]
 
 ![Lenovo T480](../assets/adventure_laptop_001.png)
 

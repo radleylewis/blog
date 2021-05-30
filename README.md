@@ -5,6 +5,7 @@ Resources:
 [Wolfgang's Blog](notthebe.ee)
 
 [Roman Zolotarev](https://www.romanzolotarev.com/)
+sudo ln -sf /usr/share/terminfo/x/xterm-color /usr/share/terminfo/x/xterm-256color
 
 Commands to build:
 
@@ -15,13 +16,14 @@ Commands to build:
 ```bash
 xdg-open blog/index.html	
 ```
-## Article & Video Ideas
+## Next Articles
+- Thinkpad Part. 2
+- Bitcoin isn't a terrorist weapon
+- Flask vs Node.js
+
+## Other Videos & Articles
 1. Deploying a Nuxt.js Application to AWS
 2. Publishing a package with NPM (Chart.js plugin)
-3. ThinkPad Part 2
-4. Structuring a Flask application
+3. Structuring a Flask application
 5. Vue.js vs React.js
-6. Thank you Germany
-7. How to learn a language
-8. The state of the world (China, USA, the inevitable war)
-
+6. How to learn a language

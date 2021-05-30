@@ -1,2 +1,1 @@
-bash xdg-open blog/index.html 
-
+xdg-open blog/index.html &
