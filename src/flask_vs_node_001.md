@@ -15,11 +15,11 @@ flask = 0
 ```javascript
 let node = 0;
 ```
-*Note: I will use the terms Python and Flask interchangeably within this article, as I will also do in the case of Node and JavaScript.*
+*Note: I will use the terms Python and Flask interchangeably within this article, as I will also do in the case of Node and JavaScript. Of course in a pure sense, we aren't comparing apples to apples here, Node.js is a runtime environment whereas Flask is a micro-framework. A more accurate comparison might be Express.js vs Flask. But the same conclusions ultimately apply, and so I have opted with Node.js vs Flask with Python for the stake of simplicity.*
 
 ## Single Language Across the Stack
 
-For a long time I really didn't see how having JavaScript in both the back and Front-End was all that valuable. With time I have concluded that it is an advantage, albeit not a huge one. My thinking was essentially that, having hired and managed teams of engineers, my experience tells me, that unless its a tiny start-up with less than a couple of engineers, the team ends up specialising anyway, at least to some extent in a specific part of the project. The concept of the *Production Possibilities Frontier* in economics it quite applicable to the fields of software engineering in this case. The chart below demonstrates how _Engineer One_ and _Engineer Two_ achieve can achieve a total productivity increase through specialisation. While this example is highly simplistic, in tech, as with in business and management [Occam's Razor](https://en.wikipedia.org/wiki/Occam%27s_razor) usually holds.  
+For a long time I really didn't see how having JavaScript in both the back and Front-End was all that valuable. With time I have concluded that it is an advantage, albeit not a huge one. My thinking was essentially that, having hired and managed teams of engineers, my experience tells me, that unless its a tiny start-up with less than a couple of engineers, the team ends up specialising anyway, at least to some extent in a specific part of the project. The concept of the *Production Possibilities Frontier* in economics it quite applicable to the fields of software engineering in this case. The chart below demonstrates how a _Front-End Engineer_ and a _Back-end Engineer_ can achieve a total productivity increase through specialisation. While this example is highly simplistic, in tech, as with in business and management [Occam's Razor](https://en.wikipedia.org/wiki/Occam%27s_razor) usually holds.  
 
 ![Production Possibilities Frontier - Front-End Engineer vs. Back-End Engineer](../assets/ppf_001.png)
 
@@ -33,7 +33,7 @@ node++;
 
 ## Syntax
 
-JavaScript's syntax has grown on me with time, and, despite the language's strangeness in many aspects, is not always visually that dissimilar to other languages like Java (especially when using TypeScript). Python on the other hand is famed for its simple syntax that *reads like English*. Even now, having come to appreciate JavaScript's flexibility and quirks, I still prefer the way Python reads, including the use significant white space. The easier it is to express your thoughts in code the better, because, it allows for greater concentration on the actual conceptual problem rather than on the implementation. If you haven't seen a piece of code before, then pythons syntax will make understanding that code easier, assuming that you have an equally sound understanding of each language (and that the code is clean!). It is for this reason that I can understand Python's success in non-IT fields such as finance and economics where those employing the language are themselves not programmers, and see a language as a tool or a means to an ends. While JavaScript's evolution leaves it feeling more modern, it is still less beautiful in my opinion, and far more difficult for a beginner to grasp too. 
+JavaScript's syntax has grown on me with time, and, despite the language's strangeness in many aspects, is not always visually that dissimilar to other languages like Java (especially when using TypeScript). Python on the other hand is famed for its simple syntax that *reads like English*. Even now, having come to appreciate JavaScript's flexibility and quirks, I still prefer the way Python reads, including the use significant white space. The easier it is to express your thoughts in code the better, because, it allows for greater concentration on the actual conceptual problem rather than on the implementation. If you haven't seen a piece of code before, then Python's syntax will make understanding that code easier, assuming that you have an equally sound understanding of each language (and that the code is clean!). It is for this reason that I can understand Python's success in non-IT fields such as finance and economics where those employing the language are themselves not programmers, and see a language as a tool or a means to an ends. While JavaScript's evolution leaves it feeling more modern, it is still less beautiful in my opinion, and far more difficult for a beginner to grasp too. 
 
 ```python
 python += 1
@@ -51,7 +51,7 @@ node++;
 
 ## Performance
 
-I often hear comparisons between the _speed_ of languages. The fact of the matter is however, that in the vast majority of practical cases of implementation, speed of development - that is how fast the project can be delivered - trumps the speed of the application. No doubt that in large companies such as Google and Netflix, will hundreds of millions of users and insane volumes of data, speed does count. But in that case you wouldn't use JavaScript or Python. 
+I often hear comparisons between the _speed_ of languages. The fact of the matter is however, that in the vast majority of practical cases of implementation, speed of development - that is how fast the project can be delivered - trumps the speed of the application. No doubt that in large companies such as Google and Netflix, with hundreds of millions of users and insane volumes of data, speed does count. But in that case you wouldn't use JavaScript or Python. 
 
 *"Python where we can, C++ where we must"* - Early days at Google
 
