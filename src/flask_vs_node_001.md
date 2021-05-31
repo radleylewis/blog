@@ -21,7 +21,7 @@ flask = 0
 ```javascript
 let node = 0;
 ```
-*Note: I will use the terms Python and Flask interchangeably within this article, as I will also do in the case of Node and JavaScript. Of course in a pure sense, we aren't comparing apples to apples here, Node.js is a runtime environment whereas Flask is a web micro-framework. A more accurate comparison might be Express.js vs Flask. But the same conclusions ultimately apply, and so I have opted with Node.js vs Flask with Python for the stake of simplicity.*
+*Note: I will use the terms Python and Flask interchangeably within this article, as I will also do in the case of Node and JavaScript. Of course in a pure sense, we aren't comparing apples to apples here, Node.js is a runtime environment whereas Flask is a web micro-framework. A more accurate comparison might be Express.js vs Flask. But the same conclusions ultimately apply, and so I have opted with Node.js vs Flask with Python for the sake of simplicity.*
 
 ## Single Language Across the Stack
 
