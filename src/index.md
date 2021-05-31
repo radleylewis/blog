@@ -6,7 +6,7 @@ I hope you enjoy my material.
 
 ### Hacking & Tech
 
-*[Flask vs Node.js](https://www.radleylewis.com/flask_vs_node_001.html)* - 30th May 2021  
+**new** *[Flask vs Node.js](https://www.radleylewis.com/flask_vs_node_001.html)* - 30th May 2021  
 
 *[The Adventurer's (value) Laptop - Part 2](https://www.radleylewis.com/adventure_laptop_002.html)* - 17th April 2021
 
