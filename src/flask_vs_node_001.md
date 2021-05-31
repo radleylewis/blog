@@ -2,7 +2,7 @@
 
 ###### 2265 words / 6 minute read 
 
-![Flask vs Node.js](../assets/flask_vs_node_001.jpg)
+![Flask vs Node.js](../assets/flask_vs_node_001.png)
 
 # Flask vs Node.js
 
