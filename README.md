@@ -17,9 +17,8 @@ Commands to build:
 xdg-open blog/index.html	
 ```
 ## Next Articles
-- Thinkpad Part. 2
 - Bitcoin isn't a terrorist weapon
-- Flask vs Node.js
+- Getting out of the legacy west
 
 ## Other Videos & Articles
 1. Deploying a Nuxt.js Application to AWS
