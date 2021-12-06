@@ -8,7 +8,7 @@
 
 # Tired of your Government? Here are some ideas...
 
-![Harbin](../assets/tired_of_your_government_001.jpeg)
+![Harbin](../assets/tired_of_your_government_001.jpg)
 
 *Harbin, once a Russian City, home to hundreds of thousands of stateless White Russian émigrés.*
 
