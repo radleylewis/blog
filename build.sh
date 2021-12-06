@@ -1,2 +1,2 @@
-ssg6 src blog 'Prod' 'http://www'
+ssg5 src blog 'Prod' 'http://www'
 
