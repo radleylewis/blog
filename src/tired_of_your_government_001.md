@@ -1,4 +1,4 @@
-###### 30 January 2021
+###### 5 December 2021
 
 
 
@@ -8,7 +8,7 @@
 
 # Tired of your Government? Here are some ideas...
 
-![Harbin, The Russian Chinese City](../assets/tired_of_your_government__001.jpeg)
+![Harbin](../assets/tired_of_your_government_001.jpeg)
 
 *Harbin, once a Russian City, home to hundreds of thousands of stateless White Russian émigrés.*
 
