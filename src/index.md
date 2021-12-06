@@ -7,7 +7,7 @@ I hope you enjoy my material.
 
 ### Politics, Economics & Finance
 
-**new** *[Tired of your Government? Here are some ideas...](https://www.radleylewis.com/tired_of_your_government__001.html)* - 5th December 2021
+**new** *[Tired of your Government? Here are some ideas...](https://www.radleylewis.com/tired_of_your_government_001.html)* - 5th December 2021
 
 *[Waves of War](https://www.radleylewis.com/waves_of_war_001.html)* - 6th April 2021  
 
