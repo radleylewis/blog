@@ -10,9 +10,11 @@ My first computer ran a Pentium III 733mhz processor and introduced me to the wo
 
 Since a 10 week school exchange to Schwerin in the former East Germany at the age of 16 I have dedicated myself to exploring and learning about the world. Fluent in German and conversant in Mandarin Chinese, I love languages. I've been lucky enough to live in Beijing, Hong Kong, Kuala Lumpur, New York, Munich and also spend significant stints in Israel, India and Spain. 
 
+In 2012 I graduated with Distinction from Monash University, Melbourne, Australia with a Bachelor of Arts with a specialisation in Political Science and a Bachelor of Commerce with a specialisation in Finance. 
+
 I am an avid hiker, amateur sailor and am most passionate about two things: 1) global political affairs; and, 2) revolutionising business through technology.
 
-Preferred tech-stack: is Python with Flask, MongoDB, Vue.js with TypeScript hosted on AWS.
+Preferred tech-stack: is Python with Flask, MongoDB, Vue.js with TypeScript hosted on AWS. For anything business my go to operating system is Fedora, for anything fun it's Arch.
 
 Favourite programming language: Python (I plan on learning more C/C++ next).
 
@@ -20,7 +22,7 @@ Oh, and I ❤️ Italy.
 
 ## Professional experience
 
-In late 2020 I co-founded RT Reporting, a cloud based financial forecasting software solution for accountants, bookkeepers and businesses. Prior to founding RT Reporting worked as a software engineer in Munich, Germany. 
+In late 2020 I co-founded RT Reporting, a cloud based advisory software solution for accountants, bookkeepers and businesses. Prior to founding RT Reporting worked as a software engineer in Munich, Germany on . 
 
 Before pivoting to software engineering and FinTech I worked in international banking for more than 5 years across Melbourne, and New York, Sydney and Hong Kong for both the Australia and New Zealand Banking Group and later HSBC. Most of this time was spent focused on financial institutions coverage, including funds, hedge funds, banks, public sector and insurers. During my time at university I served part-time in the Australian Army Reserve for more than 3 years.
 
@@ -40,7 +42,7 @@ Graduation: 2012
 
 *Masters of Advanced Cyber Security*
 
-Graduation: due 2022
+Graduation: due 2023
 
 ## Certifications
 

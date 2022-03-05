@@ -16,6 +16,7 @@ Commands to build:
 ```bash
 xdg-open blog/index.html	
 ```
+
 ## Next Articles
 - Bitcoin isn't a terrorist weapon
 - Getting out of the legacy west
@@ -26,3 +27,6 @@ xdg-open blog/index.html
 3. Structuring a Flask application
 5. Vue.js vs React.js
 6. How to learn a language
+
+## Setting Up SSG
+
