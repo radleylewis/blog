@@ -20,7 +20,7 @@
     <img src="./assets/tick.svg" alt="subscribed tick" id="subscribed-tick" title="you're subscribed!" >
 </div>
 <nav class="navbar">
-  <div class="navbar-left">
+  <dis clas="navbar-left">
     <div>
       <img class="profile-picture" alt="radley lewis icon" src="./assets/brand/rl-white-bg.png">
     </div>
@@ -40,15 +40,15 @@
 
 </body>
 </html>
-<h6 id="29th-april-2019">29th April 2019</h6>
+<h6>29th April 2019</h6>
 
-<h6 id="1367-words-4-minute-read">1,367 words &#47; 4 minute read</h6>
+<h6>1,367 words / 4 minute read</h6>
 
-<h1 id="yes-you-can-learn-chinese-in-4-months.-well-some-chinese.">Yes, you can learn Chinese in 4 months. Well, some Chinese.</h1>
+<h1>Yes, you can learn Chinese in 4 months. Well, some Chinese.</h1>
 
 <p>“China is a big country, inhabited by many Chinese.” ― <strong>Charles de Gaulle</strong></p>
 
-<p><img src="../assets/chinese-001.png" alt="The Great Wall of China" /></p>
+<p><img src="../assets/chinese-001.png" alt="The Great Wall of China" title="" /></p>
 
 <p>China—and France for that matter — are different places than they were when le général uttered those words. In Purchasing Power Parity terms the economy of the People’s Republic  of China is already almost twenty percent larger than the United States. Both of these gigantic nations occupy just shy of 7 percent of the  planet a piece, and — officially at least — China is the most populace  place on the planet. Of course there is no shortage titbits upon which  to positively remark when it comes to the middle kingdom, nor would it  be considered a strenuous task to draft an army of China doubters.</p>
 
@@ -68,9 +68,9 @@
 
 <p>The first thing I did was take a 2 week short course with The Chinese  Language Institute (CLI) in Guilin, Guangxi Province in Southern China. I would highly recommend this course although it is slightly expensive,  but as you can customise your course here I was able to start speaking  with my teachers from day one. While Guilin is a beautiful city with  breathtaking landscapes I ultimately decided to enrol in a full-time  Mandarin course in Beijing. My reasoning was simple, the word for  Mandarin in Chinese is “putonghua” where putong is “common” or  “standard” and “hua” means dialect or language. So Mandarin is really  just the <em>lingua franca</em> of China, with Beijinghua or  Beijing Dialect being considered by many as the most standard form of  Mandarin. At this point I must remark that Beijinghua is actually quite  difficult to understand and that I was surprised by the clearer accents  prevailing in other parts of China once I left Beijing. However, the  prevalence of English in Beijing is also lower than Shanghai which is  another consideration for Chinese learners. Finally, Beijing feels  different, love it or hate it, it is very Chinese and steeped in Chinese culture and tradition with less opportunities to fall back on western  comforts than in other first tier Chinese cities.</p>
 
-<p>I enrolled with the University of Business &#38; Economics in Beijing  (UIBE). It isn’t the most prestigious University, nor the largest, nor  even that nice of a place, but it offers an array of intensive Chinese  language programs from Business &#38; Diplomatic Chinese to general  courses. The course ran from 8am to 11.20am Monday — Friday and lasted  around 16 weeks. The course fee was reasonable at around RMB 12,000.00  for the whole semester. Usually four afternoons per week I would sit  down for 2 hours at a time with a private tutor and simply have a  conversation.</p>
+<p>I enrolled with the University of Business &amp; Economics in Beijing  (UIBE). It isn’t the most prestigious University, nor the largest, nor  even that nice of a place, but it offers an array of intensive Chinese  language programs from Business &amp; Diplomatic Chinese to general  courses. The course ran from 8am to 11.20am Monday — Friday and lasted  around 16 weeks. The course fee was reasonable at around RMB 12,000.00  for the whole semester. Usually four afternoons per week I would sit  down for 2 hours at a time with a private tutor and simply have a  conversation.</p>
 
-<p>After 4 months in China, and two weeks before I left Beijing, I sat the HSK  IV test. At the time I thought I had failed. Actually I’d achieved as  score of 207 &#47; 300 thereby meeting the 180 &#47; 300 pass hurdle. The relief was palpable.</p>
+<p>After 4 months in China, and two weeks before I left Beijing, I sat the HSK  IV test. At the time I thought I had failed. Actually I’d achieved as  score of 207 / 300 thereby meeting the 180 / 300 pass hurdle. The relief was palpable.</p>
 
 <p><strong>Conclusion</strong></p>
 
@@ -82,12 +82,19 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<footer class="footer" onload="checkSubscription()">
+  <div>
+    <p class="footer-top">Built using:</p>
+    <a href="https://romanzolotarev.com/ssg.html" class="footer-ssg"><b>SSG</b> by Roman Zolotarev</a>
+    <div>Icons made by <a href="" title="srip"><b>srip</b></a> and <a href="https://www.freepik.com" title="Freepik"><b>Freepik</b></a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+  </div>
   <div>
      <form onsubmit="subscribe()" class="subscription-box" id="sub-form">
        <input type="text" id="name" placeholder="name...">
        <input type="email" id="email" placeholder="email address...">
        <input id="subscribe-button"  type="submit" value="Subscribe">
      </form> 
+  </div>
 </footer>
 <script type="text/javascript">
    (function checkSubscription() {
