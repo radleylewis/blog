@@ -48,7 +48,9 @@
 
 <h3 id="politics-economics-finance">Politics, Economics &#38; Finance</h3>
 
-<p><strong>new</strong> <em><a href="https://www.radleylewis.com/tired_of_your_government_001.html">Tired of your Government? Here are some ideas&#8230;</a></em> - 5th December 2021</p>
+<p><em><a href="https://www.radleylewis.com/axioms_001.html">Flawed axioms</a></em> - 12th July 2022</p>
+
+<p><em><a href="https://www.radleylewis.com/tired_of_your_government_001.html">Tired of your Government? Here are some ideas&#8230;</a></em> - 5th December 2021</p>
 
 <p><em><a href="https://www.radleylewis.com/waves_of_war_001.html">Waves of War</a></em> - 6th April 2021  </p>
 
@@ -71,53 +73,20 @@
 <p><em><a href="https://www.radleylewis.com/time_001.html">Time and tide wait for no man</a></em> - 12th December 2020</p>
 
 <p><em><a href="https://www.radleylewis.com/chinese_001.html">4 Months Intensive Mandarin in Beijing</a></em> - 29th April 2019  </p>
-<!DOCTYPE html>
+<!DOCTYPEs form HTML and place wherever you want your form -->
 <html lang="en">
-
-  <div>
-     <form onsubmit="subscribe()" class="subscription-box" id="sub-form">
-       <input type="text" id="name" placeholder="name...">
-       <input type="email" id="email" placeholder="email address...">
-       <input id="subscribe-button"  type="submit" value="Subscribe">
-     </form> 
-</footer>
-<script type="text/javascript">
-   (function checkSubscription() {
-      const subscribed = localStorage.getItem('subscribed');
-      if (subscribed) {
-         const form = document.getElementById("sub-form");
-         form.style.visibility = "hidden";
-      } else {
-         const tick = document.getElementById("subscribed-tick");
-         tick.style.visibility = "hidden";
-      };
-   })();
- 
-   function subscribe() {
-      event.preventDefault();
-      const name = document.querySelector('#name').value;
-      const email = document.querySelector('#email').value;
-      const subscriber = { name: name, email: email };
-      const url = 'https://e94nqk77ka.execute-api.ap-southeast-2.amazonaws.com/api';
-      const options = {
-        method: 'POST',
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(subscriber),
-      };
-      fetch(url, options)
-      .then(res => res.json())
-      .then(({ subscribed }) => {
-         if (subscribed) {
-           localStorage.setItem('subscribed', true);
-           localStorage.setItem('name', name);
-           const form = document.getElementById("sub-form");
-           form.style.visibility = "hidden";
-           const tick = document.getElementById("subscribed-tick");
-           tick.style.visibility = "visible";
-        };
-      })
-      .catch(err => { console.log(err); });
-    };
-</script>
-
+<form
+action="https://formspree.io/f/mayvgpnn"
+method="POST"
+>
+<label>
+Your email:
+<input type="email" name="email">
+</label>
+<label>
+Your message:
+<textarea name="message"></textarea>
+</label>
+<button type="submit">Send</button>
+</form>
 </html>

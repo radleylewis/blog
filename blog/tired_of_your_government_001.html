@@ -87,53 +87,20 @@
 <p>The beauty of this option is that is complimentary to the strategy of buying land or establishing your own business, given that both of these options are often standard pathways to the establishing residence in another country. While not always guaranteed, if played right, this option may also lead to a second or third citizenship, allowing for another layer of diversification away from that government you are oh so tired of. </p>
 
 <p>That&#8217;s all folks!</p>
-<!DOCTYPE html>
+<!DOCTYPEs form HTML and place wherever you want your form -->
 <html lang="en">
-
-  <div>
-     <form onsubmit="subscribe()" class="subscription-box" id="sub-form">
-       <input type="text" id="name" placeholder="name...">
-       <input type="email" id="email" placeholder="email address...">
-       <input id="subscribe-button"  type="submit" value="Subscribe">
-     </form> 
-</footer>
-<script type="text/javascript">
-   (function checkSubscription() {
-      const subscribed = localStorage.getItem('subscribed');
-      if (subscribed) {
-         const form = document.getElementById("sub-form");
-         form.style.visibility = "hidden";
-      } else {
-         const tick = document.getElementById("subscribed-tick");
-         tick.style.visibility = "hidden";
-      };
-   })();
- 
-   function subscribe() {
-      event.preventDefault();
-      const name = document.querySelector('#name').value;
-      const email = document.querySelector('#email').value;
-      const subscriber = { name: name, email: email };
-      const url = 'https://e94nqk77ka.execute-api.ap-southeast-2.amazonaws.com/api';
-      const options = {
-        method: 'POST',
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(subscriber),
-      };
-      fetch(url, options)
-      .then(res => res.json())
-      .then(({ subscribed }) => {
-         if (subscribed) {
-           localStorage.setItem('subscribed', true);
-           localStorage.setItem('name', name);
-           const form = document.getElementById("sub-form");
-           form.style.visibility = "hidden";
-           const tick = document.getElementById("subscribed-tick");
-           tick.style.visibility = "visible";
-        };
-      })
-      .catch(err => { console.log(err); });
-    };
-</script>
-
+<form
+action="https://formspree.io/f/mayvgpnn"
+method="POST"
+>
+<label>
+Your email:
+<input type="email" name="email">
+</label>
+<label>
+Your message:
+<textarea name="message"></textarea>
+</label>
+<button type="submit">Send</button>
+</form>
 </html>

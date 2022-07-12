@@ -133,53 +133,20 @@ Flask Total Points: 2
 <p>So on a points basis Node.js beats Flask out. This is however, a drastically simplistic look at both technologies, and doesn&#8217;t take into account specific use cases, or working with the technology best suited to the project, team or otherwise. There are cases where Flask and Python are far more stable than Node.js. Everyone has their preference after all. I also haven&#8217;t weighted the categories, whereas in reality, I value code readability and maintainability over some incremental pickup in performance. Python is also more fun, and writing quick scripts is a painless experience. In conclusion, Node.js is an extremely powerful JavaScript runtime environment, while Flask is a beautiful, minimalistic web framework. Both have their place, and I would implore you to try them both out. For now, I will continue to use both, but am also likely to take a closer look at Deno. </p>
 
 <p>That&#8217;s all folks. </p>
-<!DOCTYPE html>
+<!DOCTYPEs form HTML and place wherever you want your form -->
 <html lang="en">
-
-  <div>
-     <form onsubmit="subscribe()" class="subscription-box" id="sub-form">
-       <input type="text" id="name" placeholder="name...">
-       <input type="email" id="email" placeholder="email address...">
-       <input id="subscribe-button"  type="submit" value="Subscribe">
-     </form> 
-</footer>
-<script type="text/javascript">
-   (function checkSubscription() {
-      const subscribed = localStorage.getItem('subscribed');
-      if (subscribed) {
-         const form = document.getElementById("sub-form");
-         form.style.visibility = "hidden";
-      } else {
-         const tick = document.getElementById("subscribed-tick");
-         tick.style.visibility = "hidden";
-      };
-   })();
- 
-   function subscribe() {
-      event.preventDefault();
-      const name = document.querySelector('#name').value;
-      const email = document.querySelector('#email').value;
-      const subscriber = { name: name, email: email };
-      const url = 'https://e94nqk77ka.execute-api.ap-southeast-2.amazonaws.com/api';
-      const options = {
-        method: 'POST',
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(subscriber),
-      };
-      fetch(url, options)
-      .then(res => res.json())
-      .then(({ subscribed }) => {
-         if (subscribed) {
-           localStorage.setItem('subscribed', true);
-           localStorage.setItem('name', name);
-           const form = document.getElementById("sub-form");
-           form.style.visibility = "hidden";
-           const tick = document.getElementById("subscribed-tick");
-           tick.style.visibility = "visible";
-        };
-      })
-      .catch(err => { console.log(err); });
-    };
-</script>
-
+<form
+action="https://formspree.io/f/mayvgpnn"
+method="POST"
+>
+<label>
+Your email:
+<input type="email" name="email">
+</label>
+<label>
+Your message:
+<textarea name="message"></textarea>
+</label>
+<button type="submit">Send</button>
+</form>
 </html>

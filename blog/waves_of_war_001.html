@@ -82,53 +82,20 @@
 <h2 id="everyone-thinks-of-changing-the-world-but-no-one-thinks-of-changing-himself.---leo-tolstoy">“Everyone thinks of changing the world, but no one thinks of changing himself.” <em>- Leo Tolstoy</em></h2>
 
 <p>Over time, the atmosphere I experienced on visits to China changed. Perhaps it was that I began to understand China better, or perhaps things really have evolved for the worse. The smiling faces and admiration of the West were for the most part harder to find when I was last there in 2019. China no longer respects the West. While once seen through the prism of Ronald Reagan&#8217;s <em>shining light on a hill</em>, a generation of students that have studied in the West are all too aware of our shortcomings. China&#8217;s world class infrastructure, futuristic cities and economic miracle are completely at odds with the homelessness of LA or San Francisco, the dilapidated streets of New York, violent crime in Chicago or decay of once great cities like Detroit. There is more to China than meets the eye, there is excruciating poverty in the interior and corruption is rife. But it is equally true that the West is in many respects just as corrupt, and suffering from massive societal issues and imbalances. China however passes one simple test, was this year better than the year before, will next year be better than this year. In my lifetime China has passed this test year after year, placing it in an exclusive group that Australia might also belong to. Perhaps we should think about why.</p>
-<!DOCTYPE html>
+<!DOCTYPEs form HTML and place wherever you want your form -->
 <html lang="en">
-
-  <div>
-     <form onsubmit="subscribe()" class="subscription-box" id="sub-form">
-       <input type="text" id="name" placeholder="name...">
-       <input type="email" id="email" placeholder="email address...">
-       <input id="subscribe-button"  type="submit" value="Subscribe">
-     </form> 
-</footer>
-<script type="text/javascript">
-   (function checkSubscription() {
-      const subscribed = localStorage.getItem('subscribed');
-      if (subscribed) {
-         const form = document.getElementById("sub-form");
-         form.style.visibility = "hidden";
-      } else {
-         const tick = document.getElementById("subscribed-tick");
-         tick.style.visibility = "hidden";
-      };
-   })();
- 
-   function subscribe() {
-      event.preventDefault();
-      const name = document.querySelector('#name').value;
-      const email = document.querySelector('#email').value;
-      const subscriber = { name: name, email: email };
-      const url = 'https://e94nqk77ka.execute-api.ap-southeast-2.amazonaws.com/api';
-      const options = {
-        method: 'POST',
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(subscriber),
-      };
-      fetch(url, options)
-      .then(res => res.json())
-      .then(({ subscribed }) => {
-         if (subscribed) {
-           localStorage.setItem('subscribed', true);
-           localStorage.setItem('name', name);
-           const form = document.getElementById("sub-form");
-           form.style.visibility = "hidden";
-           const tick = document.getElementById("subscribed-tick");
-           tick.style.visibility = "visible";
-        };
-      })
-      .catch(err => { console.log(err); });
-    };
-</script>
-
+<form
+action="https://formspree.io/f/mayvgpnn"
+method="POST"
+>
+<label>
+Your email:
+<input type="email" name="email">
+</label>
+<label>
+Your message:
+<textarea name="message"></textarea>
+</label>
+<button type="submit">Send</button>
+</form>
 </html>
