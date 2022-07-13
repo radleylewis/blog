@@ -1,8 +1,13 @@
-# Flawed Axioms
+###### 12 July 2022
 
-> Axiom - an established rule or principle or a self-evident truth
+###### 2011 words / 8 minute read
 
-## 1: The United States is the most powerful country in the world
+![US withdrawal from Afgahnistan](../assets/axioms_001.jpeg)
+*An artificial island in the South China Sea*
+
+> __Axiom - an established rule or principle or a self-evident truth__
+
+## 1. The United States is the most powerful country in the world
 
 So much is perception rather than reality. When Nixon finally abandoned the US Dollar gold peg in 1973 a devaluation event did occur, but the dollar ultimately retained it's reserve currency status. The value of a dollar it was argued, rather than being convertible to real money and thus deriving its value accordingly, was implicitly backed by the power of the United States' industrial and military might. There remained a perception, which exists to this day, that the US dollar is worth something, a fact evidenced by the dollarisation of a number of economies around the world as well as many transactions around the globally still being settled in greenbacks from real estate to the international commodity markets. A one dollar note is in actuality nothing but a piece of paper, which represents a claim on nothing, and is only as valuable as what it can be exchanged for, which is entirely dependent on what the receiver of your dollars perceives those same dollars can be further exchanged for.
 
@@ -34,13 +39,13 @@ It would appear, an Orwellian future of perpetual war and fear awaits us. But th
 
 OK, admittedly, this is hardly an agreed truth anymore. But speaking of calibrating our mind's, this one hits very close to home. 4 years of university level finance indocrination and over half a decade in some of the world's largest financial instituions had led to almost permanent, Maoist level brain-washing with respect to all things macro-economic. I was recently referred a piece by Kang-Soek Lee and Richard A. Werner on **[Reconsidering Monetary Policy](https://www.sciencedirect.com/science/article/pii/S0921800916307510)**. 
 
-> The data suggests overall that statistical causality runs from economic growth to long-term interest rates. Nominal GDP growth provides information on future interest rates better than interest rates inform us about future nominal GDP growth.
+> __The data suggests overall that statistical causality runs from economic growth to long-term interest rates. Nominal GDP growth provides information on future interest rates better than interest rates inform us about future nominal GDP growth.__
 
 I would encourage you to read the article in its entirety. While this is not the forum within which to make the case that equilibrium economics is entirely wrong, we are talking about flawed axioms after all, or, as Professor Werner puts it, _the law and the prophets_. If we imagine for a moment that the relationship between interest rates and nominal GDP growth has been misunderstood, we are really imagining that central bank policy is indeed without impact - or rather the intended outcomes are entirely unachievable with respect to the current thinking.
 
 Perhaps all of our esteemed central bankers are already well too aware Professor Werner's findings. This would certainly explain a lot, although the empirical findings outlined in the article further underpin the argument that central banks should not even exist. 
 
-> Our main aim is to maintain price stability, i.e. to safeguard the value of the euro. - European Central Bank
+> __Our main aim is to maintain price stability, i.e. to safeguard the value of the euro.__ - European Central Bank
 
 Iterations of the above statement are essentially the argument for the existence of central banks all around the world. Yet, could 2022 be a more pathetically dismal report card? Inflation has reared its head across almost all developed and emerging markets, and yet the fed moves cautiously, as though approaching a cliff edge while blind-folded, placing one toe just a bit further than the next. The ECB has proven to be even more cowardly, with rates at 0% while consumer prices are rising faster than in recorded post-war German history, not to mention the rest of the old continent. 
 
