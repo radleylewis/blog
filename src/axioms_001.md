@@ -23,7 +23,7 @@ In order to diminish the prospects of challengers to US hegemony, or to put "all
 
 Ultimately, while the US is still powerful, it is a declining power and has already been surpassed by China on a PPP basis in economic terms. Militarily, the messy retreat from Afghanistan and growing internal divisions betrays an unwillingness to fight in costly wars, especially in far off places. If true, this significantly diminishes the US' ability to defend vassal states such as Australia and Taiwan, a fact - which if confirmed - would further damage the perception of US power. Much like Thailand - from where I am writing this - has throughout its history, countries around the world would quickly look to adapt to the emerging order of the world and dump their dollars in the process.  
 
-## 2: The West is Free
+## 2. The West is Free
 
 Boomers love to pontificate on China's inevitable decline. Maybe they are right, although their obsession that a system wherein the people are so "suppressed" is doomed to fail is indeed a thesis unlikely to stand up to historical scrutiny. There have, after all, been many highly oppressive empires that were also unimaginably successful. Further undermining the Boomers self-comforting arguments is the precarious situation within the societies in which they themselves reside. Denouncing far off lands to which they have never been as "authoritarian" while double-masked and adhering to the latest government covid decree. Supporting Ukraine is understandably a core tenant to the boomer philosophy, irrespective of whether one has been to, or has any connection with the place whatsoever.
 
