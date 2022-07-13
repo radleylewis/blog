@@ -2,10 +2,12 @@
 
 ###### 2011 words / 8 minute read
 
-![US withdrawal from Afgahnistan](../assets/axioms_001.jpeg)
-*An artificial island in the South China Sea*
+# Flawed Axioms
 
-> __Axiom - an established rule or principle or a self-evident truth__
+### Axiom: an established rule or principle or a self-evident truth
+
+![US withdrawal from Afgahnistan](../assets/axioms_001.jpeg)
+*Kabul Airport at the time of the US withdrawal*
 
 ## 1. The United States is the most powerful country in the world
 
@@ -39,13 +41,13 @@ It would appear, an Orwellian future of perpetual war and fear awaits us. But th
 
 OK, admittedly, this is hardly an agreed truth anymore. But speaking of calibrating our mind's, this one hits very close to home. 4 years of university level finance indocrination and over half a decade in some of the world's largest financial instituions had led to almost permanent, Maoist level brain-washing with respect to all things macro-economic. I was recently referred a piece by Kang-Soek Lee and Richard A. Werner on **[Reconsidering Monetary Policy](https://www.sciencedirect.com/science/article/pii/S0921800916307510)**. 
 
-> __The data suggests overall that statistical causality runs from economic growth to long-term interest rates. Nominal GDP growth provides information on future interest rates better than interest rates inform us about future nominal GDP growth.__
+> The data suggests overall that statistical causality runs from economic growth to long-term interest rates. Nominal GDP growth provides information on future interest rates better than interest rates inform us about future nominal GDP growth.
 
 I would encourage you to read the article in its entirety. While this is not the forum within which to make the case that equilibrium economics is entirely wrong, we are talking about flawed axioms after all, or, as Professor Werner puts it, _the law and the prophets_. If we imagine for a moment that the relationship between interest rates and nominal GDP growth has been misunderstood, we are really imagining that central bank policy is indeed without impact - or rather the intended outcomes are entirely unachievable with respect to the current thinking.
 
 Perhaps all of our esteemed central bankers are already well too aware Professor Werner's findings. This would certainly explain a lot, although the empirical findings outlined in the article further underpin the argument that central banks should not even exist. 
 
-> __Our main aim is to maintain price stability, i.e. to safeguard the value of the euro.__ - European Central Bank
+> Our main aim is to maintain price stability, i.e. to safeguard the value of the euro. - European Central Bank
 
 Iterations of the above statement are essentially the argument for the existence of central banks all around the world. Yet, could 2022 be a more pathetically dismal report card? Inflation has reared its head across almost all developed and emerging markets, and yet the fed moves cautiously, as though approaching a cliff edge while blind-folded, placing one toe just a bit further than the next. The ECB has proven to be even more cowardly, with rates at 0% while consumer prices are rising faster than in recorded post-war German history, not to mention the rest of the old continent. 
 
