@@ -14,9 +14,13 @@ My first computer ran a Pentium III 733mhz processor and introduced me to the wo
 Since a 10 week school exchange to Schwerin in the former East Germany at the age of 16 I have dedicated myself to exploring and learning about the world. Fluent in German and conversant in Mandarin Chinese, I love languages. I've been lucky enough to live in Beijing, Hong Kong, Kuala Lumpur, New York, Germany and also spend significant stints in Israel, India, Thailand and Spain. 
 
 **Germany:** one of my favourite countries, and a place to which I owe a great debt.
+
 **Hong Kong:** I love the great clash of civilisations, emblematic of the situation in the world today. 
+
 **Rome:** the history is humbling and reminds me of what is important.
+
 **Beijing:** no place I have ever been exudes such power.
+
 **Chiang Mai:** the perfect city for lifestyle and productivity.
 
 ## Professional experience
@@ -30,34 +34,44 @@ During my time at university I served part-time in the Australian Army Reserve f
 ## Tech I Use
 
 **Operating System:** For anything business my go to OS is Fedora with KDE, for anything fun it's Arch/Artix linux.
+
 **Languages:** I consider myself language agnostic and always open to learning new technologies. I am most proficient in TypeScript, Python and am currently learning Go. I have some experience with C too.
+
 **Cloud:** I mostly use AWS for my business ventures. 
+
 **Editor:** In the last year I have shifted to vim as my default editor. For large projects, my preferred IDE is VS Code.
+
 **Hardware:** My main machines are a X1 Carbon (6th Gen) Lenovo ThinkPag and a XMG Fusion 15. I like playing around with older ThinkPag models like the t440p too.
 
 ## Education
 
 **Monash University, Melbourne**
 
-*Bachelor of Commerce (Specialisation in Finance) & Bachelor of Arts (Specialisation in Political Science)*
-Grade: Distinction
+*Bachelor of Commerce (Finance) & Bachelor of Arts (Political Science)*  
+
+Grade: Distinction  
+
 Graduation: 2012 
 
 **King's College, London**
 
-*Masters of Advanced Cyber Security*
-Graduation: due 2024
+*Masters of Advanced Cyber Security*  
+
+Graduation: due 2024  
 
 ## Certifications
 
-**telc, C1 Deutsch Zertifikat**
-Issued: November 2020 (ID 1082171)
+**telc, C1 Deutsch Zertifikat**  
 
-**Hanban Confucius Institute, HSK IV**
-Issued: July 2018
+Issued: November 2020 (ID 1082171)  
 
-**Codeworks, Software Engineering Bootcamp**
-Issued: February 2019
+**Hanban Confucius Institute, HSK IV**  
+
+Issued: July 2018  
+
+**Codeworks, Software Engineering Bootcamp**  
+
+Issued: February 2019  
 
 ## Hobbies
 
