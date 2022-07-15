@@ -9,20 +9,6 @@ Growing up in the beautiful, hilly outskirts of Melbourne, Australia, I was fasc
 
 My first computer ran a Pentium III 733mhz processor and introduced me to the world of technology, gaming and programming. While I spent my 20's studying and working in international finance, I finally came full circle in 2018 when I left banking and turned my life long passion for tech into my main profession.
 
-## Favourite Places
-
-Since a 10 week school exchange to Schwerin in the former East Germany at the age of 16 I have dedicated myself to exploring and learning about the world. Fluent in German and conversant in Mandarin Chinese, I love languages. I've been lucky enough to live in Beijing, Hong Kong, Kuala Lumpur, New York, Germany and also spend significant stints in Israel, India, Thailand and Spain. 
-
-**Germany:** one of my favourite countries, and a place to which I owe a great debt.
-
-**Hong Kong:** I love the great clash of civilisations, emblematic of the situation in the world today. 
-
-**Rome:** the history is humbling and reminds me of what is important.
-
-**Beijing:** no place I have ever been exudes such power.
-
-**Chiang Mai:** the perfect city for lifestyle and productivity.
-
 ## Professional experience
 
 In late 2020 I co-founded RT Reporting, a cloud based advisory software solution for accountants, bookkeepers and businesses. Prior to founding RT Reporting worked as a software engineer in Munich, Germany on self-sovereign digital identity powered by blockchain. 
@@ -37,11 +23,27 @@ During my time at university I served part-time in the Australian Army Reserve f
 
 **Languages:** I consider myself language agnostic and always open to learning new technologies. I am most proficient in TypeScript, Python and am currently learning Go. I have some experience with C too.
 
-**Cloud:** I mostly use AWS for my business ventures. 
+**Frameworks:** This website is built with [ssg6](https://romanzolotarev.com/ssg.html) by Roman Zolotarev. For the front-end I tend towards Vue.js. On the backend I have experience with Express.js, Koa.js, Flask and Django. 
+
+**Cloud:** I mostly use AWS for my business ventures. Still trying out providers for my personal projects.
 
 **Editor:** In the last year I have shifted to vim as my default editor. For large projects, my preferred IDE is VS Code.
 
-**Hardware:** My main machines are a X1 Carbon (6th Gen) Lenovo ThinkPag and a XMG Fusion 15. I like playing around with older ThinkPag models like the t440p too.
+**Hardware:** My main machines are a X1 Carbon (6th Gen) Lenovo ThinkPag and a XMG Fusion 15. I like tinkering with older ThinkPag models like the t440p too.
+
+## Favourite Places
+
+Since a 10 week school exchange to Schwerin in the former East Germany at the age of 16 I have dedicated myself to exploring and learning about the world. Fluent in German and conversant in Mandarin Chinese, I love languages. I've been lucky enough to live in Beijing, Hong Kong, Kuala Lumpur, New York, Germany and also spend significant stints in Israel, India, Thailand and Spain. 
+
+**Germany:** one of my favourite countries, and a place to which I owe a great debt.
+
+**Hong Kong:** I love the great clash of civilisations, emblematic of the situation in the world today. 
+
+**Italy:** history, culture, food, fashion.
+
+**Beijing:** no place I have ever been exudes such power.
+
+**Chiang Mai:** the intersection of lifestyle and productivity.
 
 ## Education
 
