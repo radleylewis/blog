@@ -10,6 +10,7 @@ body {
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
+  background-color: grey;
 }
 
 img {
@@ -22,7 +23,7 @@ img {
 }
 
 a {
-  color: #000000;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -31,7 +32,7 @@ a:hover {
 }
 
 p {
-  color: #1E1E1E;
+  color: #FFFFFF;
   line-height: 1.5em;
 }
 
