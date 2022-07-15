@@ -21,7 +21,7 @@ During my time at university I served part-time in the Australian Army Reserve f
 
 **Operating System:** For anything business my go to OS is _[Fedora with KDE](https://getfedora.org/)_, for other stuff it's _[Arch linux](https://archlinux.org/)_.
 
-**Languages:** I consider myself language agnostic and always open to learning new technologies. I am most proficient in TypeScript, Python, Bash and am currently learning Go. I have some experience with C.
+**Languages:** I consider myself language agnostic and always open to learning new technologies. I am most proficient in TypeScript, Python and am currently learning Go. I have some experience with C and Bash/POSIX shell scripting.
 
 **Frameworks:** This website is built with _[ssg6](https://romanzolotarev.com/ssg.html)_ by Roman Zolotarev. For the front-end I tend towards Vue.js, although I have built applications with React.js. On the backend I have experience with Express.js, Koa.js, Flask and Django. 
 
@@ -31,7 +31,7 @@ During my time at university I served part-time in the Australian Army Reserve f
 
 **Shell:** I use _[fish](https://fishshell.com)_. 
 
-**Hardware:** My main machines are a X1 Carbon (6th Gen) Lenovo ThinkPag and a XMG Fusion 15. I like tinkering with older ThinkPag models like the t440p too.
+**Hardware:** My main machines are a X1 Carbon (6th Gen) Lenovo ThinkPag and a XMG Fusion 15. I like tinkering with older ThinkPad models like the t440p too.
 
 ## Favourite Places
 
