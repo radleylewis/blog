@@ -31,11 +31,12 @@ a:hover {
   border-bottom: 4px solid #66FF33;
 }
 
-h1 {
+h1, h2 {
   color: #ffffff;
 }
 
 h3 {
+  width: fit-content;
   color: #ffffff;
   border-bottom: 1px solid white;
 }
@@ -72,12 +73,6 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.navbar__left-text {
-  margin-left: 0px;
-  padding-top: 30px;
-  font-style: bold;
 }
 
 .navbar__right-link {
