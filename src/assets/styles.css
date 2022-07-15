@@ -31,6 +31,16 @@ a:hover {
   border-bottom: 4px solid #66FF33;
 }
 
+h1 {
+  color: #ffffff;
+}
+
+h3 {
+  color: #ffffff;
+  border-bottom: 1px solid white;
+}
+
+
 p {
   color: #ffffff;
   line-height: 1.5em;
@@ -44,40 +54,33 @@ p {
   margin-bottom: 50px;
 }
 
-.navbar-left {
+.navbar__left {
   display: flex; 
   flex-direction: row;
   justify-content: start;
+  padding: 0px;
 }
 
-.navbar-right {
+.navbar__right {
   margin-top: 7.5px;
-}
-
-.navbar-left, .navbar-right {
+  display: flex;
   list-style-type: none;
   padding: 0px;
 }
 
-.navbar, .navbar-right {
+.navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.navbar-left-text-top {
-  font-size: 10px;
-  margin-bottom: 5px;
-  color: #ffffff;
-  font-style: italic;
-}
-
-.navbar-left-text-bottom {
+.navbar__left-text {
   margin-left: 0px;
-  margin-top: 10px;
+  padding-top: 30px;
   font-style: bold;
 }
-.navbar-link {
+
+.navbar__right-link {
   cursor: pointer;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -85,23 +88,20 @@ p {
   margin-right: 7.5px;
 }
 
-#navbar-link:focus {
+#navbar__right-link:focus {
   outline: none;
   padding: 5px;
 }
 
-.profile-picture {
+.navbar__left-profile {
   margin-right: 10px;
   width: 75px;
 }
 
 @media(max-width: 550px) {
-  .navbar-right { 
+  .navbar__right { 
     min-width: 92.5vw; 
     margin-left: 5px;
-  }
-  .footer {
-    display: none;
   }
   #Articles {
     margin-top: 20px;
