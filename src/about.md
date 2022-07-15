@@ -3,13 +3,13 @@
 
 ![about-author](../assets/about-author-001.jpeg)
 
-## Background
+### Background
 
 Growing up in the beautiful, hilly outskirts of Melbourne, Australia, I was fascinated by the world, languages and technology from a young age. As a young kid I would listen to the BBC World Service on radio late into the night, a habit I've never kicked although these days its YouTube and Podcasts. 
 
 My first computer ran a Pentium III 733mhz processor and introduced me to the world of technology, gaming and programming. While I spent my 20's studying and working in international finance, I finally came full circle in 2018 when I left banking and turned my life long passion for tech into my main profession.
 
-## Professional experience
+### Professional experience
 
 In late 2020 I co-founded _[RT Reporting](https://www.rtreporting.com)_, a cloud based advisory software solution for accountants, bookkeepers and businesses. Prior to founding RT Reporting worked as a software engineer in Munich, Germany on self-sovereign digital identity powered by blockchain. 
 
@@ -17,7 +17,7 @@ Before pivoting to software engineering and FinTech I worked in international ba
 
 During my time at university I served part-time in the Australian Army Reserve for more than 3 years.
 
-## Tech I Use
+### Tech I Use
 
 **Operating System:** For anything business my go to OS is _[Fedora with KDE](https://getfedora.org/)_, for other stuff it's _[Arch linux](https://archlinux.org/)_.
 
@@ -33,7 +33,7 @@ During my time at university I served part-time in the Australian Army Reserve f
 
 **Hardware:** My main machines are a X1 Carbon (6th Gen) Lenovo ThinkPag and a XMG Fusion 15. I like tinkering with older ThinkPad models like the t440p too.
 
-## Favourite Places
+### Favourite Places
 
 Since a 10 week school exchange to Schwerin in the former East Germany at the age of 16 I have dedicated myself to exploring and learning about the world. Fluent in German and conversant in Mandarin Chinese, I love languages. I've been lucky enough to live in Beijing, Hong Kong, Kuala Lumpur, New York, Germany and also spend significant stints in Israel, India, Thailand and Spain. 
 
@@ -47,7 +47,7 @@ Since a 10 week school exchange to Schwerin in the former East Germany at the ag
 
 **Chiang Mai:** the intersection of lifestyle and productivity.
 
-## Education
+### Education
 
 **Monash University, Melbourne**
 
@@ -63,7 +63,7 @@ Graduation: 2012
 
 Graduation: due 2024  
 
-## Certifications
+### Certifications
 
 **telc, C1 Deutsch Zertifikat**  
 
@@ -77,7 +77,7 @@ Issued: July 2018
 
 Issued: February 2019  
 
-## Hobbies
+### Hobbies
 
 Languages, technology, hiking, sailing, muay thai, japanese cars, reading, economics, finance, investment, travel and fitness among others.
 
