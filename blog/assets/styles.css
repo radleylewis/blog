@@ -27,7 +27,7 @@ a {
 }
 
 a:hover {
-  color: #AEAEAE;
+  border-bottom: 4px solid green;
 }
 
 p {
