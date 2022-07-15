@@ -93,7 +93,6 @@ p {
 .profile-picture {
   margin-right: 10px;
   width: 75px;
-  height: 75px;
 }
 
 @media(max-width: 550px) {

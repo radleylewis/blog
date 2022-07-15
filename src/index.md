@@ -1,9 +1,8 @@
-Dear Reader,
+Hello/Servus/你好,
 
-thank you for visiting my blog. My name is Rad and I am a coder, investor, traveller and entrepreneur among other things. This site is a dedicated space to publish my writings on politics, technology, economics, languages and the world. More about me **[here](http://www.radleylewis.com/about_author_001.html)**.
+thank you for visiting my blog. My name is Rad and I am a coder, investor, traveller and entrepreneur among other things. This site is a dedicated space to publish my writings on politics, technology, economics, languages and the world. 
 
 I hope you enjoy my material.
-
 
 ### Politics, Economics & Finance
 
@@ -32,5 +31,4 @@ I hope you enjoy my material.
 *[Time and tide wait for no man](https://www.radleylewis.com/time_001.html)* - 12th December 2020
 
 *[4 Months Intensive Mandarin in Beijing](https://www.radleylewis.com/chinese_001.html)* - 29th April 2019  
-
 
