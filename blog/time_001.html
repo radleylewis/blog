@@ -16,19 +16,28 @@
 </head>
 
 <body>
-<nav class="navbar">
+<nav class="navbar" id="navbar">
   <div class="navbar__left">
     <img class="navbar__left-profile" title="Radley Sidwell-Lewis" src="./assets/profile.png">
   </div>
   <ul class="navbar__right">
-    <li class="navbar__right-link"><a title="Home" rel="noreferrer" href="https://www.radleylewis.com">Home</a></li>
-    <li class="navbar__right-link"><a title="About" href="https://www.radleylewis.com/about.html">About</a></li>
-    <li class="navbar__right-link"><a title="Articles" href="https://www.radleylewis.com/articles.html">Articles</a></li>
-    <li class="navbar__right-link"><a title="Contact" href="https://www.radleylewis.com/contact.html">Contact</a></li>
+    <li class="navbar__right-link"><a id="home" title="Home" rel="noreferrer" href="https://www.radleylewis.com">Home</a></li>
+    <li class="navbar__right-link"><a id="about" title="About" href="https://www.radleylewis.com/about.html">About</a></li>
+    <li class="navbar__right-link"><a id="articles" title="Articles" href="https://www.radleylewis.com/articles.html">Articles</a></li>
+    <li class="navbar__right-link"><a id="contact" title="Contact" href="https://www.radleylewis.com/contact.html">Contact</a></li>
   </ul>
 </nav>
 
 </body>
+
+<script>
+const path = window.location.href; 
+const style = "4px solid #00FF00";
+if (path.includes('about.html')) document.getElementById('about').style.borderBottom = style;
+if (path.includes('articles.html')) document.getElementById('articles').style.borderBottom = style;
+if (path.includes('contact.html')) document.getElementById('contact').style.borderBottom = style;
+if (path.includes('index.html')) document.getElementById('home').style.borderBottom = style;
+</script>
 </html>
 <h6>12 December 2020</h6>
 
