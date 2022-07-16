@@ -118,8 +118,8 @@ ul {
   font-size: 0.8rem;
 }
 
-.contact__list-item:hover {
-  filter: brightness(80%)
+.contact__list-item:hover p {
+  color: #00FF00;
 }
 
 .contact__list-icon {
@@ -165,6 +165,9 @@ ul {
   .navbar__right { 
     min-width: 90vw; 
     justify-content: space-between;
+  }
+  .contact__list p {
+    opacity: 0;
   }
 }
 
