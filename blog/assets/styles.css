@@ -122,6 +122,10 @@ ul {
   color: #00FF00;
 }
 
+.contact__list-item:hover a {
+  border: 0px;
+}
+
 .contact__list-icon {
   height: 2rem;
 }
