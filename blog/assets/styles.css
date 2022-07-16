@@ -145,7 +145,7 @@ ul {
 
 @media(max-width: 550px) {
   .navbar__right { 
-    min-width: 92.5vw; 
+    min-width: 95vw; 
     margin-right: 1rem;
     margin-left: 1rem;
   }
