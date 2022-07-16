@@ -1,4 +1,4 @@
-[email](radley.lewis@gmail.com)
+<a mailto="radley.lewis@gmail.com">email</a>
 
 [telegram](t.me/RadleyLewis)
 
