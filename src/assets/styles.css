@@ -81,9 +81,16 @@ p {
   width: 75px;
 }
 
+.contact {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 @media(max-width: 550px) {
   .navbar__right { 
     min-width: 92.5vw; 
     margin-left: 5px;
   }
+
 }
