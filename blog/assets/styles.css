@@ -109,6 +109,21 @@ ul {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  cursor: pointer;
+}
+
+.contact__list-item {
+  width: 20%;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.contact__list-item:hover {
+  filter: brightness(80%)
+}
+
+.contact__list-icon {
+  height: 2rem;
 }
 
 .contact__form {
