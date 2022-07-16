@@ -144,8 +144,12 @@ ul {
 }
 
 @media(max-width: 550px) {
+  .navbar {
+    flex-direction: column;  
+  }
   .navbar__right { 
     min-width: 90vw; 
+    justify-content: space-between;
   }
 }
 
