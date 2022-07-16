@@ -34,9 +34,9 @@
 const path = window.location.href; 
 const style = "4px solid #00FF00";
 if (path.includes('about.html')) document.getElementById('about').style.borderBottom = style;
-if (path.includes('articles.html')) document.getElementById('articles').style.borderBottom = style;
-if (path.includes('contact.html')) document.getElementById('contact').style.borderBottom = style;
-if (path.includes('index.html')) document.getElementById('home').style.borderBottom = style;
+else if (path.includes('articles.html')) document.getElementById('articles').style.borderBottom = style;
+else if (path.includes('contact.html')) document.getElementById('contact').style.borderBottom = style;
+else document.getElementById('home').style.borderBottom = style;
 </script>
 </html>
 <h6>30 January 2021</h6>
