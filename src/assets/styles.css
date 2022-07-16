@@ -64,7 +64,6 @@ textarea:focus, input:focus {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  margin-bottom: 50px;
 }
 
 .navbar__left {

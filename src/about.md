@@ -1,5 +1,4 @@
 # Radley Edward Sidwell-Lewis 🇦🇺
-📍 Chiang Mai, Thailand
 
 ![about-author](../assets/about-author-001.jpeg)
 
