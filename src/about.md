@@ -40,15 +40,15 @@ During my time at university I served part-time in the Australian Army Reserve f
 
 Since a 10 week school exchange to Schwerin in the former East Germany at the age of 16 I have dedicated myself to exploring and learning about the world. Fluent in German and conversant in Mandarin Chinese, I love languages. I've been lucky enough to live in Beijing, Hong Kong, Kuala Lumpur, New York, Germany and also spend significant stints in Israel, India, Thailand and Spain. 
 
-**Germany:** one of my favourite countries, and a place to which I owe a great debt.
+🇩🇪 My unofficial second home and one of my favourite countries. It is a place to which I owe a great debt.
 
-**Hong Kong:** I love the great clash of civilisations, emblematic of the situation in the world today. 
+🇭🇰 I was lucky enough to live here for two years from 2016-2018. No place better represents the clash of civilisations that is unfolding in the world today.
 
-**Italy:** history, culture, food, fashion.
+🇮🇹 The only place on the where I haven't actually lived but somewhere I can't stop visiting.
 
-**Beijing:** no place I have ever been exudes such power.
+🇨🇳 I first visited China in 2011 and have travelled through the interior, as well as to most of the major cities. I've been back many times since, including spending half a year in Beijing, and it only gets better.
 
-**Chiang Mai:** the intersection of lifestyle and productivity.
+🇹🇭 Chiang Mai is my current base and the perfect the intersection of lifestyle and productivity.
 
 ### Education
 
