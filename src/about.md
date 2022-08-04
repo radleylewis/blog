@@ -10,7 +10,7 @@ My first computer ran a Pentium III 733mhz processor and introduced me to the wo
 
 ### Professional experience
 
-In late 2020 I co-founded _[RT Reporting](https://www.rtreporting.com)_, a cloud based advisory software solution for accountants, bookkeepers and businesses. Prior to founding RT Reporting worked as a software engineer in Munich, Germany on self-sovereign digital identity powered by blockchain. 
+In late 2020 I co-founded - along with my brother - _[RT Reporting](https://www.rtreporting.com)_, a cloud based advisory software solution for accountants, bookkeepers and businesses. Prior to founding RT Reporting worked as a software engineer in Munich, Germany on self-sovereign digital identity powered by blockchain. 
 
 Before pivoting to software engineering and FinTech I worked in international banking for more than 5 years across Melbourne, and New York, Sydney and Hong Kong for both the Australia and New Zealand Banking Group and later HSBC. Most of this time was spent focused on financial institutions coverage, including funds, hedge funds, banks, public sector and insurers. 
 
@@ -36,6 +36,8 @@ During my time at university I served part-time in the Australian Army Reserve f
 
 **Mouse:** Since my Logitech MX Master 2s broke recently I have shifted to the _[Logitech G Pro Wireless](https://www.rtings.com/mouse/reviews/logitech/g-pro-wireless)_. Overall, the cleaner look and more rudimentary functionality is more suited to my usage (especially with Linux).
 
+**Monitor:** Right now I am using the _[Mi Curved Gaming Monitor 34"](https://www.mi.com/th/monitor34)_.
+
 ### Favourite Places
 
 Since a 10 week school exchange to Schwerin in the former East Germany at the age of 16 I have dedicated myself to exploring and learning about the world. Fluent in German and conversant in Mandarin Chinese, I love languages. I've been lucky enough to live in Beijing, Hong Kong, Kuala Lumpur, New York, Germany and also spend significant stints in Israel, India, Thailand and Spain. 
@@ -44,9 +46,9 @@ Since a 10 week school exchange to Schwerin in the former East Germany at the ag
 
 🇭🇰 I was lucky enough to live here for two years from 2016-2018. No place better represents the clash of civilisations that is unfolding in the world today.
 
-🇮🇹 The only place on the where I haven't actually lived but somewhere I can't stop visiting.
+🇮🇹 The only place on the list where I haven't actually lived, but somewhere I can't stop visiting.
 
-🇨🇳 I first visited China in 2011 and have travelled through the interior, as well as to most of the major cities. I've been back many times since, including spending half a year in Beijing, and it only gets better.
+🇨🇳 I first visited China in 2011 and have travelled through the interior, as well as to most of the major cities. I've been back many times since, including spending half a year in Beijing, and it only gets better each time.
 
 🇹🇭 Chiang Mai is my current base and the perfect the intersection of lifestyle and productivity.
 
@@ -54,33 +56,39 @@ Since a 10 week school exchange to Schwerin in the former East Germany at the ag
 
 **Monash University, Melbourne**
 
-*Bachelor of Commerce (Finance) & Bachelor of Arts (Political Science)*  
-
-Grade: Distinction  
-
+*Bachelor of Commerce (Finance)*  
 Graduation: 2012 
+
+**Monash University, Melbourne**
+
+*Bachelor of Arts (Politics)*  
+Graduation: 2012 
+
+**University of International Business and Economics, Beijing (对外经济贸易大学)**  
+
+*Business Chinese (Non-Degree Program)*  
+Completed: 2018  
 
 **King's College, London**
 
-*Masters of Advanced Cyber Security*  
-
+*Masters of Science (Advanced Cyber Security)*  
 Graduation: due 2024  
 
 ### Certifications
 
 **telc, C1 Deutsch Zertifikat**  
-
 Issued: November 2020 (ID 1082171)  
 
 **Hanban Confucius Institute, HSK IV**  
-
 Issued: July 2018  
 
-**Codeworks, Software Engineering Bootcamp**  
-
+**Codeworks, Software Engineering**  
 Issued: February 2019  
+
+**CFA Institute, Chartered Financial Analyst**  
+Status: In progress (completed Level I in 2015)
 
 ### Hobbies
 
-Languages, technology, hiking, sailing, muay thai, japanese cars, reading, economics, finance, investment, travel and fitness among others.
+Languages, technology, hiking, sailing, japanese cars, reading, economics, finance, investment, travel and fitness among others.
 
