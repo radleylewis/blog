@@ -18,11 +18,11 @@ During my time at university I served part-time in the Australian Army Reserve f
 
 ### Tech I Use
 
-**Operating System:** For anything business my go to OS is _[Fedora with KDE](https://getfedora.org/)_, for other stuff it's _[Arch linux](https://archlinux.org/)_.
+**Operating System:** For anything business my go to OS is _[Fedora](https://getfedora.org/)_, for other stuff it's _[Arch linux](https://archlinux.org/)_.
 
 **Languages:** I consider myself language agnostic and always open to learning new technologies. I am most proficient in TypeScript, Python and am currently learning Go. I have some experience with C and Bash/POSIX shell scripting.
 
-**Frameworks:** This website is built with _[ssg6](https://romanzolotarev.com/ssg.html)_ by Roman Zolotarev. For the front-end I tend towards Vue.js, although I have built applications with React.js. On the backend I have experience with Express.js, Koa.js, Flask and Django. 
+**Frameworks:** This website is built with _[ssg6](https://romanzolotarev.com/ssg.html)_ by Roman Zolotarev. For the front-end I tend towards Vue.js, although I have built applications with React.js and mobile applications with React.Native. On the backend I have experience with Express.js, Koa.js, Flask and Django. 
 
 **Cloud:** I mostly use AWS for my business ventures. Still trying out providers for my personal projects.
 
@@ -30,7 +30,11 @@ During my time at university I served part-time in the Australian Army Reserve f
 
 **Shell:** I use _[fish](https://fishshell.com)_. 
 
-**Hardware:** My main machines are a X1 Carbon (6th Gen) Lenovo ThinkPag and a XMG Fusion 15. I like tinkering with older ThinkPad models like the t440p too.
+**Machines:** My main machines are a X1 Carbon (6th Gen) Lenovo ThinkPad and a XMG Fusion 15. I like tinkering with older ThinkPad models like the t440p too.
+
+**Keyboards:** I am a big believer in high quality keyboards for long writing and coding sessions. Recently I got my hands on a _[Keychron K8 Wireless Mechanical Keyboard](https://www.keychron.com/products/keychron-k8-tenkeyless-wireless-mechanical-keyboard?utm_campaign=shipping-confirmation-email&utm_medium=email&utm_source=OrderlyEmails&utm_content=product)_. Other than this, I also have a _[Ducky Mecha Mini v2](https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=5593)_ and a _[Durgod Taurus K320](https://www.amazon.com/DURGOD-Mechanical-Keyboard-Interface-Anti-Ghosting/dp/B078HFTTYK)_.
+
+**Mouse:** Since my Logitech MX Master 2s broke recently I have shifted to the _[Logitech G Pro Wireless](https://www.rtings.com/mouse/reviews/logitech/g-pro-wireless)_. Overall, the cleaner look and more rudimentary functionality is more suited to my usage (especially with Linux).
 
 ### Favourite Places
 
