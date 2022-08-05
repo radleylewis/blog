@@ -64,7 +64,7 @@ Graduation: 2012
 *Bachelor of Arts (Politics)*  
 Graduation: 2012 
 
-**University of International Business and Economics, Beijing (对外经济贸易大学)**  
+**UIBE, Beijing (对外经济贸易大学)**  
 
 *Business Chinese (Non-Degree Program)*  
 Completed: 2018  
