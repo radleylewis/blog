@@ -12,9 +12,7 @@ For more than two years now I have been using Node.js for almost all of the back
 
 After 18 months working with React.Native I have serious reservations about it, and implore anyone looking to the framework as the silver bullet to consider the potential pitfalls - a whole different topic. Node.js on the other hand is far more mature, and to be fair, it has allowed me to build a variety of applications with notable success. But the first language I learned wasn't JavaScript, it was Python. I imagine this is quite common, as Python appears to have a sexier reputation amongst non-engineers, for the most part due to its association with data science, academia, fin-tech and the fact many people I'd worked with in banking had, at one point or another, written a few lines of Python. Although I am far more proficient in JavaScript than in Python, I often think about building applications in the latter. I built one application with **[Django and React.js](https://www.saga47swan.com)**, which I found too bloated and opinionated for my liking. Recently, the opportunity arose to build an app with the Flask web framework. These are my thoughts on how Flask and Python compare to Node.js. 
 
-```bash
 # Set Starting Positions
-```
 
 ```python
 flask = 0
