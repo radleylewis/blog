@@ -14,11 +14,11 @@ After 18 months working with React.Native I have serious reservations about it, 
 
 # Set Starting Positions
 
-```python
+```
 flask = 0
 ```
 
-```javascript
+```
 let node = 0;
 ```
 *Note: I will use the terms Python and Flask interchangeably within this article, as I will also do in the case of Node and JavaScript. Of course in a pure sense, we aren't comparing apples to apples here, Node.js is a runtime environment whereas Flask is a web micro-framework. A more accurate comparison might be Express.js vs Flask. But the same conclusions ultimately apply, and so I have opted with Node.js vs Flask with Python for the sake of simplicity.*
@@ -34,7 +34,7 @@ For a long time I really didn't see how having JavaScript in both the back and F
 
 Of course, there are other factors outside of pure productivity, such as learning, exposure to new technologies and code that would improve motivation. But experience tells me that the moment you have more than a single engineer working on a project, it is highly probable that the optimal output and project execution speed and quality will be achieved through some degree of specialisation. So the argument becomes less that the developer can shift across the project and more that the developer can understand the code in other parts of it. This is true, but it is also true that the shift from JavaScript to Python is not a tremendous one, and that any engineer worth their salt should be at least able to handle that gap, although this theory wouldn't be quite so true in the case of a shift from JavaScript to C++ or Java for example. Nevertheless, while the technology most appropriate to the task should be chosen - where practical -, Python is not an option in the browser while JavaScript does run on the server. This simple truth means Node takes a point.
 
-```javascript
+```
 node++;
 ```
 
@@ -42,7 +42,7 @@ node++;
 
 JavaScript's syntax has grown on me with time, and, despite the language's strangeness in many aspects, is not always visually that dissimilar to other languages like Java (especially when using TypeScript). Python on the other hand is famed for its simple syntax that *reads like English*. Even now, having come to appreciate JavaScript's flexibility and quirks, I still prefer the way Python reads, including the use significant white space. The easier it is to express your thoughts in code the better, because, it allows for greater concentration on the actual conceptual problem rather than on the implementation. If you haven't seen a piece of code before, then Python's syntax will make understanding that code easier, assuming that you have an equally sound understanding of each language (and that the code is clean!). It is for this reason that I can understand Python's success in non-IT fields such as finance and economics where those employing the language are themselves not programmers, and see a language as a tool or a means to an ends. While JavaScript's evolution leaves it feeling more modern, it is still less beautiful in my opinion, and far more difficult for a beginner to grasp too (Many people will argue that JavaScript is an easy language, and they are right, it is easy to get started with, but it has many nooks and crannies, much like the other Lingua Franca, English, that can be awfully simple, but equally, near on impossible to master. Couple this with JavaScripts vast ecosystem of libraries and frameworks and I respectfully disagree that it is an extremely easy - or _toy_ - language).
 
-```python
+```
 python += 1
 ```
 
@@ -54,7 +54,7 @@ One frustration I did have with TypeScript & Node.js was the time taken to trans
 
 The growing prevalence of TypeScript also builds upon the aforementioned advantage of using the *single language across the stack* advantage. Specifically through the sharing of common types. Type declarations on the front and back-end of the project and can easily be modularised and imported into each respective repository. This definitely results not only in less time spent coding the same features, but also promotes consistency across the project. While Python's type hinting is likely to improve as well as gain more traction over time, the advantage of reusable types in the front-end is something it can't deliver. 
 
-```javascript
+```
 node++;
 ```
 
@@ -68,7 +68,7 @@ So went the mantra (there is a StackOverflow post on the matter **[here](https:/
 
 However, the fact that Python itself is in most cases slower than JavaScript is further underpinned in the specific context of I/O and asynchronous programming, which is where Node.js shines. Of course Python offers the built in asyncio from version 3.5 onwards, but this is at the very core of what Node.js is and how it works under the hood rather than an additional weapon in the armoury. Of course not all applications are I/O driven, but in the case they are Node.js clearly outperforms Python (and therefore the Flask framework). Overall, Node.js will outperform Python although there is ongoing work in the Python community to change this, including recent **[statements](https://www.zdnet.com/article/python-programming-we-want-to-make-the-language-twice-as-fast-says-its-creator/)** by the language's creator to that effect. 
 
-```javascript
+```
 node++;
 ```
 
@@ -76,10 +76,10 @@ node++;
 
 I have already mentioned Deno, and Ryan Dahl's **[regrets](https://www.youtube.com/watch?v=M3BM9TB-8yA)** about Node.js are no secret. I would highly recommend viewing his presentation on the matter. One of his specific points relates to what in effect was his _mandating_ of NPM. Specifically, his regret that there is a centralised repository for modules. For those interested about the Kik npm scandal, there is a great post **[here](https://qz.com/646467/how-one-programmer-broke-the-internet-by-deleting-a-tiny-piece-of-code/)** that goes into detail on that incident, but which also broadly encapsulates parts of the issue that Ryan Dahl speaks about. Python's pip sometimes feels less modern, but I trust it more - I can't tell you why, it just feels more reliable. Asides from this however, Python and Node.js both have massive community support and a vast set of libraries and packages. Python is stronger when it comes to data science and machine learning, but there are areas that Node.js does well too. Both take a point. 
 
-```javascript
+```
 node++;
 ```
-```python
+```
 flask += 1
 ```
 
@@ -87,12 +87,12 @@ flask += 1
 
 Drum roll... and the winner is? Node.js (according to the points system!)
 
-```javascript
+```
 console.log(`Node.js Total Points: ${node}`);
 Node.js Total Points: 4
 ```
 
-```python
+```
 print(f'Flask Total Points: {flask}')
 Flask Total Points: 2
 ```
