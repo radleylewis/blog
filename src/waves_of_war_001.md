@@ -1,3 +1,5 @@
+📍Sydney, Australia 
+
 ###### 06 April 2021
 
 ###### 2061 words / 7 minute read

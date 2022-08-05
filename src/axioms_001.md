@@ -1,3 +1,5 @@
+📍Chiang Mai, Thailand
+
 ###### 12 July 2022
 
 ###### 2011 words / 8 minute read

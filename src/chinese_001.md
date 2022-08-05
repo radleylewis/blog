@@ -1,3 +1,5 @@
+📍Kempten, Germany
+
 ###### 29th April 2019
 
 ###### 1,367 words / 4 minute read

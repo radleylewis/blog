@@ -1,3 +1,5 @@
+📍Munich, Germany
+
 ###### 07 December 2020
 
 ###### 1,286 words / 4 minute read
