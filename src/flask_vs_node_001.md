@@ -79,6 +79,7 @@ I have already mentioned Deno, and Ryan Dahl's **[regrets](https://www.youtube.c
 ```
 node++;
 ```
+
 ```
 flask += 1
 ```
@@ -88,12 +89,14 @@ flask += 1
 Drum roll... and the winner is? Node.js (according to the points system!)
 
 ```
-console.log(`Node.js Total Points: ${node}`);
+console.log(`Node.js Total Points: ${node}`);  
+
 Node.js Total Points: 4
 ```
 
 ```
-print(f'Flask Total Points: {flask}')
+print(f'Flask Total Points: {flask}')  
+
 Flask Total Points: 2
 ```
 
