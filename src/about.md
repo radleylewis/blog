@@ -30,7 +30,7 @@ During my time at university I served part-time in the Australian Army Reserve f
 
 **Shell:** I use _[fish](https://fishshell.com)_. 
 
-**Machines:** My main machines are a X1 Carbon (6th Gen) Lenovo ThinkPad and a XMG Fusion 15. I like tinkering with older ThinkPad models like the t440p too.
+**Machines:** My main machines are an X1 Carbon (6th Gen) Lenovo ThinkPad and an _[XMG Fusion 15](https://www.xmg.gg/en/xmg-fusion-15-l19)_. I like tinkering with older ThinkPad models like the t440p too.
 
 **Keyboards:** I am a big believer in high quality keyboards for long writing and coding sessions. Recently I got my hands on a _[Keychron K8 Wireless Mechanical Keyboard](https://www.keychron.com/products/keychron-k8-tenkeyless-wireless-mechanical-keyboard?utm_campaign=shipping-confirmation-email&utm_medium=email&utm_source=OrderlyEmails&utm_content=product)_. Other than this, I also have a _[Ducky Mecha Mini v2](https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=5593)_ and a _[Durgod Taurus K320](https://www.amazon.com/DURGOD-Mechanical-Keyboard-Interface-Anti-Ghosting/dp/B078HFTTYK)_.
 
@@ -88,7 +88,7 @@ Issued: February 2019
 **CFA Institute, Chartered Financial Analyst**  
 Status: In progress (completed Level I in 2015)
 
-### Hobbies
+### Other Interests
 
 Languages, technology, hiking, sailing, japanese cars, reading, economics, finance, investment, travel and fitness among others.
 
