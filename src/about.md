@@ -68,18 +68,18 @@ Graduation: due 2024
 
 ### Courses & Certifications
 
-**UIBE, Beijing (对外经济贸易大学)**  
-*Business Chinese (Non-Degree Program)*  
-Completed: 2018  
-
 **telc, C1 Deutsch Zertifikat**  
 Issued: November 2020 (ID 1082171)  
 
 **Hanban Confucius Institute, HSK IV**  
 Issued: July 2018  
 
-**Codeworks, Software Engineering**  
-Issued: February 2019  
+**UIBE, Beijing (对外经济贸易大学)**  
+*Business Chinese (Non-Degree Program)*  
+Completed: 2018  
+
+**Codeworks, Software Engineering Bootcamp**  
+Completed: February 2019  
 
 **CFA Institute, Chartered Financial Analyst**  
 Status: In progress (completed Level I in 2015)
