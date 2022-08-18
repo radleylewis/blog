@@ -64,17 +64,17 @@ Graduation: 2012
 *Bachelor of Arts (Politics)*  
 Graduation: 2012 
 
-**UIBE, Beijing (对外经济贸易大学)**  
-
-*Business Chinese (Non-Degree Program)*  
-Completed: 2018  
-
 **King's College, London**
 
 *Masters of Science (Advanced Cyber Security)*  
 Graduation: due 2024  
 
-### Certifications
+### Courses & Certifications
+
+**UIBE, Beijing (对外经济贸易大学)**  
+
+*Business Chinese (Non-Degree Program)*  
+Completed: 2018  
 
 **telc, C1 Deutsch Zertifikat**  
 Issued: November 2020 (ID 1082171)  
