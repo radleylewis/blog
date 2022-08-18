@@ -1,6 +1,6 @@
 ### Hacking & Tech
 
-📰 *[The name's Linux, Fedora Linux](https://www.radleylewis.com/use_fedora_001.html)* - 5th August 2022  
+📰 *[Fedora is the new Ubuntu](https://www.radleylewis.com/use_fedora_001.html)* - 5th August 2022  
 
 *[Flask vs Node.js](https://www.radleylewis.com/flask_vs_node_001.html)* - 30th May 2021  
 
@@ -11,6 +11,8 @@
 *[You need to try Pop!_OS](https://www.radleylewis.com/pop_os_001.html)* - 9th December 2020
 
 ### Politics, Economics & Finance
+
+📰 *[Defi and the West](https://www.radleylewis.com/defi__001.html)* - 8th August 2022
 
 *[Flawed axioms](https://www.radleylewis.com/axioms_001.html)* - 12th July 2022
 
