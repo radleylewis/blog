@@ -54,25 +54,21 @@ Since a 10 week school exchange to Schwerin in the former East Germany at the ag
 
 ### Education
 
-**Monash University, Melbourne**
-
+**Monash University, Melbourne**  
 *Bachelor of Commerce (Finance)*  
 Graduation: 2012 
 
-**Monash University, Melbourne**
-
+**Monash University, Melbourne**  
 *Bachelor of Arts (Politics)*  
 Graduation: 2012 
 
-**King's College, London**
-
+**King's College, London**  
 *Masters of Science (Advanced Cyber Security)*  
 Graduation: due 2024  
 
 ### Courses & Certifications
 
 **UIBE, Beijing (对外经济贸易大学)**  
-
 *Business Chinese (Non-Degree Program)*  
 Completed: 2018  
 
