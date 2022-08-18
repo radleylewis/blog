@@ -12,7 +12,7 @@
 
 ### Politics, Economics & Finance
 
-📰 *[Defi and the West](https://www.radleylewis.com/defi__001.html)* - 8th August 2022
+📰 *[Defi and the West](https://www.radleylewis.com/defi_001.html)* - 8th August 2022
 
 *[Flawed axioms](https://www.radleylewis.com/axioms_001.html)* - 12th July 2022
 
