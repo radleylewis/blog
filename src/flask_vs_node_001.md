@@ -90,13 +90,15 @@ Drum roll... and the winner is? Node.js (according to the points system!)
 
 ```
 console.log(`Node.js Total Points: ${node}`);  
-
+```
+```
 Node.js Total Points: 4
 ```
 
 ```
 print(f'Flask Total Points: {flask}')  
-
+```
+```
 Flask Total Points: 2
 ```
 
