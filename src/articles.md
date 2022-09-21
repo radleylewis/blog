@@ -12,14 +12,6 @@
 
 ### Politics, Economics & Finance
 
-📰 *[Defi and the West](https://www.radleylewis.com/defi_001.html)* - 7th August 2022
-
-*[Flawed axioms](https://www.radleylewis.com/axioms_001.html)* - 12th July 2022
-
-*[Tired of your Government? Here are some ideas...](https://www.radleylewis.com/tired_of_your_government_001.html)* - 5th December 2021
-
-*[Waves of War](https://www.radleylewis.com/waves_of_war_001.html)* - 6th April 2021  
-
 *[Why I left banking for tech](https://www.radleylewis.com/banking_001.html)* - 7th December 2020
 
 ### Languages & Travel
