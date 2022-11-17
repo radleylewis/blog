@@ -2,15 +2,15 @@
 
 ###### 11th November 2022
 
-###### [x] words / [x] minute read
+###### 2,180 words / 5 minute read
 
 # Geopolitical Diversification 
-
-> “Remember, democracy never lasts long. It soon wastes, exhausts, and murders itself.” ― **John Adams**
 
 ![Vietnamese Boat People](../assets/locations_001.jpg)
 
 **Vote with your feet**
+
+> “Remember, democracy never lasts long. It soon wastes, exhausts, and murders itself.” ― **John Adams**
 
 When I was in highschool I did a school exchange to a town in what had previously been the former East German Democratic Republic (GDR). At the time, the iron curtain and the Berlin wall were still fresh in the memories of people all across Europe. My German host parents imparted their experiences on to me over late night beers in the depth of the northern european winter. Their grievances - as I have since come to understand - were typical of the communist experience. Travel was highly regulated. Families were seperated for decades across geopolitical fault lines, in their case - East and West Germany. One could practically forget about leaving the country, and even travel within the Warsaw Pact countries and the USSR was difficult. People went missing, political opposition and dissenting opinions were suppressed. Shortages of basic goods from fruit to cars - where decade long waitlists persisted - were par for the course. 
 
@@ -26,7 +26,7 @@ In this sense, while the parody that is democratic governance plays out in the f
 
 Recently in Sydney I sat down with a friend who exclaimed that "recent studies and literature have shown that Australia's COVID response was too extreme". Nothing better sums up western democracy than pursing a disastrous policy at any cost, and with no consideration given to other views, only to later admit that "mistakes were made" without any sense of accountability. Knowing however that this is the modus operandi of the legacy west, it became more than apparant that the most effective strategy is to vote with ones feet. To leave.
 
-> “Wherever you go, go with all your heart!” - Confucius
+> “Wherever you go, go with all your heart!” - **Confucius**
 
 I have been fortunate to live in many different countries and a variety of systems. Majority Islamic countries, officially communist countries, monarchies, republics and parliamentary democracies. A common misconception is that only Western Democracies have freedoms - probably the only thing the United States still leads in is propaganda, hence this misconception. But just because certain rights are not enshrined in any official document does not mean they do not exist. In fact, the presence of any legal rights is often evidence that such rights do not really exist in practice. 
 
@@ -50,7 +50,7 @@ As someone who believes in the future of East and South-East Asia, Thailand offe
 
 **🇲🇽 Mexico**
 
-![Mexico City](../assets/locations_004.jpeg)
+![Mexico City](../assets/locations_003.jpg)
 
 Probably one of the least restrictive countries throughout the pandemic, Mexico, like much of Latin America exhibits a level of openness unparrelleled in Asia. While Thailand is my first choice for the aforementioned reasons, the path to citizenship there is more difficult and dual citizenship is technically not allowed. Conversely, Mexico offers one of the most accessible paths to citizenship in the world, and, should you become a naturalised citizen, a remarkably strong passport with access to the Schengen Zone in Europe, the UK, Latin America, Russia and many destinations in Asia. Mexico permits dual citizenship.
 
@@ -64,7 +64,7 @@ Overall, Mexico's openness from a residence standpoint, great food, beautiful cl
 
 **🇵🇹 Portugal**
 
-![Tram 28, Lisbon](../assets/locations_003.jpeg)
+![Tram 28, Lisbon](../assets/locations_004.jpg)
 
 There are a number of countries in Europe that are attractive from a residency standpoint. Italy, for example, is not married to the European Project in the way that Germany or France are and nowhere else in Europe is skepticism of NATO more pronounced in my experience. Armenia, despite the precarious situation with respect to its neighbour, may well become a success story in the coming years and offers one of the fastest paths to citizenship in the world. Montenegro offers a straight forward residency through business incorporation. However, in my view, Portugal represents the single best destination on the continent at present. 
 
