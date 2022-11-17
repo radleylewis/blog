@@ -6,7 +6,7 @@
 
 # Geopolitical Diversification 
 
-“Remember, democracy never lasts long. It soon wastes, exhausts, and murders itself.” ― **John Adams**
+> “Remember, democracy never lasts long. It soon wastes, exhausts, and murders itself.” ― **John Adams**
 
 ![Vietnamese Boat People](../assets/locations_001.jpg)
 
@@ -26,7 +26,7 @@ In this sense, while the parody that is democratic governance plays out in the f
 
 Recently in Sydney I sat down with a friend who exclaimed that "recent studies and literature have shown that Australia's COVID response was too extreme". Nothing better sums up western democracy than pursing a disastrous policy at any cost, and with no consideration given to other views, only to later admit that "mistakes were made" without any sense of accountability. Knowing however that this is the modus operandi of the legacy west, it became more than apparant that the most effective strategy is to vote with ones feet. To leave.
 
-> “Wherever you go, go with all your heart!” - Confucius.
+> “Wherever you go, go with all your heart!” - Confucius
 
 I have been fortunate to live in many different countries and a variety of systems. Majority Islamic countries, officially communist countries, monarchies, republics and parliamentary democracies. A common misconception is that only Western Democracies have freedoms - probably the only thing the United States still leads in is propaganda, hence this misconception. But just because certain rights are not enshrined in any official document does not mean they do not exist. In fact, the presence of any legal rights is often evidence that such rights do not really exist in practice. 
 
@@ -36,7 +36,7 @@ The difficulty for most Westerners in the new world is that they do not know whe
 
 In the context of what I have described here, as well as the emerging geopolitical shift that is dividing the world in two, I have identified three countries which I consider to be ideal for the purpose of tyrannical government avoidance. Rather than draw conclusions based solely upon official laws in each country, I have rather given significant weight to my own understanding and experiences of certain systems wherein for example laws do not exist or otherwise may exist, but are rarely enforced, or can be easily circumvented, in a sense allowing some of us to live above them. Furthermore, I have given great consideration to the example provided in the last two years, which provided insights into how governments may react to future crises - whether manufactured or real. Finally, given we are looking for a way out the ease of obtaining a residence permit, and especially naturalisation, is a factor.  
 
-**Thailand**
+**🇹🇭 Thailand**
 
 ![Bangkok](../assets/locations_002.jpg)
 
@@ -48,7 +48,7 @@ As someone who believes in the future of East and South-East Asia, Thailand offe
 
 5G coverage and internet speeds in Thailand are faster than most "developed" nations. Coupled with an unintrusive tax regime and a newly legislated Long-Term Residence visa program, Thailand offers, in my view, the single best destination for the Western exodus at this time. The word "Thai" (ไทย) - orginally "Tai" - literally means _free_ after all. 
 
-**Mexico**
+**🇲🇽 Mexico**
 
 ![Mexico City](../assets/locations_004.jpeg)
 
@@ -62,7 +62,7 @@ While Mexico may not be at the centre of the world in the way that countries in 
 
 Overall, Mexico's openness from a residence standpoint, great food, beautiful climate and growing economy make it a great base for at least part of the year. It should be noted also that where Mexican Permanent Residence is obtained, it will ordinarily not be revoked, which is rare among permanent residency programmes.
 
-**Portugal**
+**🇵🇹 Portugal**
 
 ![Tram 28, Lisbon](../assets/locations_003.jpeg)
 
