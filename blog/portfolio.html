@@ -94,12 +94,10 @@
 </html>
 <div class="portfolio">
   <section class="portfolio__menu">
-    <button class="portfolio__menu-button" id="home" title="Home">
-      RT Reporting
-    </button>
-    <button class="portfolio__menu-button" id="about" title="About">
-      myEGO
-    </button>
+    <button class="portfolio__menu-button">RT Reporting</button>
+    <button class="portfolio__menu-button">Sidwell Security Group</button>
+    <button class="portfolio__menu-button">myEGO</button>
+    <button class="portfolio__menu-button">Saga47Swan</button>
   </section>
   <section class="portfolio__project">
     <div></div>
@@ -108,15 +106,21 @@
 
 <style>
   .portfolio {
-    background-color: black;
+    background-color: transparent;
   }
   .portfolio__menu {
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
-    background: blue;
+    background: transparent;
     width: 33.3%;
-    border-right: 1px solid white;
-    box-shadow: 2px 2px 5px;
+    min-height: calc(100vh - 200px);
+    border-right: 1px solid transparent;
+    box-shadow: 10px 0 2px -5px #ccc;
+  }
+
+  button {
+    all: unset;
   }
 </style>
 
