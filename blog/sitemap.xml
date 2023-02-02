@@ -6,6 +6,7 @@ http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>http://www/about.html</loc><lastmod>2023-02-02</lastmod><priority>1.0</priority></url>
 <url><loc>http://www/locations_001.html</loc><lastmod>2023-02-02</lastmod><priority>1.0</priority></url>
+<url><loc>http://www/portfolio.html</loc><lastmod>2023-02-02</lastmod><priority>1.0</priority></url>
 <url><loc>http://www/pop_os_001.html</loc><lastmod>2023-02-02</lastmod><priority>1.0</priority></url>
 <url><loc>http://www/flask_vs_node_001.html</loc><lastmod>2023-02-02</lastmod><priority>1.0</priority></url>
 <url><loc>http://www/adventure_laptop_001.html</loc><lastmod>2023-02-02</lastmod><priority>1.0</priority></url>

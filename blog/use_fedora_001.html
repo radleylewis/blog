@@ -50,10 +50,10 @@
         </li>
         <li class="navbar__right-link">
           <a
-            id="projects"
-            title="Projects"
-            href="https://www.radleylewis.com/projects.html"
-            >Projects</a
+            id="portfolio"
+            title="portfolio"
+            href="https://www.radleylewis.com/portfolio.html"
+            >Portfolio</a
           >
         </li>
         <li class="navbar__right-link">
@@ -83,6 +83,8 @@
       document.getElementById("about").style.borderBottom = style;
     } else if (path.includes("contact.html")) {
       document.getElementById("contact").style.borderBottom = style;
+    } else if (path.includes("portfolio.html")) {
+      document.getElementById("portfolio").style.borderBottom = style;
     } else if (!path || path.includes("index.html")) {
       document.getElementById("home").style.borderBottom = style;
     } else {

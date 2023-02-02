@@ -50,10 +50,10 @@
         </li>
         <li class="navbar__right-link">
           <a
-            id="portfolio"
-            title="portfolio"
-            href="https://www.radleylewis.com/portfolio.html"
-            >Portfolio</a
+            id="projects"
+            title="Projects"
+            href="https://www.radleylewis.com/projects.html"
+            >Projects</a
           >
         </li>
         <li class="navbar__right-link">
@@ -83,8 +83,8 @@
       document.getElementById("about").style.borderBottom = style;
     } else if (path.includes("contact.html")) {
       document.getElementById("contact").style.borderBottom = style;
-    } else if (path.includes("portfolio.html")) {
-      document.getElementById("portfolio").style.borderBottom = style;
+    } else if (path.includes("projects.html")) {
+      document.getElementById("projects").style.borderBottom = style;
     } else if (!path || path.includes("index.html")) {
       document.getElementById("home").style.borderBottom = style;
     } else {
@@ -92,3 +92,23 @@
     }
   </script>
 </html>
+<div class="projects">
+  <section class="projects__menu">
+    <button class="projects__menu-button" id="home" title="Home">
+      RT Reporting
+    </button>
+    <button class="projects__menu-button" id="about" title="About">
+      myEGO
+    </button>
+  </section>
+  <section class="projects__project">
+    <div></div>
+  </section>
+</div>
+
+<style>
+  .projects {
+    background-color: black;
+  }
+</style>
+
