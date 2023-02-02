@@ -94,33 +94,194 @@
 </html>
 <div class="portfolio">
   <section class="portfolio__menu">
+    <button class="portfolio__menu-button">Overview</button>
     <button class="portfolio__menu-button">RT Reporting</button>
-    <button class="portfolio__menu-button">Sidwell Security Group</button>
     <button class="portfolio__menu-button">myEGO</button>
     <button class="portfolio__menu-button">Saga47Swan</button>
   </section>
-  <section class="portfolio__project">
-    <div></div>
+  <section class="portfolio__info">
+    <div class="portfolio__info-project">
+      <h3>Introduction</h3>
+      <br />
+      <p>
+        I am an experienced engineer with more than five years in pure software
+        development roles and over a decade of combined financial services and
+        technology experience.
+      </p>
+
+      <p>
+        Rather than a just software engineer, I consider myself a well-rounded
+        technologist focused on solving real-world problems relating to FinTech,
+        PrivacyTech, IT Security and Self Sovereign Identity. I have experience
+        leading teams to successful execution of complex, production ready
+        applications, a handful of which I have outlined here.
+      </p>
+      <br />
+      <h3>IT Credentials</h3>
+      <br />
+      <p>
+        <strong>Codeworks, Software Engineering Bootcamp</strong>
+      </p>
+
+      <p class="location">📍Barcelona, completed in 2019</p>
+
+      <p>
+        <strong>King's College, MSc. Advanced Cyber Security</strong>
+      </p>
+
+      <p class="location">📍London (Online), graduation due late 2024</p>
+
+      <br />
+      <h3>Technology I Use</h3>
+      <br />
+      <p>
+        <strong>Operating System:</strong> I am almost exclusively using some
+        varient of
+        <em><a href="https://archlinux.org/">Arch linux</a></em> these days.
+      </p>
+
+      <p>
+        <strong>Languages:</strong> I consider myself language agnostic and
+        always open to learning new ones. I am most proficient in
+        JavaScript/TypeScript, Python and am currently learning Go. I have some
+        experience with C, Java, Lua and Bash/POSIX shell scripting.
+      </p>
+
+      <p>
+        <strong>Frameworks:</strong> This website is built with
+        <em><a href="https://romanzolotarev.com/ssg.html">ssg6</a></em> by Roman
+        Zolotarev. For the front-end I tend towards Vue.js/NUXT.js, although I
+        have built applications with React.js/Redux and mobile applications with
+        React.Native. On the backend I have experience with Express.js, Koa.js,
+        Flask, FastAPI and Django.
+      </p>
+
+      <p>
+        <strong>Cloud:</strong> I mostly use AWS for my commercial projects.
+        Cloudflare and self hosting with Raspberry Pis and old computers for my
+        personal projects.
+      </p>
+
+      <p>
+        <strong>Databases:</strong>
+        I love MongoDB, and it is usually sufficient for what I need. I also
+        have experience with SQL databases such as Postgres and MySQL along with
+        in memory databases such as Redis.
+      </p>
+
+      <p>
+        <strong>IDE:</strong> In the last year I have shifted to
+        <a href="https://neovim.io/">NeoVim</a> with
+        <a href="https://github.com/tmux/tmux/wiki">tmux</a> as my default
+        editor. For large projects, my preferred IDE is WebStorm or PyCharm.
+      </p>
+
+      <p>
+        <strong>Shell:</strong> I use
+        <em><a href="https://zsh.sourceforge.io">zsh</a></em
+        >.
+      </p>
+
+      <p>
+        <strong>Crypto:</strong> The only crypto currency I am interest in these
+        days is Monero. I stay abrest of other blockchain developments
+        especially relating to self sovereign identity and Web3.
+      </p>
+
+      <p>
+        <strong>Machines:</strong> My main machines are an X1 Carbon (6th Gen)
+        Lenovo ThinkPad and an
+        <em
+          ><a href="https://www.xmg.gg/en/xmg-fusion-15-l19"
+            >XMG Fusion 15</a
+          ></em
+        >. I like tinkering with older ThinkPad models like the t440p too.
+      </p>
+
+      <p>
+        <strong>Keyboards:</strong> I am a big believer in high quality
+        keyboards for long writing and coding sessions. Recently I got my hands
+        on a
+        <em
+          ><a
+            href="https://www.keychron.com/products/keychron-k8-tenkeyless-wireless-mechanical-keyboard?utm_campaign=shipping-confirmation-email&amp;utm_medium=email&amp;utm_source=OrderlyEmails&amp;utm_content=product"
+            >Keychron K8 Wireless Mechanical Keyboard</a
+          ></em
+        >. Other than this, I also have a
+        <em
+          ><a
+            href="https://mechanicalkeyboards.com/shop/index.php?l=product_detail&amp;p=5593"
+            >Ducky Mecha Mini v2</a
+          ></em
+        >
+        and a
+        <em
+          ><a
+            href="https://www.amazon.com/DURGOD-Mechanical-Keyboard-Interface-Anti-Ghosting/dp/B078HFTTYK"
+            >Durgod Taurus K320</a
+          ></em
+        >.
+      </p>
+
+      <p>
+        <strong>Mouse:</strong> Since my Logitech MX Master 2s broke recently I
+        have shifted to the
+        <em
+          ><a
+            href="https://www.rtings.com/mouse/reviews/logitech/g-pro-wireless"
+            >Logitech G Pro Wireless</a
+          ></em
+        >. Overall, the cleaner look and more rudimentary functionality is more
+        suited to my usage (especially with Linux).
+      </p>
+
+      <p>
+        <strong>Monitor:</strong> Right now I am using the
+        <em
+          ><a href="https://www.benq.com/en-ap/monitor/gaming/ex2780q.html"
+            >EX2780Q 144Hz Gaming Monitor with HDRi Technology | BenQ</a
+          ></em
+        >.
+      </p>
+    </div>
   </section>
 </div>
 
 <style>
   .portfolio {
     background-color: transparent;
+    display: flex;
+    min-height: calc(100vh - 200px);
+    padding-top: 2rem;
   }
   .portfolio__menu {
-    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     background: transparent;
     width: 33.3%;
-    min-height: calc(100vh - 200px);
-    border-right: 1px solid transparent;
-    box-shadow: 10px 0 2px -5px #ccc;
+  }
+  .portfolio__info {
+    width: 66.6%;
+  }
+  .portfolio__info-project {
+    height: 100%;
+    border-radius: 0.25rem;
+    margin: 0 0.5rem 0.5rem 0.5rem;
   }
 
   button {
     all: unset;
+    cursor: pointer;
+    margin: 0 1rem;
+    border: 1px solid transparent;
+    color: #fff;
+    border-radius: 0.25rem;
+    height: 3rem;
+    text-align: center;
+  }
+  button:hover,
+  button:target {
+    border: 1px solid #00ff00;
   }
 </style>
 
