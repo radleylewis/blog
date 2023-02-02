@@ -1,2 +1,3 @@
-ssg src blog 'Prod' 'http://www'
+#!/bin/bash
 
+ssg src blog 'Prod' 'http://www'
