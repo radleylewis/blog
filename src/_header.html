@@ -77,8 +77,7 @@
   </body>
 
   <script>
-    const path = window.location.href;
-    console.log("path", path);
+    const path = window.location.pathname;
     const style = "4px solid #00FF00";
     if (path.includes("about.html")) {
       document.getElementById("about").style.borderBottom = style;
@@ -86,7 +85,7 @@
       document.getElementById("contact").style.borderBottom = style;
     } else if (path.includes("portfolio.html")) {
       document.getElementById("portfolio").style.borderBottom = style;
-    } else if (!path || path.includes("index.html")) {
+    } else if (["/", "/index.html"].includes(path)) {
       document.getElementById("home").style.borderBottom = style;
     } else {
       document.getElementById("articles").style.borderBottom = style;
