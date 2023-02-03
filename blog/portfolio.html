@@ -94,23 +94,48 @@
 </html>
 <div class="portfolio">
   <section class="portfolio__menu">
-    <input type="radio" id="overview" name="menu" value="overview" checked />
+    <input
+      type="radio"
+      id="overview"
+      name="menu"
+      value="overview"
+      checked
+      onclick="show('overview')"
+    />
     <label for="overview">Overview</label>
-    <input type="radio" id="rt_reporting" name="menu" value="rt_reporting" />
+    <input
+      type="radio"
+      id="rt_reporting"
+      name="menu"
+      value="rt_reporting"
+      onclick="show('rt_reporting')"
+    />
     <label for="rt_reporting">RT Reporting</label>
-    <input type="radio" id="my_ego" name="menu" value="my_ego" />
-    <label for="my_ego">myEGO</label>
-    <input type="radio" id="saga_47_swan" name="menu" value="saga_47_swan" />
+    <input
+      type="radio"
+      id="saga_47_swan"
+      name="menu"
+      value="saga_47_swan"
+      onclick="show('saga_47_swan')"
+    />
     <label for="saga_47_swan">Saga47Swan</label>
+    <input
+      type="radio"
+      id="my_ego"
+      name="menu"
+      value="my_ego"
+      onclick="show('my_ego')"
+    />
+    <label for="my_ego">myEGO</label>
   </section>
   <section class="portfolio__info">
-    <div class="portfolio__info-project">
+    <div id="project-overview">
       <h3>Introduction</h3>
       <br />
       <p>
-        I am an experienced engineer with more than five years in dedicated
-        software development roles and over a decade of combined financial
-        services and technology experience.
+        My name is Rad and I am an experienced engineer with more than five
+        years in dedicated software development roles and over a decade of
+        combined financial services and technology experience.
       </p>
 
       <p>
@@ -248,8 +273,75 @@
         >.
       </p>
     </div>
+    <div id="project-rt_reporting">
+      <a target="_blank" href="https://www.rtreporting.com"
+        >www.rtreporting.com</a
+      >
+      <div class="image-container">
+        <img src="./assets/rt_reporting.png" />
+      </div>
+      <p>
+        In late 2020 I co-founded - along with my brother - RT Reporting, a
+        cloud based advisory software solution for accountants, bookkeepers and
+        businesses. RT Reporting services more than 1,000 small to medium sized
+        businesses across Australia, New Zealand, the UK and even Papua New
+        Guinea.
+      </p>
+      <p>
+        RT Reporting is a Xero Certified SaaS application built in
+        Vue.js/NUXT.js, Express.js, FastAPI, MongoDB and Redis. As the lead
+        engineer and co-founder, I am responsible for the end-to-end software
+        development cycle, from customer focused feedback and engagement on
+        features, to UX design and the implementation of the IP and business
+        logic. RT Reporting's development team includes one other front-end
+        engineer and a contracted UX designer.
+      </p>
+    </div>
+    <div id="project-saga_47_swan">
+      <a target="_blank" href="https://www.saga47swan.com/"
+        >www.saga47swan.com</a
+      >
+      <div class="image-container">
+        <img src="./assets/saga_47_swan.png" />
+      </div>
+      <p>
+        Since March 2018 I have been a maintainer of Saga47Swan's homepage. Saga
+        is an offshore and coastal adventure sailing company based all around
+        the world.
+      </p>
+      <p>
+        This full-stack application is built with Next.js and Django and is
+        hosted with AWS.
+      </p>
+    </div>
+    <div id="project-my_ego">
+      <a target="_blank" href="https://www.myego.io">myego.io</a>
+      <div class="image-container">
+        <img src="./assets/my_ego.png" />
+      </div>
+      <p>
+        From March 2019 to September 2020 I worked for myEGO, a Germany based
+        B2B platform leveraging blockchain in the pursuit of digital identity
+        protection.
+      </p>
+      <p>
+        myEGO is a bleeding edge technology approach to self sovereign identity.
+        As a full-stack engineer I was responsible for for React.Native mobile
+        application development, backend development with Express.js and
+        blockchain development using Hyperledger.
+      </p>
+    </div>
   </section>
 </div>
+
+<script>
+  function show(option) {
+    document.querySelectorAll('div[id^="project-"]').forEach((div) => {
+      if (div.id.includes(option)) div.style.display = "block";
+      else div.style.display = "none";
+    });
+  }
+</script>
 
 <style>
   .portfolio {
@@ -267,10 +359,17 @@
   .portfolio__info {
     width: 66.6%;
   }
-  .portfolio__info-project {
+  #project-overview,
+  #project-saga_47_swan,
+  #project-my_ego,
+  #project-rt_reporting {
+    display: none;
     height: 100%;
     border-radius: 0.25rem;
     margin: 0 0.5rem 0.5rem 0.5rem;
+  }
+  #project-overview {
+    display: block;
   }
 
   label {
@@ -278,13 +377,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 3rem;
     line-height: 3rem;
     width: calc(100% - 2px - 1rem);
     cursor: pointer;
     color: #fff;
     border-radius: 0.25rem;
-    height: 3rem;
-    margin-right: 1rem;
+    margin-bottom: 1rem;
     border: 1px solid transparent;
   }
 
@@ -292,8 +391,40 @@
     display: none;
   }
 
+  label:hover {
+    background: #00ff00;
+    color: #524f4f;
+  }
+
   input[type="radio"]:checked + label {
     border: 1px solid #00ff00;
+  }
+
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25rem;
+    line-height: 25rem;
+    margin-top: 1rem;
+    display: flex;
+    padding-right: 6rem;
+    padding-left: 6rem;
+    background: white;
+    align-items: center;
+  }
+
+  @media (max-width: 550px) {
+    .image-container {
+      max-width: calc(100vw - 33.3% - 1rem);
+      max-height: 8rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    .portfolio__menu {
+      font-size: 14px;
+    }
   }
 </style>
 
