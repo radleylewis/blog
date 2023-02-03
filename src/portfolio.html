@@ -1,18 +1,22 @@
 <div class="portfolio">
   <section class="portfolio__menu">
-    <button class="portfolio__menu-button">Overview</button>
-    <button class="portfolio__menu-button">RT Reporting</button>
-    <button class="portfolio__menu-button">myEGO</button>
-    <button class="portfolio__menu-button">Saga47Swan</button>
+    <input type="radio" id="overview" name="menu" value="overview" checked />
+    <label for="overview">Overview</label>
+    <input type="radio" id="rt_reporting" name="menu" value="rt_reporting" />
+    <label for="rt_reporting">RT Reporting</label>
+    <input type="radio" id="my_ego" name="menu" value="my_ego" />
+    <label for="my_ego">myEGO</label>
+    <input type="radio" id="saga_47_swan" name="menu" value="saga_47_swan" />
+    <label for="saga_47_swan">Saga47Swan</label>
   </section>
   <section class="portfolio__info">
     <div class="portfolio__info-project">
       <h3>Introduction</h3>
       <br />
       <p>
-        I am an experienced engineer with more than five years in pure software
-        development roles and over a decade of combined financial services and
-        technology experience.
+        I am an experienced engineer with more than five years in dedicated
+        software development roles and over a decade of combined financial
+        services and technology experience.
       </p>
 
       <p>
@@ -175,18 +179,26 @@
     margin: 0 0.5rem 0.5rem 0.5rem;
   }
 
-  button {
+  label {
     all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 3rem;
+    width: calc(100% - 2px - 1rem);
     cursor: pointer;
-    margin: 0 1rem;
-    border: 1px solid transparent;
     color: #fff;
     border-radius: 0.25rem;
     height: 3rem;
-    text-align: center;
+    margin-right: 1rem;
+    border: 1px solid transparent;
   }
-  button:hover,
-  button:target {
+
+  input {
+    display: none;
+  }
+
+  input[type="radio"]:checked + label {
     border: 1px solid #00ff00;
   }
 </style>

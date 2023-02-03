@@ -31,7 +31,6 @@ a:hover {
   font-size: 12px;
 }
 
-label,
 a,
 p,
 li,
@@ -58,7 +57,6 @@ input {
   width: 100%;
   margin: 0.5rem 0;
   padding: 0.25rem;
-  border: 1px solid #254f4f;
 }
 
 textarea {
@@ -67,7 +65,6 @@ textarea {
   height: 12rem;
   margin-top: 1rem;
   resize: none;
-  border: 1px solid #254f4f;
 }
 
 textarea:focus,
