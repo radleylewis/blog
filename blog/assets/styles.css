@@ -177,16 +177,12 @@ ul {
 }
 
 @media (max-width: 550px) {
-  body {
-    max-width: 95vw;
-    overflow-x: none;
-  }
   .navbar {
     flex-direction: column;
   }
   .navbar__right,
   .navbar__left {
-    max-width: 90vw;
+    width: 95vw;
     justify-content: space-between;
   }
   .navbar__right-link {

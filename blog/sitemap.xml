@@ -9,7 +9,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>http://www/pop_os_001.html</loc><lastmod>2023-02-05</lastmod><priority>1.0</priority></url>
 <url><loc>http://www/flask_vs_node_001.html</loc><lastmod>2023-02-05</lastmod><priority>1.0</priority></url>
 <url><loc>http://www/adventure_laptop_001.html</loc><lastmod>2023-02-05</lastmod><priority>1.0</priority></url>
-<url><loc>http://www/contact.html</loc><lastmod>2023-02-05</lastmod><priority>1.0</priority></url>
 <url><loc>http://www/axioms_001.html</loc><lastmod>2023-02-05</lastmod><priority>1.0</priority></url>
 <url><loc>http://www/articles.html</loc><lastmod>2023-02-05</lastmod><priority>1.0</priority></url>
 <url><loc>http://www/adventure_laptop_002.html</loc><lastmod>2023-02-05</lastmod><priority>1.0</priority></url>
@@ -22,5 +21,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>http://www/about.html</loc><lastmod>2023-02-05</lastmod><priority>1.0</priority></url>
 <url><loc>http://www/banking_001.html</loc><lastmod>2023-02-05</lastmod><priority>1.0</priority></url>
 <url><loc>http://www/dankeschoen_001.html</loc><lastmod>2023-02-05</lastmod><priority>1.0</priority></url>
+<url><loc>http://www/contact.html</loc><lastmod>2023-02-05</lastmod><priority>1.0</priority></url>
 <url><loc>http://www/time_001.html</loc><lastmod>2023-02-05</lastmod><priority>1.0</priority></url>
 </urlset>
