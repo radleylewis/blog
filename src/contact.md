@@ -32,7 +32,9 @@
   </li>
  </ul>
  <form action="https://formspree.io/f/mayvgpnn" method="POST" class="contact__form">
+  <br />
   <h3>Or, send me a message!</h3>
+  <br />
   <label class="contact__form-section"><h5 class="contact__form-text">Email:</h5><input type="email" name="email"></label>
   <label class="contact__form-section"><h5 class="contact__form-text">Message:</h5><textarea name="message"></textarea></label>
   <div class="contact__form-section">
