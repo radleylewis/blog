@@ -44,7 +44,7 @@ The _Residencia Temporal_ visa glued in to my passport allowed me 6 months to en
 
 When you arrive at passport control on entry into Mexico, it is imperative that you open your passport to your visa page so as to avoid any confusion as to your visa status. Entering the country as a tourist will invalidate your application, and you will need to restart the entire process from the beginning. 
 
->> Note: I have been told that at some ports of entry, you will be required to fill out the FMM form and provide this to the immigration officer at passport control. In my case, entering Mexico from Cancun International Airport, I did not need to complete this form.
+>> **Note:** I have been told that at some ports of entry, you will be required to fill out the FMM form and provide this to the immigration officer at passport control. In my case, entering Mexico from Cancun International Airport, I did not need to complete this form.
 
 From the date of entry (which will ultimately be the start date of your Temporary Residence) you now have 30 days to get yourself to a _Instituto Nacional de Migración (INM)_. Until this point, everything had been relatively straight forward. 
 
