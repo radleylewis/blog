@@ -40,7 +40,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+strong {
   color: #ffffff;
   text-decoration: none;
 }
@@ -174,6 +175,33 @@ ul {
 .contact__form-btn:hover {
   background: #00ff00;
   color: #534f4f;
+}
+
+.course {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.course__logo {
+  width: 4rem;
+  height: fit-content;
+}
+
+.course__details {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+}
+
+.course__details-name {
+  margin-left: 0.5rem;
+}
+
+.course__details-loc {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  line-height: 1rem;
 }
 
 @media (max-width: 550px) {
