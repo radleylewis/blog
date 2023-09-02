@@ -1,0 +1,87 @@
+h3::before {
+  content: "# ";
+  color: var(--button-bg);
+}
+
+/* About Page */
+
+.about__banner {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.about__profile {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid var(--button-bg);
+}
+
+.course {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0;
+}
+
+.course__logo,
+.course__logo_uibe {
+  width: 2.5rem;
+  height: fit-content;
+}
+
+.course__logo_uibe {
+  filter: brightness(var(--brightness-level));
+}
+
+.course__details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.course__details-loc {
+  margin: 0;
+}
+
+/* Contact Page */
+
+.contact-list {
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--text);
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-list__item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+  height: 1rem;
+}
+
+.contact__list-item:hover p {
+  color: var(--button-bg);
+}
+
+.contact__list-icon {
+  height: 2rem;
+}
+
+.contact__form-btn {
+  border: 1px solid var(--button-bg);
+  cursor: pointer;
+  color: var(--button-bg);
+  background-color: transparent;
+  width: 8rem;
+  padding: 0.5rem 0.75rem;
+  margin-top: 1rem;
+  border-radius: 0.1rem;
+}
+
+.contact__form-btn:hover {
+  background: var(--button-bg);
+  color: var(--text);
+}
