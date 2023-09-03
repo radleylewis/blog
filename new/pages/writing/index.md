@@ -1,27 +1,41 @@
-# Lorem Ipsum
+### Languages & Travel
 
-**Lorem ipsum** dolor sit amet, consectetur adipiscing elit. Fusce nec elit quis metus euismod sagittis. Nullam tincidunt sapien vel euismod gravida. Vivamus luctus, sapien id vehicula ullamcorper, elit _ipsum tempus leo_, nec luctus purus turpis nec turpis. Duis egestas bibendum libero, id hendrerit nunc volutpat in. Sed hendrerit massa at metus iaculis bibendum. Curabitur a nisl vestibulum, vulputate odio vel, dictum elit. Fusce et dictum ligula, ut consectetur quam. Nullam ac lectus non libero viverra venenatis.
+📰 _[Mexican Insurance Policy](/writing/mexico_001.html)_ - 6th April 2023
 
-> Phasellus in elit et dui hendrerit efficitur. Sed in odio a metus commodo sodales. Sed aliquet ligula id justo blandit, sit amet pellentesque enim congue.
+_[Geopolitical Diversification](/writing/locations_001.html)_ - 11th November 2022
 
-## Sed Tincidunt
+_[Dankeschön, Germany](/writing/dankeschoen_001.html)_ - 27th February 2021
 
-Sed tincidunt nulla quis hendrerit gravida. Fusce at nulla elit. Aliquam euismod arcu id purus tincidunt, sit amet accumsan arcu laoreet. Nunc tristique bibendum purus in tristique. Sed in leo quis quam tincidunt laoreet. Curabitur a lorem eu justo vehicula malesuada.
+_[Time and tide wait for no man](/writing/time_001.html)_ - 12th December 2020
 
-_Vivamus eget ipsum_ at lectus bibendum tristique. Phasellus volutpat odio vel massa lacinia, id iaculis enim sodales. Fusce accumsan arcu et justo cursus bibendum.
+_[4 Months Intensive Mandarin in Beijing](/writing/chinese_001.html)_ - 29th April 2019
 
-### Donec Vehicula
+<br />
 
-Donec vehicula purus eu felis venenatis, in volutpat erat iaculis. Etiam quis metus eu tellus facilisis hendrerit. Integer ac ultrices nisi. Curabitur euismod ut metus eu egestas. Sed viverra, leo nec ullamcorper tincidunt, felis mi aliquet lectus, nec dignissim augue velit nec metus. Integer euismod arcu quam, at efficitur urna bibendum et.
+### Hacking & Tech
 
-1. Cras ut arcu et nunc dictum sagittis in sit amet lorem.
-2. Vivamus lacinia scelerisque neque, id condimentum odio tincidunt et.
-3. Integer auctor elit in nisl feugiat, ac gravida justo malesuada.
+_[Fedora is the new Ubuntu](/writing/use_fedora_001.html)_ - 5th August 2022
 
-#### Nunc Dignissim
+_[Flask vs Node.js](/writing/flask_vs_node_001.html)_ - 30th May 2021
 
-Nunc dignissim lectus nec nunc malesuada interdum. Sed facilisis odio nec odio bibendum, nec dictum mi lacinia. Curabitur eu arcu et nisl blandit laoreet. Nullam a ex ac eros interdum aliquet ac quis libero. Integer facilisis lorem ut vulputate iaculis.
+_[The Adventurer's (value) Laptop - Part 2](/writing/adventure_laptop_002.html)_ - 17th April 2021
 
-### Conclusion
+_[The Adventurer's (value) Laptop - Part 1](/writing/adventure_laptop_001.html)_ - 30th January 2021
 
-Phasellus vel bibendum purus, at vehicula velit. Nulla laoreet dui vitae risus tincidunt, et laoreet velit interdum. Vivamus nec orci sed nunc volutpat dignissim. Donec ultrices a justo sit amet placerat. Nullam a posuere neque, id gravida justo. Nulla ullamcorper augue eu ipsum elementum, id hendrerit metus sodales.
+_[You need to try Pop!\_OS](/writing/pop_os_001.html)_ - 9th December 2020
+
+<br />
+
+### Politics, Economics & Finance
+
+_[Defi and the West](/writing/defi_001.html)_ - 7th August 2022
+
+_[Flawed axioms](/writing/axioms_001.html)_ - 12th July 2022
+
+_[Tired of your Government? Here are some ideas...](/writing/tired_of_your_government_001.html)_ - 5th December 2021
+
+_[Waves of War](/writing/waves_of_war_001.html)_ - 6th April 2021
+
+_[Why I left banking for tech](/writing/banking_001.html)_ - 7th December 2020
+
+<br />

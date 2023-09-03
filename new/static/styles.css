@@ -5,6 +5,11 @@ html {
   overflow-y: scroll;
 }
 
+img {
+  align-self: center;
+  max-width: 100%;
+}
+
 /* Toggle Theme Styles */
 
 :root {
@@ -13,6 +18,7 @@ html {
   --button-bg: #b5a642; /* gold */
   --button-interior: #333333; /* charcoal */
   --brightness-level: 0%;
+  --logo-invert: 0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,6 +28,7 @@ html {
     --button-bg: #03ffc0; /* electric green */
     --button-interior: #333333; /* charcoal */
     --brightness-level: 100%;
+    --logo-invert: 1;
   }
 }
 
@@ -31,6 +38,7 @@ html {
   --button-bg: #03ffc0; /* electric green */
   --button-interior: #333333; /* charcoal */
   --brightness-level: 100%;
+  --logo-invert: 1;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -40,6 +48,7 @@ html {
     --button-bg: #b5a642; /* gold */
     --button-interior: #333333; /* charcoal */
     --brightness-level: 0%;
+    --logo-invert: 0;
   }
 }
 
@@ -101,7 +110,6 @@ p a:visited {
 }
 
 body {
-  margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -128,7 +136,7 @@ body {
 }
 
 .navbar__logo {
-  filter: invert(1);
+  filter: invert(var(--logo-invert));
   width: 5rem;
 }
 
