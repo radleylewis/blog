@@ -46,42 +46,31 @@ h3::before {
 
 /* Contact Page */
 
-.contact-list {
+.contact {
   list-style-type: none;
   text-decoration: none;
-  color: var(--text);
-  list-style-type: none;
   padding: 0;
+  width: fit-content;
 }
 
-.contact-list__item {
+.contact li a {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
-  cursor: pointer;
-  height: 1rem;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 1.5rem;
+  margin: 0.5rem 0;
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: 500;
 }
 
-.contact__list-item:hover p {
+.contact li:hover {
   color: var(--button-bg);
 }
 
-.contact__list-icon {
-  height: 2rem;
-}
-
-.contact__form-btn {
-  border: 1px solid var(--button-bg);
-  cursor: pointer;
-  color: var(--button-bg);
-  background-color: transparent;
-  width: 8rem;
-  padding: 0.5rem 0.75rem;
-  margin-top: 1rem;
-  border-radius: 0.1rem;
-}
-
-.contact__form-btn:hover {
-  background: var(--button-bg);
-  color: var(--text);
+.contact__icon {
+  margin-right: 0.5rem;
+  height: 1.25rem;
+  filter: brightness(var(--brightness-level));
 }
