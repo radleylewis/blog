@@ -16,6 +16,7 @@ img {
   --bg: #fffff0; /* ivory */
   --text: #333333; /* charcoal */
   --button-bg: #b5a642; /* gold */
+  --text-visited: #aeaeae; /* grey */
   --button-interior: #333333; /* charcoal */
   --brightness-level: 0%;
   --logo-invert: 0;
@@ -25,7 +26,7 @@ img {
   :root {
     --bg: #5a5a5a;
     --text: #fffff0; /* ivory */
-    --button-bg: #03ffc0; /* electric green */
+    --button-bg: #03ffc0; /* gold */
     --button-interior: #333333; /* charcoal */
     --brightness-level: 100%;
     --logo-invert: 1;
@@ -104,9 +105,13 @@ p a {
   border-bottom: 2px solid var(--button-bg);
 }
 
-p a:hover,
-p a:visited {
+p a:hover {
   color: var(--button-bg);
+}
+
+p a:visited {
+  color: var(--text-visited);
+  border-bottom: 2px solid var(--button-bg);
 }
 
 body {

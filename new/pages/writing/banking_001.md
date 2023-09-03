@@ -6,11 +6,11 @@
 
 # Why I left banking for tech
 
-![HSBC Shanghai](static/banking_001.jpg)
+![HSBC Shanghai](/static/banking_001.jpg)
 
-*HSBC's Shanghai offices, built in 1923*
+_HSBC's Shanghai offices, built in 1923_
 
-It was late, sitting at my desk of the iconic HSBC Main Building at 1 Queen's Road Central, Hong Kong. The light show had started and colours splashed against the monitors, desks, and windows of the 16th floor. [**The Hongkong and Shanghai Banking Corporation**](https://www.hsbc.com/who-we-are/our-history?ref=hackernoon.com) was the place I had wanted to work since I first visited Shanghai in 2011. No institution better embodied a bet on the Asian century than this monolithic banking corporation founded by a Scotsman more than 150 years earlier. But here I was, working for this leading bank, in a great job, in a fascinating city, and yet completely lost. It wasn't the bank; HSBC wasn't the first bank I worked for, and frankly speaking, is still the world's leading international bank despite its shortcomings. Nor was it the job; my boss was great, my colleagues were talented and my customers offered some of the most interesting, complex deals any banker could ask for.
+It was late, sitting at my desk of the iconic HSBC Main Building at 1 Queen's Road Central, Hong Kong. The light show had started and colours splashed against the monitors, desks, and windows of the 16th floor. [The Hongkong and Shanghai Banking Corporation](https://www.hsbc.com/who-we-are/our-history?ref=hackernoon.com) was the place I had wanted to work since I first visited Shanghai in 2011. No institution better embodied a bet on the Asian century than this monolithic banking corporation founded by a Scotsman more than 150 years earlier. But here I was, working for this leading bank, in a great job, in a fascinating city, and yet completely lost. It wasn't the bank; HSBC wasn't the first bank I worked for, and frankly speaking, is still the best international bank despite its shortcomings. Nor was it the job; my boss was great, my colleagues were talented and my customers offered some of the most interesting, complex deals any banker could ask for.
 
 Ultimately, that itch in the back of my skull that grew more and more uncomfortable with each and every waking day was the feeling that everything here had already been done. Here is why I quit my Hong Kong finance job and changed the course of my life through technology.
 
@@ -20,7 +20,7 @@ No, the problem isn't HSBC, the problem is that **regulation has rendered wester
 
 While I was working in New York for ANZ Bank I got seated next to a gentleman 30 years my senior who happened to share the same birthday. This guy knows his stuff when it came to financial institutions, especially with respect to loan structuring and credit analysis, and taught me a lot. One day over lunch we were discussing how we ended up at the bank.
 
-*"Well", said the senior colleague,* *"for me, it was all quite simple, I came into Manhattan one day and saw an advertisement in the window. 'Banking analysis' or something like this, well I thought why not, I mean I had studied humanities, but I needed a job."*
+> _"Well", said the senior colleague,_ _"for me, it was all quite simple, I came into Manhattan one day and saw an advertisement in the window. 'Banking analysis' or something like this, well I thought why not, I mean I had studied humanities, but I needed a job."_
 
 This story was painfully cliché, but it hit a nerve. Here was a guy, clearly good at what he did, but without the typical qualifications. In fact, had he applied for the same job in 2020 I am sure he would admit he'd be turned down. But 1990 wasn't a time of hyper-competitive applicants, finance was a growth sector, bodies were needed in chairs and there were deals to be done. While one might think a more ultra-competitive environment leads to selecting the best talent, I would firmly reject this argument on the grounds that applicants increasingly come from an increasingly narrow field of academic degrees from within an elitist university bubble.
 
