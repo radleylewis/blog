@@ -10,7 +10,7 @@
 
 _My "Residente Temporal" Card_
 
-Recently I wrote about my top 3 picks for geopolitical diversification. Mexico made this shortlist, and I will refer you to the original article [_here_](https://www.radleylewis.com/locations_001.html) on the details as to why, but briefly, Mexico exhibits only very light physical presence requirements and is presently one of the most accessible countries in the world within which to obtain Permanent Residency (and even citizenship).
+Recently I wrote about my top 3 picks for geopolitical diversification. Mexico made this shortlist, and I will refer you to the original article [here](https://www.radleylewis.com/locations_001.html) on the details as to why, but briefly, Mexico exhibits only very light physical presence requirements and is presently one of the most accessible countries in the world within which to obtain Permanent Residency (and even citizenship).
 
 > > **Note:** This is not intended as legal advice, but rather as a helpful guide.
 
@@ -18,7 +18,7 @@ This article documents the process on obtaining Temporary Residence in Mexico ba
 
 ## Part 1. Getting the Visa
 
-Broadly speaking there are a few basic requirements. Firstly, you need to apply from your home country, or otherwise a country where you hold legal residence. Next, you will need to complete the requisite [_form_](https://embamex.sre.gob.mx/australia/images/pdf/solicitudvisaingles.pdf), have a passport with at least 6 months validity and provide a passport size photograph. You will also need to pay for your visa fee (approx. AUD 75 / EUR 46 / USD 50 at the time of writing).
+Broadly speaking there are a few basic requirements. Firstly, you need to apply from your home country, or otherwise a country where you hold legal residence. Next, you will need to complete the requisite [form](https://embamex.sre.gob.mx/australia/images/pdf/solicitudvisaingles.pdf), have a passport with at least 6 months validity and provide a passport size photograph. You will also need to pay for your visa fee (approx. AUD 75 / EUR 46 / USD 50 at the time of writing).
 
 Finally, in order to be eligible for a Temporary Resident Visa for Mexico, you will need to provide proof of financial means. There are two ways to do this:
 
@@ -30,7 +30,7 @@ or;
 
 When I called the consulate in Canberra the lady at the other end of the line repeated several occasions that these figures were minimums by law, and the application is ultimately at their discretion. Demand for this visa has increased dramatically since the pandemic and the ensuing restrictions. Keep this in mind. In theory however, the requirements are universally applicable to citizens of any eligible country.
 
-In order to actually apply in person I made a booking through the online appointment system [_here_](https://citas.sre.gob.mx/). Often this was buggy or didn't work. When I called the consulate in March, they told me that it would be back online in June. I waited, and ultimately it worked. In the consulate in the UAE, a friend of mine was able book an appointment without the web portal as it was not yet rolled out at that time. Typically however you will need to book - sometimes months - in advance.
+In order to actually apply in person I made a booking through the online appointment system [here](https://citas.sre.gob.mx/). Often this was buggy or didn't work. When I called the consulate in March, they told me that it would be back online in June. I waited, and ultimately it worked. In the consulate in the UAE, a friend of mine was able book an appointment without the web portal as it was not yet rolled out at that time. Typically however you will need to book - sometimes months - in advance.
 
 On the day of the appointment I arrived early, with hundreds of sheets of paper documenting both my income and my financial assets. In some cases these were stamped by the issuing financial institution, however, in the case that the institution only has online accounts, the consulate may ask to view the balance in your account during the appointment (to confirm the amount in the statement you provide).
 
@@ -50,7 +50,7 @@ From the date of entry (which will ultimately be the start date of your Temporar
 
 Honestly, I would highly recommend that you employ an agent to complete this process at this stage. Each INM office seems to operate, to some extent at least, under its own rules, both official and unofficial. For example, at some offices, people line up the night before to hopefully ensure they can formalise the process in the INM offices the next day. In other cases, you first need to visit your local INM office and book an appointment. This appointment to actually formalise your Temporary Residency can be up to 30 days later. During this period before the process is formalised, you need to remain in Mexico.
 
-On the day of appointment, you will need to provide [_paperwork_](https://www.gob.mx/tramites/ficha/expedicion-de-documento-migratorio-por-canje/INM811) for the _canje_ (change) as well as pay the relevant government fees for the duration of your permit (1 year initially). I paid approximately MXN 5,000 (approx. USD 280 / EUR 250 / AUD 410). You will also need to provide a ultity bill from your place of residence, although your name does not need to be on this bill.
+On the day of appointment, you will need to provide [paperwork](https://www.gob.mx/tramites/ficha/expedicion-de-documento-migratorio-por-canje/INM811) for the _canje_ (change) as well as pay the relevant government fees for the duration of your permit (1 year initially). I paid approximately MXN 5,000 (approx. USD 280 / EUR 250 / AUD 410). You will also need to provide a ultity bill from your place of residence, although your name does not need to be on this bill.
 
 The immigration officer dealing with your case will take your biometric information as well as a photo, and - all going well - you will be provided with your Temporary Residence Card that very same day. Don't count on it going so smoothly though. In fact, in my case, the INM office took an extra week to complete this process for reasons I won't go into here in depth - long story short, my visa had actually expired by the time my appointment took place.
 
