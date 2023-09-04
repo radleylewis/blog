@@ -99,6 +99,10 @@ img {
 
 /* General Styles */
 
+p {
+  line-height: 1.5;
+}
+
 p a {
   all: unset;
   cursor: pointer;
@@ -142,7 +146,8 @@ body {
 
 .navbar__logo {
   filter: invert(var(--logo-invert));
-  width: 5rem;
+  width: 12.5rem;
+  margin-top: 0.5rem;
 }
 
 .navbar__right {
