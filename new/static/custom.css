@@ -73,3 +73,88 @@ h3::before {
   height: 1.25rem;
   filter: brightness(var(--brightness-level));
 }
+
+.portfolio {
+  background-color: transparent;
+  display: flex;
+  min-height: calc(100vh - 200px);
+}
+
+.portfolio__menu {
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  width: 33.3%;
+}
+
+.portfolio__menu h3 {
+  margin-top: 0;
+}
+
+.portfolio__info {
+  width: 66.6%;
+}
+
+#project-rt_reporting,
+#project-saga_47_swan,
+#project-my_ego {
+  display: none;
+  height: 100%;
+  border-radius: 0.25rem;
+  margin: 0 0.5rem 0.5rem 0.5rem;
+}
+
+#project-rt_reporting {
+  display: block;
+}
+
+.portfolio label {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  line-height: 3rem;
+  width: calc(100% - 2px - 1rem);
+  cursor: pointer;
+  color: var(--text);
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--button-bg);
+}
+
+.portfolio input {
+  display: none;
+}
+
+.portfolio label:hover,
+.portfolio input[type="radio"]:checked + label {
+  background: var(--button-bg);
+  color: var(--text);
+}
+
+.image-container {
+  display: flex;
+  width: 12.5rem;
+  height: 12.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background: white;
+  align-items: center;
+  margin-right: auto;
+  border-radius: 0.25rem;
+  border: 1px solid var(--button-bg);
+}
+
+@media (max-width: 55rem) {
+  .image-container {
+    max-width: calc(100vw - 33.3% - 1rem);
+    max-height: 8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .portfolio__menu {
+    font-size: 14px;
+  }
+}
