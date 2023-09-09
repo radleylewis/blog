@@ -15,6 +15,14 @@ img {
   max-width: 100%;
 }
 
+#image-brightness {
+  filter: brightness(var(--brightness-level));
+}
+
+#image-brightness-and-blur {
+  filter: brightness(var(--brightness-level)) blur(4px);
+}
+
 /* Toggle Theme Styles */
 
 :root {
@@ -100,10 +108,6 @@ img {
 #theme:checked::before {
   background: var(--button-interior);
   left: 32px;
-}
-
-#image-brightness {
-  filter: brightness(var(--brightness-level));
 }
 
 /* General Styles */
@@ -199,6 +203,11 @@ body {
   flex-direction: column;
 }
 
+.content {
+  margin-top: 150px;
+  z-index: 0;
+}
+
 .content::before {
   content: "";
   position: fixed;
@@ -212,11 +221,6 @@ body {
   -ms-filter: blur(4px);
   -moz-filter: blur(4px);
   -webkit-filter: blur(4px);
-}
-
-.content {
-  margin-top: 150px;
-  z-index: 0;
 }
 
 .footer {
@@ -325,70 +329,8 @@ body {
 
 /* Writing Page */
 
-.writing {
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  margin-top: 150px;
-}
-
 .writing__post {
-  background-color: filter(brightness(1.1));
-  border-bottom: 1px solid #aeaeae;
-  border-top: 1px solid transparent;
-
-  & a {
-    text-decoration: none;
-    color: var(--text);
-    margin: 0.5rem 0;
-    height: 60px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-}
-
-.writing__post-headline {
-  display: flex;
-  justify-content: space-between;
-
-  & h2 {
-    max-width: calc(100% - 150px);
-    margin: 0;
-    padding: 0;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    color: var(--text);
-  }
-}
-.writing__post-tags {
-  display: flex;
-  justify-content: space-between;
-}
-
-#tag::before {
-  content: "#";
-  color: var(--button-bg);
-}
-
-#tag {
-  padding: 0.25rem 0.5rem;
-  border: 1px solid var(--text);
-  color: var(--text);
-  margin: 0.25rem;
-  border-radius: 5px;
-}
-
-.writing__post:hover {
-  border-bottom: 1px solid var(--button-bg);
-  border-top: 1px solid transparent;
-  & h2 {
-    color: var(--button-bg);
-  }
-}
-
-.writing__post:hover + writing__post {
-  border-top: 1px solid var(--button-bg);
+  width: 100%;
+  height: 80px;
+  background-color: red;
 }

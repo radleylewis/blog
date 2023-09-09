@@ -4,7 +4,7 @@
 
 ###### 1,483 words / 4 minute read
 
-# Mexican Insurance Policy
+# Mexico Insurance Policy
 
 <img alt="Residente Temporal" src="/static/mexico_001.jpg" style="background: transparent;" />
 
