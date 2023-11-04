@@ -199,26 +199,19 @@ body {
   flex-direction: column;
 }
 
+/* blur content as it scrolls under navbar */
 .content::before {
   content: "";
   position: fixed;
   top: 0;
   left: 0;
-  padding-top: -20px;
   width: 100%;
   height: 100px; 
   backdrop-filter: blur(4px);
-  filter: blur(4px);
-  -o-filter: blur(4px);
-  -ms-filter: blur(4px);
-  -moz-filter: blur(4px);
-  -webkit-filter: blur(4px);
-  transform: scale(1.22);
-  overflow: hidden;
 }
 
 .content {
-  margin-top: 150px;
+  padding-top: 150px;
   z-index: 0;
 }
 
