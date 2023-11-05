@@ -6,4 +6,4 @@
 
 # Video Ideas
 
--   [ ] Comprehensive Introduction into TypeScript
+-   [x] Comprehensive Introduction into TypeScript
