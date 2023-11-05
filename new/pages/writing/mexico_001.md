@@ -6,7 +6,7 @@
 
 # Mexico Insurance Policy
 
-<img alt="Residente Temporal" src="/static/mexico_001.jpg" style="background: transparent;" />
+<img alt="Residente Temporal" src="/static/mexico_001.png" style="background: transparent;" />
 
 _My "Residente Temporal" Card_
 

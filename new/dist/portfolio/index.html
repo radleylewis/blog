@@ -12,14 +12,13 @@
     <meta http-equiv="expires" content="0" />
     <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
     <meta http-equiv="pragma" content="no-cache" />
-    <link rel="stylesheet" href="/static/styles.css?v=1693633333" />
-    <link rel="stylesheet" href="/static/custom.css?v=1693633333" />
+    <link rel="stylesheet" href="/static/styles.css?v=1693633342" />
     <link
       rel="shortcut icon"
       type="image/x-icon"
       href="/static/logo.png?v=1693633378"
     />
-    <title>www.radleylewis.com</title>
+    <title>radleylewis.com</title>
     <meta name="description" content="Blog" />
     <meta name="author" content="Radley E. Sidwell-Lewis" />
     <meta name="keywords" content="technology, politics" />
@@ -47,6 +46,14 @@
       <h3>Professional</h3>
       <input
         type="radio"
+        id="dcconnect"
+        name="menu"
+        value="dcconnect"
+        onclick="show('dcconnect')"
+      />
+      <label for="dcconnect">DCConnect</label>
+      <input
+        type="radio"
         id="rt_reporting"
         name="menu"
         value="rt_reporting"
@@ -68,14 +75,6 @@
       <h3>Projects</h3>
       <input
         type="radio"
-        id="rssg"
-        name="menu"
-        value="rssg"
-        onclick="show('rssg')"
-      />
-      <label for="rssg">rssg</label>
-      <input
-        type="radio"
         id="saga_47_swan"
         name="menu"
         value="saga_47_swan"
@@ -85,10 +84,27 @@
     </div>
   </section>
   <section class="portfolio__info">
+    <div id="project-dcconnect">
+      <div class="portfolio__link">
+        <a target="_blank" href="https://www.dcconnectglobal.com/"
+          >dcconnectglobal.com</a
+        >
+      </div>
+      <div class="image-container">
+        <img src="/static/dcconnect.png" />
+      </div>
+      <p>
+        I am currently engaged full-time with DCConnect Global as a Software
+        Engineer. Specifically, I am working on a bleeding edge blockchain
+        solution in the telecommunications sector.
+      </p>
+    </div>
     <div id="project-rt_reporting">
-      <a target="_blank" href="https://www.rtreporting.com"
-        >www.rtreporting.com</a
-      >
+      <div class="portfolio__link">
+        <a target="_blank" href="https://www.rtreporting.com"
+          >rtreporting.com</a
+        >
+      </div>
       <div class="image-container">
         <img src="/static/rt_reporting.png" />
       </div>
@@ -110,9 +126,14 @@
       </p>
     </div>
     <div id="project-saga_47_swan">
-      <a target="_blank" href="https://www.saga47swan.com/"
-        >www.saga47swan.com</a
-      >
+      <div class="portfolio__link">
+        <a
+          target="_blank"
+          href="https://www.saga47swan.com/"
+          class="portfolio__link"
+          >www.saga47swan.com</a
+        >
+      </div>
       <div class="image-container"><img src="/static/saga_47_swan.png" /></div>
       <p>
         Since March 2018 I have been a maintainer of Saga47Swan's homepage. Saga
@@ -125,7 +146,11 @@
       </p>
     </div>
     <div id="project-my_ego">
-      <a target="_blank" href="https://www.myego.io">myego.io</a>
+      <div class="portfolio__link">
+        <a target="_blank" href="https://www.myego.io" class="portfolio__link"
+          >myego.io</a
+        >
+      </div>
       <div class="image-container">
         <img src="/static/my_ego.png" />
       </div>
