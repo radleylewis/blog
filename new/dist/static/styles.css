@@ -471,6 +471,8 @@ body {
   border-radius: 0.25rem;
   margin-bottom: 1rem;
   border: 1px solid var(--button-bg);
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .portfolio input {
@@ -498,8 +500,8 @@ body {
 @media (max-width: 65rem) {
   .image-container {
     max-width: calc(100vw - 33.3% - 1rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
     height: 15rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
   }
 }
