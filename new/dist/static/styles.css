@@ -195,7 +195,7 @@ body {
 
 .portfolio__link a:hover,
 .navbar__link a:hover {
-  color: var(--text-visited);
+  color: var(--text-bg);
 }
 
 .portfolio__link a:active,
