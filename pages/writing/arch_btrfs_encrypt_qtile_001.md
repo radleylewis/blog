@@ -38,7 +38,7 @@
 20. set your root password: `passwd`
 21. create a user `useradd -m -g users -G wheel rad` then `passwd rad`
 22. add your user to the sudoers group: `echo "rad ALL=(ALL) ALL" >> /etc/sudoers.d/rad`
-23. install some packages `pacman -Syu base-devel linux linux-headers linux-firmware btrfs-progs intel-ucode (or amd-ucode)grub efibootmgr qtile mtools networkmanager lightdm lightdm-gtk-greeter xorg openssh sudo neovim git man-db man-pages texinfo bluez bluez-utils pipewire pipewire-alsa pipewire-pulse ttf-firacode-nerd alacritty firefox pipewire-jack iptables-nft ipset firewalld reflector`
+23. install some packages `pacman -Syu base-devel linux linux-headers linux-firmware btrfs-progs intel-ucode (or amd-ucode)grub efibootmgr qtile mtools networkmanager lightdm lightdm-gtk-greeter xorg openssh sudo neovim git man-db man-pages texinfo bluez bluez-utils pipewire pipewire-alsa pipewire-pulse ttf-firacode-nerd alacritty firefox pipewire-jack iptables-nft ipset firewalld reflector `
 24. edit the mkinitcpio file for encrypt: `nvim /etc/mkinitcpio.conf` and search for HOOKS, add encrypt (before filesystems hook)
 25. recreate the `mkinitcpio -p linux`
 26. setup grub for the bootloader so that the system can boot linux:
@@ -65,3 +65,4 @@
 
 TODO:  keyboard layout
 NOTE: you can remove the swapfile setup and explore zram.
+NOTE: install sof-firmware for the x1 carbon audio to work, install pavucontrol for alsamixer volume control. 
