@@ -38,7 +38,7 @@
 20. set your root password: `passwd`
 21. create a user `useradd -m -g users -G wheel rad` then `passwd rad`
 22. add your user to the sudoers group: `echo "rad ALL=(ALL) ALL" >> /etc/sudoers.d/rad`
-23. install some packages `pacman -Syu base-devel linux linux-headers linux-firmware btrfs-progs intel-ucode (or amd-ucode)grub efibootmgr qtile mtools networkmanager lightdm lightdm-gtk-greeter xorg-server openssh sudo neovim git man-db man-pages texinfo bluez bluez-utils pipewire pipewire-alsa pipewire-pulse ttf-firacode-nerd alacritty firefox`
+23. install some packages `pacman -Syu base-devel linux linux-headers linux-firmware btrfs-progs intel-ucode (or amd-ucode)grub efibootmgr qtile mtools networkmanager lightdm lightdm-gtk-greeter xorg openssh sudo neovim git man-db man-pages texinfo bluez bluez-utils pipewire pipewire-alsa pipewire-pulse ttf-firacode-nerd alacritty firefox pipewire-jack iptables-nft ipset firewalld reflector`
 24. edit the mkinitcpio file for encrypt: `nvim /etc/mkinitcpio.conf` and search for HOOKS, add encrypt (before filesystems hook)
 25. recreate the `mkinitcpio -p linux`
 26. setup grub for the bootloader so that the system can boot linux:
@@ -54,8 +54,14 @@
 - bluetooth with `systemctl enable bluetooth`
 - ssh with `systemctl enable bluetooth`
 - lightdm login manager with `systemctl enable lightdm.service`
-30. set the timezone `ln -sf /usr/share/zoneinfo/Asia/Bangkok /etc/localtime`
+- firewall with `systemctl enable firewalld`
+- 
+30. set the timezone:
+- `ln -sf /usr/share/zoneinfo/Asia/Bangkok /etc/localtime`
+- timedatectl set-ntp true
+- hwclock --systohc
 31. change the hostname `echo "arch" >> /etc/x1`
+32. set mirrorlist `sudo reflector -c Switzerland -a 12 --sort rate --save /etc/pacman.d/mirrorlist`
 
-TODO: select mirrors, keyboard layout
+TODO:  keyboard layout
 NOTE: you can remove the swapfile setup and explore zram.
