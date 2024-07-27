@@ -6,10 +6,11 @@
 
 Good morning, good afternoon or good evening, whereever you are reading this from. These installation instructions form the foundation of the Arch system that I use on my own machine. While it's important to always consult the official Arch wiki install guide [here](https://wiki.archlinux.org/title/Installation_guide), sometimes you may find your preferences deviating from the the official guide, and so my intention here is to provide a walkthrough on setting up your own system with the following:
    - [btrfs](https://btrfs.readthedocs.io/en/latest/): A feature rich, copy-on-write filesystem for Linux.
-   - [encryption](https://gitlab.com/cryptsetup/cryptsetup/):  disk encryption based on the dm-crypt kernel module.
+   - [encryption](https://gitlab.com/cryptsetup/cryptsetup/): LUKS disk encryption based on the dm-crypt kernel module.
    - [zram](https://www.kernel.org/doc/html/v5.9/admin-guide/blockdev/zram.html): RAM compression for memory savings.
    - [timeshift](https://github.com/linuxmint/timeshift): A system restore tool for Linux.
    - [QTile](https://qtile.org/): A full-featured, hackable tiling window manager written and configured in Python.
+
 My intention is to keep this guide up-to-date, and any feedback is more than welcome. Let's get started.
 
 ## Step 1: Creating a bootable Arch media device
@@ -73,31 +74,38 @@ You are now working from within in your new arch system - i.e. not from the ISO 
 We are now working within our Arch system on our device, but it's important to note that we can't yet reboot our machine. Let's continue with a few steps that we need to repeat again (such as setting our root password, timezones, keymaps and language) given the previous settings were in the context of our ISO.
 
 1. set your local time and locale on your system: 
-   - `ln -sf /usr/share/zoneinfo/Asia/Bangkok /etc/localtime` (this is in your system, not on the iso)
-   - `hwclock --systohc`
-   - locale `nvim /etc/locale.gen` uncomment your locale, write and exit and then run `locale-gen`
-   - `echo "LANG=en_US.UTF-8" >> /etc/locale.conf` for locale
-   - `echo "KEYMAP=en..." >> /etc/vconsole.conf` for keyboard
-2. change the hostname `echo "arch" >> /etc/x1` (feel free to customise to your case)
+- `ln -sf /usr/share/zoneinfo/Asia/Bangkok /etc/localtime` (this is in your system, not on the iso)
+- `hwclock --systohc`
+- locale `nvim /etc/locale.gen` uncomment your locale, write and exit and then run `locale-gen`
+- `echo "LANG=en_US.UTF-8" >> /etc/locale.conf` for locale
+- `echo "KEYMAP=en..." >> /etc/vconsole.conf` for keyboard
+2. change the hostname `echo "x1" >> /etc/hostname` (feel free to customise to your case, the x1 in my case is for the Lenovo x1 Carbon I am installing Arch on).
 3. set your root password: `passwd`
 4. set up a new user (replace `rad` with your preferred username):
-   - create `useradd -m -g users -G wheel rad`; 
-   - give your user a password with `passwd rad` (you will be prompted to enter a password); and,
-   - add your user to the sudoers group: `echo "rad ALL=(ALL) ALL" >> /etc/sudoers.d/rad`
-5. set mirrorlist `sudo reflector -c Thailand -a 12 --sort rate --save /etc/pacman.d/mirrorlist` (once again you can substitute Thailand with the location relevant to you)
+- create `useradd -m -g users -G wheel rad`; 
+- give your user a password with `passwd rad` (you will be prompted to enter a password); and,
+- add your user to the sudoers group: `echo "rad ALL=(ALL) ALL" >> /etc/sudoers.d/rad`
+5. set mirrorlist `sudo reflector -c Thailand -a 12 --sort rate --save /etc/pacman.d/mirrorlist` (once again you can substitute Thailand with the location relevant to you)  
+
+Next, we will install all of the packages we need for our system. Refer to the bottom of this guide for a short summary on each package being installed. It's imperative to always know what you are doing, and what you are installing!
+
 > !NOTE: you could of course install all of the following packages together, but I have broken them up so they are easier to reason about.
+
 6. install the main packages that our system will use:
 ```bash
 pacman -Syu base-devel linux linux-headers linux-firmware btrfs-progs grub efibootmgr mtools networkmanager network-manager-applet openssh sudo vim git iptables-nft ipset firewalld reflector acpid grub-btrfs
 ```
+
 7. install the following based on the manufacturer of your CPU:
   - **intel:** `pacman -S intel-ucode`
   - **amd**: `pacman -S amd-code`
+
 8. install your window manager of choice:
 ```bash
 pacman -S qtile xorg lightdm lightdm-gtk-greeter
 ```
-> !NOTE: I am using QTile with X11. I am using X11 because at the time of writing I have experienced issues with using QTile as a Wayland compositor. I will revisit this from time to time and update this guide accordingly.
+> !NOTE: I am using QTile with X11, but you can just as easily install gnome, kde or whichever tiling window manager or graphical user environment that you would like at this stage. I am using X11 because at the time of writing I have experienced issues with using QTile as a Wayland compositor. I will revisit this from time to time and update this guide accordingly.
+
 9. install other useful packages:
 ```bash
 pacman -S man-db man-pages texinfo bluez bluez-utils pipewire alsa-utils pipewire pipewire-pulse pipewire-jack sof-firmware ttf-firacode-nerd alacritty firefox
@@ -127,11 +135,11 @@ pacman -S man-db man-pages texinfo bluez bluez-utils pipewire alsa-utils pipewir
 
 Now for the moment of truth. Make sure you have followed these steps above carefully, then reboot your system with the `reboot` command.
 
-# Step 4: Logging in to our new Arch system
+# Step 4: Tweaking our new Arch system
 
 When you boot up you will be presented with the grub bootloader menu, and then, once you have selected to boot into arch linux (or the timer has timed out and selected your default option) you will be prompted to enter your encryption password. Upon successful decryption, you will be presented with the lightdm greeter. Enter the password for the user you created earlier. 
 
-QTile out of the box is not appealing - to say the least -, we still have some work to do. 
+QTile out of the box is not appealing - to say the least -, we still have some work to do. Keep it up!
 
 33. install paru, then zramd, timeshift, timeshift-autosnapshot, install timeshift-grub, cpu-autofreq
 34. timeshift:
