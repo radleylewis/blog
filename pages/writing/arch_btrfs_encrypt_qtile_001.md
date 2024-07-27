@@ -148,3 +148,5 @@ QTile out of the box is not appealing - to say the least -, we still have some w
 - `sudo timeshift --create --comments "[26JUL2024] fresh install" --tags W` (weekly)
 - `sudo systemctl edit --full grub-btrfsd` and replace grub-btrfsd --syslog /.snapshots with grub-btrfsd --syslog -t [link](https://wiki.archlinux.org/title/Timeshift)
 - `grub-mkconfig -o /boot/grub/grub.cfg`
+
+TODO: enable zram, xdg-directories, partition codes
