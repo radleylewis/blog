@@ -15,53 +15,61 @@ My intention is to keep this guide up-to-date, and any feedback is more than wel
 
 ## Step 1: Creating a bootable Arch media device
 
+Here we will follow the Arch wiki:
+1. Acquire an installation image [here](https://archlinux.org/download/).
+2. Verify the signature on the downloaded Arch ISO image (1.2 of the installation guide).
+3. Write your ISO to a USB (check out [this]([guide](https://www.scaler.com/topics/burn-linux-iso-to-usb/) guide)
+4. Insert the USB into the device you intend to install Arch linux on and boot into the USB.
 
+## Step 2: Setting Up Our System with the Arch ISO
 
-1. Download the Arch ISO
-2. Write the Arch ISO to a media device (e.g. USB)
-3. Insert the USB into the target device and boot into Arch
-4. Create a passwd with `passwd`
-5. Ensure that `ssh` is running with `systemctl status sshd`
-6. set the local time:
-- `timedatectl list-timezones`
-- `timedatectl set-timezone Asia/Bangkok`
-- `timedatectl set-ntp true`
-
-8. Connect to the internet with `iwctl`
-9. . set keyboard layout: 
-- `localectl` shows us our current settings
-- `localectl list-keymaps | grep en` to get the keyboard layout.
-- load it with `loadkeys en_US....`
-8. Check your connection with `ping`
-9. Obtain your IP Address with `ip addr show`
-10. ssh into your machine from another machine (optional)
-  
-11. list your partitions with `lsblk`
-12. delete the existing partitions (WARNING: your data will be lost)
-13. create two partitions (no swap because we will use zram):
-- efi = 300mb
-- main = remainder (btrfs doesn't require sub-partitioning)
-13. format your efi and swap partitions:
+1. [optional] if you would like to ssh into your target machine you will need to:
+   - Create a password for the ISO root user with the `passwd` command; and,
+   - Ensure that `ssh` is running with `systemctl status sshd` (if it isn't start it with `systemctl start ssdhd`).
+2. Set the console keybooard layout (US by default):
+   - list available keymaps with `localectl list-keymaps`; and,
+   - load the keymap with `loadkeys <your keymap here>`.
+3. [optional] set the font size with `setfont ter-132b`.
+4. Verify the UEFI boot mode `cat /sys/firmware/efi/fw_platform_size`. This installation is written for a system with a 62-bit x64 UEFI. This isn't required, but if you are on a different boot mode, consult section 1.6 of the official guide.
+5. Connect to the internet:
+   - I use the `iwctl` utility for this purpose; 
+   - Confirm that your connection is active with `ping -c 2 archlinux.org`; and,
+6. [optional] Obtain your IP Address with `ip addr show`, and now you're ready to ssh into your target machine.
+7. Set the timezone:
+  - `timedatectl list-timezones`;
+  - `timedatectl set-timezone Asia/Bangkok` (replace Asia/Bangkok with your preferred timezone); and,
+  - `timedatectl set-ntp true`.
+8. Partition your disk:
+  - list your partitions with `lsblk`;
+  - delete the existing partitions on the target disk [WARNING: your data will be lost]
+  - create two partitions:
+    **efi** = 300mb
+    **main** = allocate all remaining space (or as otherwise fit for your specific case) noting that BTRFS doesn't require pre-defined partition sizes, but rather allocates dynamically through subvolumes which act in a similar fashion to partitions but don't require the physical division of the target disk. 
+    > !NOTE: The official Arch Linux installation guide suggests implementing a swap partition and you are welcome to take this route. You could also create a swap subvolume within BTRFS, however, snapshots will be disabled where a volume has an active swapfile. In my case, I have opted instead of `zram` which works by compressing data in RAM, thereby stretching your RAM further.
+13. format your efi partition:
 - efi: `mkfs.fat -F32 /dev/nvme0n1p1`
+- mount our efi partition with `mount /dev/nvme0np1 /mnt/boot`
 14. format your main partition:
 - setup encryption: `cryptsetup luksformat /dev/nvme0n1p3`
-- open your encrypted partition: `cryptsetup luksOpen /dev/nvme0n1p3 cryptroot`
-- format your partition: `mkfs.btrfs /dev/mapper/cryptroot`
-- mount your cryptroot partition for installation: `mount /dev/mapper/cryptroot /mnt`
+- open your encrypted partition: `cryptsetup luksOpen /dev/nvme0n1p3 main`
+- format your partition: `mkfs.btrfs /dev/mapper/main`
+- mount your main partition for installation: `mount /dev/mapper/main /mnt`
 - now we need into the `/mnt` directory with `cd /mnt`
 - create our subvolumes:
-> root: `btrfs subvolume create @`
-> home: `btrfs subvolume create @home`
+  **root**: `btrfs subvolume create @`
+  **home**: `btrfs subvolume create @home`
 - go back to the original (root) directory with `cd`
 - unmount our mnt partition: `umount /mnt`
 - create our boot and home mounting points `mkdir /mnt/{boot,home}`
-- mount our subvolumes: `mount -o noatime,ssd,compress=zstd,space_cache=v2,discard=async,subvol=@ /dev/mapper/cryptroot /mnt`
-- mount our subvolumes: `mount -o noatime,compress=zstd,space_cache=v2,discard=async,subvol=@home /dev/mapper/cryptroot /mnt/home`
-15. mount our efi partition with `mount /dev/nvme0np1 /mnt/boot`
-16. install packages: `pacstrap /mnt base`
-17. generate the file system table: `genfstab -U -p /mnt >> /mnt/etc/fstab` (you can check this with `cat /mnt/etc/fstab`
+- mount our subvolumes: `mount -o noatime,ssd,compress=zstd,space_cache=v2,discard=async,subvol=@ /dev/mapper/main /mnt`
+- mount our subvolumes: `mount -o noatime,compress=zstd,space_cache=v2,discard=async,subvol=@home /dev/mapper/main /mnt/home`
+16. install base packages: `pacstrap /mnt base`
+17. generate the file system table: `genfstab -U -p /mnt >> /mnt/etc/fstab` (you can check this with `cat /mnt/etc/fstab`)
 18. change root into the new system: `arch-chroot /mnt`
-19. Now you are in your system (see `#` on prompt)
+19. Now you are in your system (you will now see that your prompt is populated with a `#` symbol)
+
+
+
 20. set your local time and locale on your system: 
 - `ln -sf /usr/share/zoneinfo/Asia/Bangkok /etc/localtime` (this is in your system, not on the iso)
 - `hwclock --systohc`
