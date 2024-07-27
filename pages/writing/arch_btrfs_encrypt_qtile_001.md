@@ -4,9 +4,9 @@
 
 # Arch Install [btrfs + encryption + zram + qtile]
 
-Good morning, good afternoon or good evening, whereever you are reading this from. These installation instructions form the foundation of the Arch system that I use on my own machine. While it's important to always consult the official Arch wiki install guide [here](https://wiki.archlinux.org/title/Installation_guide), but sometimes you may find your preferences deviating from the the official guide, and so my intention here is to provide a walkthrough on setting up your own system with the following:
+Good morning, good afternoon or good evening, whereever you are reading this from. These installation instructions form the foundation of the Arch system that I use on my own machine. While it's important to always consult the official Arch wiki install guide [here](https://wiki.archlinux.org/title/Installation_guide), sometimes you may find your preferences deviating from the the official guide, and so my intention here is to provide a walkthrough on setting up your own system with the following:
    - [btrfs](https://btrfs.readthedocs.io/en/latest/): A feature rich, copy-on-write filesystem for Linux.
-   - [LUKS](https://gitlab.com/cryptsetup/cryptsetup/):  disk encryption based on the dm-crypt kernel module.
+   - [encryption](https://gitlab.com/cryptsetup/cryptsetup/):  disk encryption based on the dm-crypt kernel module.
    - [zram](https://www.kernel.org/doc/html/v5.9/admin-guide/blockdev/zram.html): RAM compression for memory savings.
    - [timeshift](https://github.com/linuxmint/timeshift): A system restore tool for Linux.
    - [QTile](https://qtile.org/): A full-featured, hackable tiling window manager written and configured in Python.
@@ -23,25 +23,25 @@ Here we will follow the Arch wiki:
 ## Step 2: Setting Up Our System with the Arch ISO
 
 1. [optional] if you would like to ssh into your target machine you will need to:
-   - Create a password for the ISO root user with the `passwd` command; and,
-   - Ensure that `ssh` is running with `systemctl status sshd` (if it isn't start it with `systemctl start ssdhd`).
+- Create a password for the ISO root user with the `passwd` command; and,
+- Ensure that `ssh` is running with `systemctl status sshd` (if it isn't start it with `systemctl start ssdhd`).
 2. Set the console keybooard layout (US by default):
-   - list available keymaps with `localectl list-keymaps`; and,
-   - load the keymap with `loadkeys <your keymap here>`.
+- list available keymaps with `localectl list-keymaps`; and,
+- load the keymap with `loadkeys <your keymap here>`.
 3. [optional] set the font size with `setfont ter-132b`.
 4. Verify the UEFI boot mode `cat /sys/firmware/efi/fw_platform_size`. This installation is written for a system with a 62-bit x64 UEFI. This isn't required, but if you are on a different boot mode, consult section 1.6 of the official guide.
 5. Connect to the internet:
-   - I use the `iwctl` utility for this purpose; 
-   - Confirm that your connection is active with `ping -c 2 archlinux.org`; and,
+- I use the `iwctl` utility for this purpose; 
+- Confirm that your connection is active with `ping -c 2 archlinux.org`; and,
 6. [optional] Obtain your IP Address with `ip addr show`, and now you're ready to ssh into your target machine.
 7. Set the timezone:
-  - `timedatectl list-timezones`;
-  - `timedatectl set-timezone Asia/Bangkok` (replace Asia/Bangkok with your preferred timezone); and,
-  - `timedatectl set-ntp true`.
+- `timedatectl list-timezones`;
+- `timedatectl set-timezone Asia/Bangkok` (replace Asia/Bangkok with your preferred timezone); and,
+- `timedatectl set-ntp true`.
 8. Partition your disk:
-  - list your partitions with `lsblk`;
-  - delete the existing partitions on the target disk [WARNING: your data will be lost]
-  - create two partitions:
+- list your partitions with `lsblk`;
+- delete the existing partitions on the target disk [WARNING: your data will be lost]
+- create two partitions:
 > !NOTE: The official Arch Linux installation guide suggests implementing a swap partition and you are welcome to take this route. You could also create a swap subvolume within BTRFS, however, snapshots will be disabled where a volume has an active swapfile. In my case, I have opted instead of `zram` which works by compressing data in RAM, thereby stretching your RAM further.    
     - **efi** = 300mb    
     - **main** = allocate all remaining space (or as otherwise fit for your specific case) noting that BTRFS doesn't require pre-defined partition sizes, but rather allocates dynamically through subvolumes which act in a similar fashion to partitions but don't require the physical division of the target disk.   
@@ -87,42 +87,43 @@ We are now working within our Arch system on our device, but it's important to n
 5. set mirrorlist `sudo reflector -c Thailand -a 12 --sort rate --save /etc/pacman.d/mirrorlist` (once again you can substitute Thailand with the location relevant to you)
 > !NOTE: you could of course install all of the following packages together, but I have broken them up so they are easier to reason about.
 6. install the main packages that our system will use:
+```bash
+pacman -Syu base-devel linux linux-headers linux-firmware btrfs-progs grub efibootmgr mtools networkmanager network-manager-applet openssh sudo vim git iptables-nft ipset firewalld reflector acpid grub-btrfs
 ```
-pacman -Syu base-devel linux linux-headers linux-firmware btrfs-progs grub efibootmgr mtools networkmanager network-manager-applet openssh sudo vim git iptables-nft ipset firewalld reflector acpid grub-btrfs`
 7. install the following based on the manufacturer of your CPU:
   - **intel:** `pacman -S intel-ucode`
   - **amd**: `pacman -S amd-code`
-8. install your window manager of choice.
-> !NOTE: I am using QTile with X11. I am using X11 because at the time of writing I have experienced issues with using QTile as a Wayland compositor. I will revisit this from time to time and update this guide accordingly.
+8. install your window manager of choice:
 ```bash
 pacman -S qtile xorg lightdm lightdm-gtk-greeter
 ```
+> !NOTE: I am using QTile with X11. I am using X11 because at the time of writing I have experienced issues with using QTile as a Wayland compositor. I will revisit this from time to time and update this guide accordingly.
 9. install other useful packages:
 ```bash
 pacman -S man-db man-pages texinfo bluez bluez-utils pipewire alsa-utils pipewire pipewire-pulse pipewire-jack sof-firmware ttf-firacode-nerd alacritty firefox
 ```
 10. edit the mkinitcpio file for encrypt:
-   - `vim /etc/mkinitcpio.conf` and search for HOOKS;
-   - add encrypt (before filesystems hook);
-   - add `btrfs` to the MODULES; and,
-   - recreate the `mkinitcpio -p linux`
+- `vim /etc/mkinitcpio.conf` and search for HOOKS;
+- add encrypt (before filesystems hook);
+- add `btrfs` to the MODULES; and,
+- recreate the `mkinitcpio -p linux`
 11. setup grub for the bootloader so that the system can boot linux:
-   - `grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB`
-   - `grub-mkconfig -o /boot/grub/grub.cfg`
-   - run blkid and obtain the UUID for the main partitin: `blkid`
-   - edit the grub config `nvim /etc/default/grub`
-   - `GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet cryptdevice=UUID=d33844ad-af1b-45c7-9a5c-cf21138744b4:main root=/dev/mapper/main`
-   - make the grub config with `grub-mkconfig -o /boot/grub/grub.cfg`
+- `grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB`
+- `grub-mkconfig -o /boot/grub/grub.cfg`
+- run blkid and obtain the UUID for the main partitin: `blkid`
+- edit the grub config `nvim /etc/default/grub`
+- `GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet cryptdevice=UUID=d33844ad-af1b-45c7-9a5c-cf21138744b4:main root=/dev/mapper/main`
+- make the grub config with `grub-mkconfig -o /boot/grub/grub.cfg`
 12. enable services:
-   - network manager with `systemctl enable NetworkManager`
-   - bluetooth with `systemctl enable bluetooth`
-   - ssh with `systemctl enable sshd`
-   - lightdm login manager with `systemctl enable lightdm.service`
-   - firewall with `systemctl enable firewalld`
-   - reflector `systemctl enable reflector.timer`
-   - systemctl enable fstrim.timer (ssd trimming)
-   - systemctl enable acpid
-   - systemctl enable btrfsd
+- network manager with `systemctl enable NetworkManager`
+- bluetooth with `systemctl enable bluetooth`
+- ssh with `systemctl enable sshd`
+- lightdm login manager with `systemctl enable lightdm.service`
+- firewall with `systemctl enable firewalld`
+- reflector `systemctl enable reflector.timer`
+- `systemctl enable fstrim.timer`
+- `systemctl enable acpid`
+- `systemctl enable btrfsd`
 
 Now for the moment of truth. Make sure you have followed these steps above carefully, then reboot your system with the `reboot` command.
 
@@ -130,7 +131,7 @@ Now for the moment of truth. Make sure you have followed these steps above caref
 
 When you boot up you will be presented with the grub bootloader menu, and then, once you have selected to boot into arch linux (or the timer has timed out and selected your default option) you will be prompted to enter your encryption password. Upon successful decryption, you will be presented with the lightdm greeter. Enter the password for the user you created earlier. 
 
-QTile out of the box is not appealing, we still have some work to do. 
+QTile out of the box is not appealing - to say the least -, we still have some work to do. 
 
 33. install paru, then zramd, timeshift, timeshift-autosnapshot, install timeshift-grub, cpu-autofreq
 34. timeshift:
