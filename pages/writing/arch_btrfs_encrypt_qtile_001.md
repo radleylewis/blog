@@ -5,12 +5,11 @@
 # Arch Install [btrfs + encryption + zram + qtile]
 
 Good morning, good afternoon or good evening, whereever you are reading this from. These installation instructions form the foundation of the Arch system that I use on my own machine. While it's important to always consult the official Arch wiki install guide [here](https://wiki.archlinux.org/title/Installation_guide), but sometimes you may find your preferences deviating from the the official guide, and so my intention here is to provide a walkthrough on setting up your own system with the following:
-- [btrfs](https://btrfs.readthedocs.io/en/latest/): A feature rich, copy-on-write filesystem for Linux.
-- [LUKS](https://gitlab.com/cryptsetup/cryptsetup/):  disk encryption based on the dm-crypt kernel module.
-- [zram](https://www.kernel.org/doc/html/v5.9/admin-guide/blockdev/zram.html): RAM compression for memory savings.
-- [timeshift](https://github.com/linuxmint/timeshift): A system restore tool for Linux.
-- [QTile](https://qtile.org/): A full-featured, hackable tiling window manager written and configured in Python.
-
+   - [btrfs](https://btrfs.readthedocs.io/en/latest/): A feature rich, copy-on-write filesystem for Linux.
+   - [LUKS](https://gitlab.com/cryptsetup/cryptsetup/):  disk encryption based on the dm-crypt kernel module.
+   - [zram](https://www.kernel.org/doc/html/v5.9/admin-guide/blockdev/zram.html): RAM compression for memory savings.
+   - [timeshift](https://github.com/linuxmint/timeshift): A system restore tool for Linux.
+   - [QTile](https://qtile.org/): A full-featured, hackable tiling window manager written and configured in Python.
 My intention is to keep this guide up-to-date, and any feedback is more than welcome. Let's get started.
 
 ## Step 1: Creating a bootable Arch media device
@@ -43,13 +42,13 @@ Here we will follow the Arch wiki:
   - list your partitions with `lsblk`;
   - delete the existing partitions on the target disk [WARNING: your data will be lost]
   - create two partitions:
-    **efi** = 300mb
-    **main** = allocate all remaining space (or as otherwise fit for your specific case) noting that BTRFS doesn't require pre-defined partition sizes, but rather allocates dynamically through subvolumes which act in a similar fashion to partitions but don't require the physical division of the target disk. 
-    > !NOTE: The official Arch Linux installation guide suggests implementing a swap partition and you are welcome to take this route. You could also create a swap subvolume within BTRFS, however, snapshots will be disabled where a volume has an active swapfile. In my case, I have opted instead of `zram` which works by compressing data in RAM, thereby stretching your RAM further.
-13. format your efi partition:
+> !NOTE: The official Arch Linux installation guide suggests implementing a swap partition and you are welcome to take this route. You could also create a swap subvolume within BTRFS, however, snapshots will be disabled where a volume has an active swapfile. In my case, I have opted instead of `zram` which works by compressing data in RAM, thereby stretching your RAM further.    
+    - **efi** = 300mb    
+    - **main** = allocate all remaining space (or as otherwise fit for your specific case) noting that BTRFS doesn't require pre-defined partition sizes, but rather allocates dynamically through subvolumes which act in a similar fashion to partitions but don't require the physical division of the target disk.   
+9. format your efi partition:
 - efi: `mkfs.fat -F32 /dev/nvme0n1p1`
 - mount our efi partition with `mount /dev/nvme0np1 /mnt/boot`
-14. format your main partition:
+10. format your main partition:
 - setup encryption: `cryptsetup luksformat /dev/nvme0n1p3`
 - open your encrypted partition: `cryptsetup luksOpen /dev/nvme0n1p3 main`
 - format your partition: `mkfs.btrfs /dev/mapper/main`
@@ -63,46 +62,76 @@ Here we will follow the Arch wiki:
 - create our boot and home mounting points `mkdir /mnt/{boot,home}`
 - mount our subvolumes: `mount -o noatime,ssd,compress=zstd,space_cache=v2,discard=async,subvol=@ /dev/mapper/main /mnt`
 - mount our subvolumes: `mount -o noatime,compress=zstd,space_cache=v2,discard=async,subvol=@home /dev/mapper/main /mnt/home`
-16. install base packages: `pacstrap /mnt base`
-17. generate the file system table: `genfstab -U -p /mnt >> /mnt/etc/fstab` (you can check this with `cat /mnt/etc/fstab`)
-18. change root into the new system: `arch-chroot /mnt`
-19. Now you are in your system (you will now see that your prompt is populated with a `#` symbol)
+11. install base packages: `pacstrap /mnt base`
+12. generate the file system table: `genfstab -U -p /mnt >> /mnt/etc/fstab` (you can check this with `cat /mnt/etc/fstab`)
+13. change root into the new system: `arch-chroot /mnt`
 
+You are now working from within in your new arch system - i.e. not from the ISO - and you will now see that your prompt start with `#`. Great work so far!
 
+## Step 3: Working Within Our New System
 
-20. set your local time and locale on your system: 
-- `ln -sf /usr/share/zoneinfo/Asia/Bangkok /etc/localtime` (this is in your system, not on the iso)
-- `hwclock --systohc`
-- locale `nvim /etc/locale.gen` uncomment your locale, write and exit and then run `locale-gen`
-- `echo "LANG=en_US.UTF-8" >> /etc/locale.conf` for locale
-- `echo "KEYMAP=en..." >> /etc/vconsole.conf` for keyboard
-31. change the hostname `echo "arch" >> /etc/x1`
-20. set your root password: `passwd`
-21. create a user `useradd -m -g users -G wheel rad` then `passwd rad`
-22. add your user to the sudoers group: `echo "rad ALL=(ALL) ALL" >> /etc/sudoers.d/rad`
-32. set mirrorlist `sudo reflector -c Thailand -a 12 --sort rate --save /etc/pacman.d/mirrorlist`
-23. install some packages `pacman -Syu base-devel linux linux-headers linux-firmware btrfs-progs intel-ucode (or amd-ucode)grub efibootmgr qtile mtools networkmanager network-manager-applet lightdm lightdm-gtk-greeter xorg openssh sudo neovim git man-db man-pages texinfo bluez bluez-utils pipewire alsa-utils pipewire pipewire-pulse pipewire-jack sof-firmware ttf-firacode-nerd alacritty firefox iptables-nft ipset firewalld reflector acpid grub-btrfs`
-24. edit the mkinitcpio file for encrypt: `nvim /etc/mkinitcpio.conf` and search for HOOKS, add encrypt (before filesystems hook) and add `btrfs` to the modules. 
-25. recreate the `mkinitcpio -p linux`
-26. setup grub for the bootloader so that the system can boot linux:
-- `grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB`
-- `grub-mkconfig -o /boot/grub/grub.cfg`
-- run blkid and get the UUID for the main partitin: `blkid`
-- edit the grub config `nvim /etc/default/grub`
-- `GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet cryptdevice=UUID=d33844ad-af1b-45c7-9a5c-cf21138744b4:cryptroot root=/dev/mapper/cryptroot`
-- make the grub config with `grub-mkconfig -o /boot/grub/grub.cfg`
-28. enable services:
-- network manager with `systemctl enable NetworkManager`
-- bluetooth with `systemctl enable bluetooth`
-- ssh with `systemctl enable bluetooth`
-- lightdm login manager with `systemctl enable lightdm.service`
-- firewall with `systemctl enable firewalld`
-- reflector `systemctl enable reflector.timer`
-- systemctl enable fstrim.timer (ssd trimming)
-- systemctl enable acpid (what is this?)
-- systemctl enable btrfsd
+We are now working within our Arch system on our device, but it's important to note that we can't yet reboot our machine. Let's continue with a few steps that we need to repeat again (such as setting our root password, timezones, keymaps and language) given the previous settings were in the context of our ISO.
 
-32. set mirrorlist `sudo reflector -c Switzerland -a 12 --sort rate --save /etc/pacman.d/mirrorlist`
+1. set your local time and locale on your system: 
+   - `ln -sf /usr/share/zoneinfo/Asia/Bangkok /etc/localtime` (this is in your system, not on the iso)
+   - `hwclock --systohc`
+   - locale `nvim /etc/locale.gen` uncomment your locale, write and exit and then run `locale-gen`
+   - `echo "LANG=en_US.UTF-8" >> /etc/locale.conf` for locale
+   - `echo "KEYMAP=en..." >> /etc/vconsole.conf` for keyboard
+2. change the hostname `echo "arch" >> /etc/x1` (feel free to customise to your case)
+3. set your root password: `passwd`
+4. set up a new user (replace `rad` with your preferred username):
+   - create `useradd -m -g users -G wheel rad`; 
+   - give your user a password with `passwd rad` (you will be prompted to enter a password); and,
+   - add your user to the sudoers group: `echo "rad ALL=(ALL) ALL" >> /etc/sudoers.d/rad`
+5. set mirrorlist `sudo reflector -c Thailand -a 12 --sort rate --save /etc/pacman.d/mirrorlist` (once again you can substitute Thailand with the location relevant to you)
+> !NOTE: you could of course install all of the following packages together, but I have broken them up so they are easier to reason about.
+6. install the main packages that our system will use:
+```
+pacman -Syu base-devel linux linux-headers linux-firmware btrfs-progs grub efibootmgr mtools networkmanager network-manager-applet openssh sudo vim git iptables-nft ipset firewalld reflector acpid grub-btrfs`
+7. install the following based on the manufacturer of your CPU:
+  - **intel:** `pacman -S intel-ucode`
+  - **amd**: `pacman -S amd-code`
+8. install your window manager of choice.
+> !NOTE: I am using QTile with X11. I am using X11 because at the time of writing I have experienced issues with using QTile as a Wayland compositor. I will revisit this from time to time and update this guide accordingly.
+```bash
+pacman -S qtile xorg lightdm lightdm-gtk-greeter
+```
+9. install other useful packages:
+```bash
+pacman -S man-db man-pages texinfo bluez bluez-utils pipewire alsa-utils pipewire pipewire-pulse pipewire-jack sof-firmware ttf-firacode-nerd alacritty firefox
+```
+10. edit the mkinitcpio file for encrypt:
+   - `vim /etc/mkinitcpio.conf` and search for HOOKS;
+   - add encrypt (before filesystems hook);
+   - add `btrfs` to the MODULES; and,
+   - recreate the `mkinitcpio -p linux`
+11. setup grub for the bootloader so that the system can boot linux:
+   - `grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB`
+   - `grub-mkconfig -o /boot/grub/grub.cfg`
+   - run blkid and obtain the UUID for the main partitin: `blkid`
+   - edit the grub config `nvim /etc/default/grub`
+   - `GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet cryptdevice=UUID=d33844ad-af1b-45c7-9a5c-cf21138744b4:main root=/dev/mapper/main`
+   - make the grub config with `grub-mkconfig -o /boot/grub/grub.cfg`
+12. enable services:
+   - network manager with `systemctl enable NetworkManager`
+   - bluetooth with `systemctl enable bluetooth`
+   - ssh with `systemctl enable sshd`
+   - lightdm login manager with `systemctl enable lightdm.service`
+   - firewall with `systemctl enable firewalld`
+   - reflector `systemctl enable reflector.timer`
+   - systemctl enable fstrim.timer (ssd trimming)
+   - systemctl enable acpid
+   - systemctl enable btrfsd
+
+Now for the moment of truth. Make sure you have followed these steps above carefully, then reboot your system with the `reboot` command.
+
+# Step 4: Logging in to our new Arch system
+
+When you boot up you will be presented with the grub bootloader menu, and then, once you have selected to boot into arch linux (or the timer has timed out and selected your default option) you will be prompted to enter your encryption password. Upon successful decryption, you will be presented with the lightdm greeter. Enter the password for the user you created earlier. 
+
+QTile out of the box is not appealing, we still have some work to do. 
+
 33. install paru, then zramd, timeshift, timeshift-autosnapshot, install timeshift-grub, cpu-autofreq
 34. timeshift:
 - `sudo timeshift --list-devices`
