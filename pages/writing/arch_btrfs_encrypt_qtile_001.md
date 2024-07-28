@@ -45,11 +45,8 @@ Here we will follow the Arch wiki:
 - create two partitions:
 > !NOTE: The official Arch Linux installation guide suggests implementing a swap partition and you are welcome to take this route. You could also create a swap subvolume within BTRFS, however, snapshots will be disabled where a volume has an active swapfile. In my case, I have opted instead of `zram` which works by compressing data in RAM, thereby stretching your RAM further.    
     - **efi** = 300mb    
-    - **main** = allocate all remaining space (or as otherwise fit for your specific case) noting that BTRFS doesn't require pre-defined partition sizes, but rather allocates dynamically through subvolumes which act in a similar fashion to partitions but don't require the physical division of the target disk.   
-9. format your efi partition:
-- efi: `mkfs.fat -F32 /dev/nvme0n1p1`
-- mount our efi partition with `mount /dev/nvme0np1 /mnt/boot`
-10. format your main partition:
+    - **main** = allocate all remaining space (or as otherwise fit for your specific case) noting that BTRFS doesn't require pre-defined partition sizes, but rather allocates dynamically through subvolumes which act in a similar fashion to partitions but don't require the physical division of the target disk.
+9. format your main partition:
 - setup encryption: `cryptsetup luksformat /dev/nvme0n1p3`
 - open your encrypted partition: `cryptsetup luksOpen /dev/nvme0n1p3 main`
 - format your partition: `mkfs.btrfs /dev/mapper/main`
@@ -61,8 +58,11 @@ Here we will follow the Arch wiki:
 - go back to the original (root) directory with `cd`
 - unmount our mnt partition: `umount /mnt`
 - create our boot and home mounting points `mkdir /mnt/{boot,home}`
-- mount our subvolumes: `mount -o noatime,ssd,compress=zstd,space_cache=v2,discard=async,subvol=@ /dev/mapper/main /mnt`
-- mount our subvolumes: `mount -o noatime,compress=zstd,space_cache=v2,discard=async,subvol=@home /dev/mapper/main /mnt/home`
+- mount our subvolumes: `mount -o noatime,ssd,compress=zstd,space_cache=v2,discard=async,subvol=@ /dev/nvme0n1p2 /mnt`
+- mount our subvolumes: `mount -o noatime,ssd,compress=zstd,space_cache=v2,discard=async,subvol=@home /dev/nvme0n1p2 /mnt/home`
+10. format your efi partition:
+- efi: `mkfs.fat -F32 /dev/nvme0n1p1`
+- mount our efi partition with `mount /dev/nvme0np1 /mnt/boot`
 11. install base packages: `pacstrap /mnt base`
 12. generate the file system table: `genfstab -U -p /mnt >> /mnt/etc/fstab` (you can check this with `cat /mnt/etc/fstab`)
 13. change root into the new system: `arch-chroot /mnt`
