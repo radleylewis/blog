@@ -58,8 +58,8 @@ Here we will follow the Arch wiki:
 - go back to the original (root) directory with `cd`
 - unmount our mnt partition: `umount /mnt`
 - create our boot and home mounting points `mkdir /mnt/{boot,home}`
-- mount our subvolumes: `mount -o noatime,ssd,compress=zstd,space_cache=v2,discard=async,subvol=@ /dev/nvme0n1p2 /mnt`
-- mount our subvolumes: `mount -o noatime,ssd,compress=zstd,space_cache=v2,discard=async,subvol=@home /dev/nvme0n1p2 /mnt/home`
+- mount our subvolumes: `mount -o noatime,ssd,compress=zstd,space_cache=v2,discard=async,subvol=@ /dev/mapper/main /mnt`
+- mount our subvolumes: `mount -o noatime,ssd,compress=zstd,space_cache=v2,discard=async,subvol=@home /dev/mapper/main /mnt/home`
 10. format your efi partition:
 - efi: `mkfs.fat -F32 /dev/nvme0n1p1`
 - mount our efi partition with `mount /dev/nvme0np1 /mnt/boot`
