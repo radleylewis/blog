@@ -141,8 +141,22 @@ When you boot up you will be presented with the grub bootloader menu, and then, 
 
 QTile out of the box is not appealing - to say the least -, we still have some work to do. Keep it up!
 
-33. install paru, then zramd, timeshift, timeshift-autosnapshot, install timeshift-grub, cpu-autofreq
-34. timeshift:
+1. install paru
+2. install [zramd]:
+```bash
+paru -S zramd
+sudo systemctl enable --now zramd.service
+```
+> !NOTE: you can refer to `lsblk` to see `zram` active (with 8GB by default). To edit your `zram` configuration go to `sudo vim /etc/default/zramd`.
+3. install [auto-cpufreq](https://github.com/AdnanHodzic/auto-cpufreq):
+```bash
+paru -S auto-cpufreq
+sudo systemctl enable --now auto-cpufreq.service
+```
+> !NOTE: you may also like to check out `tlp`, although for my use case `auto-cpufreq` works well.
+ 
+, then zramd, timeshift, timeshift-autosnapshot, install timeshift-grub, cpu-autofreq
+36. timeshift:
 - `sudo timeshift --list-devices`
 - `sudo timeshift --snapshot-device /dev/nvme1n1p3`
 - `sudo timeshift --create --comments "[26JUL2024] fresh install" --tags W` (weekly)
