@@ -154,13 +154,15 @@ paru -S auto-cpufreq
 sudo systemctl enable --now auto-cpufreq.service
 ```
 > !NOTE: you may also like to check out `tlp`, although for my use case `auto-cpufreq` works well.
- 
-, then zramd, timeshift, timeshift-autosnapshot, install timeshift-grub, cpu-autofreq
-36. timeshift:
-- `sudo timeshift --list-devices`
-- `sudo timeshift --snapshot-device /dev/nvme1n1p3`
-- `sudo timeshift --create --comments "[26JUL2024] fresh install" --tags W` (weekly)
-- `sudo systemctl edit --full grub-btrfsd` and replace grub-btrfsd --syslog /.snapshots with grub-btrfsd --syslog -t [link](https://wiki.archlinux.org/title/Timeshift)
-- `grub-mkconfig -o /boot/grub/grub.cfg`
-
+4. install [timeshift]:
+```bash
+paru -S timeshift timeshift-autosnap
+sudo timeshift --list-devices
+sudo timeshift --create --comments "[27JUL2024] start of time" --tags D
+sudo systemctl edit --full grub-btrfsd
+# NOTE:
+# rm : ExecStart=/usr/bin/grub-btrfsd --syslog /.snapshots
+# add: ExecStart=/usr/bin/grub-btrfsd --syslog -t
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
 TODO: enable zram, xdg-directories, partition codes
