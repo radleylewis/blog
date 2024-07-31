@@ -18,7 +18,7 @@ My intention is to keep this guide up-to-date, and any feedback is more than wel
 Here we will follow the Arch wiki:
 1. Acquire an installation image [here](https://archlinux.org/download/).
 2. Verify the signature on the downloaded Arch ISO image (1.2 of the installation guide).
-3. Write your ISO to a USB (check out [this]([guide](https://www.scaler.com/topics/burn-linux-iso-to-usb/) guide)
+3. Write your ISO to a USB (check out [this](https://www.scaler.com/topics/burn-linux-iso-to-usb/) guide)
 4. Insert the USB into the device you intend to install Arch linux on and boot into the USB.
 
 ## Step 2: Setting Up Our System with the Arch ISO
@@ -135,14 +135,20 @@ pacman -S man-db man-pages texinfo bluez bluez-utils pipewire alsa-utils pipewir
 
 Now for the moment of truth. Make sure you have followed these steps above carefully, then reboot your system with the `reboot` command.
 
-# Step 4: Tweaking our new Arch system
+## Step 4: Tweaking our new Arch system
 
 When you boot up you will be presented with the grub bootloader menu, and then, once you have selected to boot into arch linux (or the timer has timed out and selected your default option) you will be prompted to enter your encryption password. Upon successful decryption, you will be presented with the lightdm greeter. Enter the password for the user you created earlier. 
 
 QTile out of the box is not appealing - to say the least -, we still have some work to do. Keep it up!
 
-1. install paru
-2. install [zramd]:
+1. install [paru](https://github.com/Morganamilo/paru):
+```bash
+sudo pacman -S --needed base-devel
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
+```
+3. install [zramd](https://github.com/maximumadmin/zramd):
 ```bash
 paru -S zramd
 sudo systemctl enable --now zramd.service
@@ -154,7 +160,7 @@ paru -S auto-cpufreq
 sudo systemctl enable --now auto-cpufreq.service
 ```
 > !NOTE: you may also like to check out `tlp`, although for my use case `auto-cpufreq` works well.
-4. install [timeshift]:
+4. install [timeshift](https://github.com/linuxmint/timeshift):
 ```bash
 paru -S timeshift timeshift-autosnap
 sudo timeshift --list-devices
@@ -165,4 +171,5 @@ sudo systemctl edit --full grub-btrfsd
 # add: ExecStart=/usr/bin/grub-btrfsd --syslog -t
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
-TODO: enable zram, xdg-directories, partition codes
+
+## Next: Ricing QTile
