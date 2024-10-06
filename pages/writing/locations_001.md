@@ -6,7 +6,7 @@
 
 # Geopolitical Diversification
 
-![Vietnamese Boat People](/static/locations_001.jpg)
+![Hong Kong Swimmers fleeing the Cultural Revolution in 1960s China](/static/locations_001.jpg)
 
 **Vote with your feet**
 
@@ -14,7 +14,7 @@
 
 When I was in highschool I did a school exchange to a town in what had previously been the former East German Democratic Republic (GDR). At the time, the iron curtain and the Berlin wall were still fresh in the memories of people all across Europe. My German host parents imparted their experiences on to me over late night beers in the depth of the northern european winter. Their grievances - as I have since come to understand - were typical of the communist experience. Travel was highly regulated. Families were separated for decades across geopolitical fault lines, in their case - East and West Germany. One could practically forget about leaving the country, and even travel within the Warsaw Pact countries and the USSR was difficult. People went missing, political opposition and dissenting opinions were suppressed. Shortages of basic goods from fruit to cars - where decade long waitlists persisted - were par for the course.
 
-The thing that stuck with me the most was the inability to leave the country - an irony not lost on me after Australia's response to the pandemic made it illegal to do exactly that. It is understandable that a country determine who enters its territory, but preventing its own citizens from leaving is tyrannical in every sense. People went to great lengths to leave the eastern bloc. From flying, to swimming, to sneaking through forests or hiding in the trunk of cars. A situation not dissimilar - albeit less dramatic - than the plight of the Vietnamese Boat People.
+The thing that stuck with me the most was the inability to leave the country - an irony not lost on me after Australia's response to the pandemic made it illegal to do exactly that. It is understandable that a country determine who enters its territory, but preventing its own citizens from leaving is tyrannical in every sense. People went to great lengths to leave the eastern bloc. From flying, to swimming, to sneaking through forests or hiding in the trunk of cars. A situation not dissimilar - albeit less dramatic - than the plight of the Vietnamese Boat People or the Hong Kong Swimmers.
 
 When visiting the Baltic coast in north-east Germany and dipping my toes in the freezing - in the literal sense - water, I remarked on the futility of attempting to swim to Sweden. To that my German host mother remarked in German, "One does not know what these people went through". Escape at any cost, which victims of the state could rationalise on account of their suffering so that even a high probability of death was no deterrent. To resist such a cruel society is honourable, to avoid it altogether is preferable.
 
