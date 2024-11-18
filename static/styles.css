@@ -424,7 +424,6 @@ body {
 .portfolio {
   background-color: transparent;
   display: flex;
-  min-height: calc(100vh - 200px);
 }
 
 .portfolio__menu {
