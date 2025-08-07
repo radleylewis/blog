@@ -159,7 +159,7 @@ body {
 .navbar__name a {
   text-decoration: none;
   color: var(--text);
-  width: 12.5rem;
+  width: 300px;
 }
 
 .navbar__right {
