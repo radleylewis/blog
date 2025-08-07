@@ -10,7 +10,7 @@
 
 _My "Residente Temporal" Card_
 
-Recently I wrote about my top 3 picks for geopolitical diversification. Mexico made this shortlist, and I will refer you to the original article [here](https://www.radleylewis.com/locations_001.html) on the details as to why, but briefly, Mexico exhibits only very light physical presence requirements and is presently one of the most accessible countries in the world within which to obtain Permanent Residency (and even citizenship).
+Recently I wrote about my top 3 picks for geopolitical diversification. Mexico made this shortlist, and I will refer you to the original article [here](https://www.radleylewis.com/writing/locations_001.html) on the details as to why, but briefly, Mexico exhibits only very light physical presence requirements and is presently one of the most accessible countries in the world within which to obtain Permanent Residency (and even citizenship).
 
 > > **Note:** This is not intended as legal advice, but rather as a helpful guide.
 

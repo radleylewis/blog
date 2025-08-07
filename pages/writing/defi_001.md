@@ -4,13 +4,13 @@
 
 ###### 1,239 words / 5 minute read
 
-![China vs USA](/static/defi_001.jpg)
+![China vs USA](/static/defi_001.png)
 
 # Decentralisation is the West's Best Hope
 
-### Follow the Money
+### Situation Report
 
-The western world is never going to be the same. The very foundation of our civilisation has broken, and in a state of increasing systems failure, all of us are retreating into psychological comfort zones, echo chambers and political short-sightedness. If we are to circumvent the catastrophe that awaits, we need to embrace old ways with new tools. The west's past success is the blueprint for a new decentralised world, we just need to follow the money.
+The western world is never going to be the same. The very foundation of our civilisation has broken, and in a state of increasing systems failure, all of us are retreating into psychological comfort zones, echo chambers and political short-sightedness. If we are to circumvent the catastrophe that awaits, we need to embrace old ways with new tools. The west's past success is the blueprint for a new decentralised world.
 
 ### Where we are today
 
