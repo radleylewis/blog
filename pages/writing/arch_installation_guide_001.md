@@ -2,9 +2,9 @@
 
 #### YouTube Tutorial
 
-See the video tutorial [here](https://youtu.be/fFxWuYui2LI).
-
 ###### 10 May 2025
+
+See the video tutorial [here](https://youtu.be/fFxWuYui2LI).
 
 # Arch Install [btrfs + encryption + zram + timeshift + cosmic + secure boot]
 
@@ -368,4 +368,3 @@ grub-mkconfig -o /boot/grub/grub.cfg
 11. Reboot the machine and disable Secure Boot in the BIOS
 
 That's all folks!
-

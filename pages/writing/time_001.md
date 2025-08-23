@@ -1,10 +1,8 @@
 📍Munich, Germany
 
-###### 12 December 2020
-
-###### 1043 words / 3 minute read
-
 # Time and tide wait for no man.
+
+###### 12 December 2020 | 1,043 words / 3 minute read
 
 ![Conrad Schumann](/static/time_001.jpg)
 

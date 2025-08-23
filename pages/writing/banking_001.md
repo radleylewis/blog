@@ -1,10 +1,8 @@
 📍Munich, Germany
 
-###### 07 December 2020
-
-###### 1,286 words / 4 minute read
-
 # Why I left banking for tech
+
+###### 07 December 2020 / 1,286 words / 4-minute read
 
 ![HSBC Shanghai](/static/banking_001.jpg)
 
@@ -14,7 +12,7 @@ It was late, sitting at my desk of the iconic HSBC Main Building at 1 Queen's Ro
 
 Ultimately, that itch in the back of my skull that grew more and more uncomfortable with each and every waking day was the feeling that everything here had already been done. Here is why I quit my Hong Kong finance job and changed the course of my life through technology.
 
-Weighed down by regulation, the perfect scapegoat for incompetent, indebted governments, western financial institutions have become stingy and bureaucratic. Constant talk of thinning the tail of low return customers has replaced the growth mindset that nurtured once relatively small accounts into high-value customers providing a justifiable return on equity (or these days return on risk-weighted assets). It's difficult to pinpoint where things went awry, but private conversations with historically embedded customers - all proud to do business with HSBC - almost inevitably lead to expressions of lament at a clear shift in priorities on the part of the bank away from the customer. Alas, HSBC wasn't alone in this, in fact, it's the cleanest shirt in the dirty laundry basket. Being headquartered in London with approximately 70% of revenue coming from Asia and one of the biggest balance sheets of any non-Chinese bank, HSBC exhibits a world-class risk department coupled with a unique loyalty to its customers. While American banks fled to the Fed during the financial crisis HSBC was far more well placed.
+Weighed down by regulation, the perfect scapegoat for incompetent, indebted governments, Western financial institutions have become stingy and bureaucratic. Constant talk of thinning the tail of low return customers has replaced the growth mindset that nurtured once relatively small accounts into high-value customers providing a justifiable return on equity (or these days return on risk-weighted assets). It's difficult to pinpoint where things went awry, but private conversations with historically embedded customers - all proud to do business with HSBC - almost inevitably lead to expressions of lament at a clear shift in priorities on the part of the bank away from the customer. Alas, HSBC wasn't alone in this, in fact, it's the cleanest shirt in the dirty laundry basket. Being headquartered in London with approximately 70% of revenue coming from Asia and one of the biggest balance sheets of any non-Chinese bank, HSBC exhibits a world-class risk department coupled with a unique loyalty to its customers. While American banks fled to the Fed during the financial crisis HSBC was far more well placed.
 
 No, the problem isn't HSBC, the problem is that **regulation has rendered western financial institutions incompetent in their core functions**. The allocation of capital to businesses increasingly lies with non-bank financial institutions less weighed down by excessive regulation and capital requirements. All of this has led to a feeling of protecting what one has, not growth nor partnerships with new businesses in pioneering industries.
 
@@ -28,7 +26,7 @@ No doubt, a similarly bleak future awaits technology as that which has befallen 
 
 If you love technology, read about it, learn new languages, build new products, then you will find work. Not just work, but a rewarding career where you can **build things and solve complex real-world problems**. Much as a pre-crisis financial sector attracted ambitious, creative professionals, so too are these people attracted to IT today. Each day I am confronted with unique technical questions that **only creativity and ingenuity can solve**. There is something instinctual about programming, something that delivers a strange and yet rewarding sense of satisfaction comparable to building a piece of wooden furniture.
 
-As an industry matures, it attracts more and more attention from the regulatory authorities. While companies may publicly complain, the larger, more well-capitalized of them privately rub their hands together with delight. With each and every bill passed through parliament, there is another brick placed onto the ever-growing wall (or as we say, barrier) to entry of that respective company's industry.
+As an industry matures, it attracts more and more attention from the regulatory authorities. While companies may publicly complain, the larger, more well-capitalised of them privately rub their hands together with delight. With each and every bill passed through parliament, there is another brick placed onto the ever-growing wall (or as we say, barrier) to entry of that respective company's industry.
 
 While the early 20th century was awash with smaller financial intermediaries, today a small number of massive players dominate the entire banking sector. You, I am afraid, will probably never own and run a bank - in fact, I only know one person personally who did indeed establish his own bank. The costs of customer due diligence run into the thousands (surely something technology could solve), leading to an ever-growing underbanked market, and yet this is but one cost among many.
 

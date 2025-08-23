@@ -1,10 +1,8 @@
 📍Melbourne, Australia
 
-###### 17 April 2021
-
-###### 971 words / 3 minute read
-
 # Lenovo T480: The Adventurer's (value) Laptop [Part 2]
+
+###### 17 April 2021 | 971 words | 3-minute read
 
 ![Lenovo T480](/static/adventure_laptop_002.jpg)
 

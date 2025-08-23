@@ -1,8 +1,8 @@
+📍 Melbourne, Australia
+
 # Introducing Lenovo's T480: The Adventurer's (value) Laptop [Part 1]
 
-###### 30 January 2021, 📍 Melbourne, Australia
-
-###### 1043 words / 3 minute read
+###### 30 January 2021 | 1,043 words | 3-minute read
 
 ![Lenovo T480](/static/adventure_laptop_001.png)
 
@@ -51,4 +51,3 @@ Or so I thought. Actually, and as might be expected, the laptop was cheap for a 
 ### Part 2: auf Vordermann bringen (whip it into shape)
 
 Stay tuned for [Part 2](/writing/adventure_laptop_002.html) where we deal with BIOS password issues, damaged screens, missing RAM/Hard Drives, WWAN cards and install Arch Linux to turn this Lemon of a laptop into a digital nomad's scimitar.
-

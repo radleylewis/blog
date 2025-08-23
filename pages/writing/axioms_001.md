@@ -1,10 +1,8 @@
 📍Chiang Mai, Thailand
 
-###### 12 July 2022
-
-###### 2011 words / 8 minute read
-
 # Flawed Axioms
+
+###### 12 July 2022 | 2,011 words | 8-minute read
 
 ### Axiom: an established rule or principle or a self-evident truth
 
@@ -29,7 +27,7 @@ Ultimately, while the US is still powerful, it is a declining power and has alre
 
 ### 2. The West is Free
 
-Boomers love to pontificate on China's inevitable decline. Maybe they are right, although their obsession that a system wherein the people are so "suppressed" is doomed to fail is indeed a thesis unlikely to stand up to historical scrutiny. There have, after all, been many highly oppressive empires that were also unimaginably successful. Further undermining the Boomers' self-comforting arguments is the precarious situation within the societies in which they themselves reside, denouncing far off lands to which they have never been as "authoritarian" while double-masked and adhering to the latest government covid-19 decree. Supporting Ukraine is understandably a core tenet to the boomer philosophy, irrespective of whether one has been to, or has any connection with the place whatsoever.
+Boomers love to pontificate on China's inevitable decline. Maybe they are right, although their obsession that a system wherein the people are so "suppressed" is doomed to fail is indeed a thesis unlikely to stand up to historical scrutiny. There have, after all, been many highly oppressive empires that were also unimaginably successful. Further undermining the Boomers' self-comforting arguments is the precarious situation within the societies in which they themselves reside, denouncing far off lands to which they have never been as "authoritarian" while double-masked and adhering to the latest government Covid-19 decree. Supporting Ukraine and "our greatest ally" is understandably a core tenet to the boomer philosophy, irrespective of whether one has been to, or has any connection with the places whatsoever.
 
 That so many consider foreign media as "propaganda" while not questioning the sincerity of the narrative pounded into our collective ears is a point of significant concern. Every empire worth its salt exhibits a halfway decent ability to manipulate the masses through education and mass media. Yet while many Western countries did, at some point or another, generally agree that voicing one's opinion was reasonable, such a consensus seems no longer to prevail. Societies change over time, eventually new rules are considered acceptable. To question the narrative now comes not only with the possibility of upsetting someone, but now of being an outcast within your own society. The very meaning of _democracy_ has morphed into a type of mob rule, which allows for the censorship of ideas to be achieved subtly and pre-determined decisions to be made under the guise of free will.
 
@@ -41,7 +39,7 @@ It would appear, an Orwellian future of perpetual war and fear awaits us. But th
 
 ### 3. Central Banks can be trusted
 
-OK, admittedly, this is hardly an agreed truth anymore. But speaking of calibrating our minds, this one hits very close to home. 4 years of university level finance indoctrination and over half a decade in some of the world's largest financial institutions had led to almost permanent, Maoist level brainwashing with respect to all things macroeconomic. I was recently referred a piece by Kang-Soek Lee and Richard A. Werner on [Reconsidering Monetary Policy](https://www.sciencedirect.com/science/article/pii/S0921800916307510).
+OK, admittedly, this is hardly an agreed truth anymore. But speaking of calibrating our minds, this one hits very close to home. Four years of university-level finance indoctrination and over half a decade in some of the world's largest financial institutions had led to almost permanent, Maoist level brainwashing with respect to all things macroeconomic. I was recently referred a piece by Kang-Soek Lee and Richard A. Werner on [Reconsidering Monetary Policy](https://www.sciencedirect.com/science/article/pii/S0921800916307510).
 
 > The data suggests overall that statistical causality runs from economic growth to long-term interest rates. Nominal GDP growth provides information on future interest rates better than interest rates inform us about future nominal GDP growth.
 
