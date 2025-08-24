@@ -2,7 +2,7 @@
 
 # Why I left banking for tech
 
-###### 07 December 2020 / 1,286 words / 4-minute read
+###### 07 December 2020 | 1,286 words | 4-minute read
 
 ![HSBC Shanghai](/static/banking_001.jpg)
 

@@ -1,10 +1,8 @@
 📍Chiang Mai, Thailand
 
-###### 12 November 2024
-
 # Hong Kong and the Crypto Boom: Economic Woes, Money Flows and Sanctions
 
-###### 1,530 words / 5 minute read
+###### 12 November 2024 | 1,530 words | 5 minute read
 
 ![hong_kong](/static/hong_kong_002.jpg)
 Image Attributed to @LucianoInf
