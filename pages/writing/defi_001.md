@@ -1,10 +1,10 @@
 📍Chiang Mai, Thailand
 
-![China vs USA](/static/defi_001.png)
-
 # Decentralisation is the West's Best Hope
 
 ###### 7 August 2022 | 1,239 words | 5 minute read
+
+![China vs USA](/static/defi_001.png)
 
 ### Situation report
 
