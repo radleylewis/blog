@@ -1,3 +1,5 @@
+<article>
+
 📍Melbourne, Australia
 
 # Dankeschön, Germany
@@ -50,3 +52,5 @@ This is not to diminish the harshness of 2020. It was a tough year in many diffe
 Germany is a fascinating country of castles, cobblestone streets, lush green forests, crystal clear rivers and reasonableness. Its language reflects the directness of its culture - one thing I will dearly miss in Australia. Germany is my home away from home and I will always be grateful for the wisdom and knowledge I have garnered from my time there with its people.
 
 To Germany I say, _dankeschön_.
+
+</article>

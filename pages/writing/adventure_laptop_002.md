@@ -1,3 +1,5 @@
+<article>
+
 📍Melbourne, Australia
 
 # Lenovo T480: The Adventurer's (value) Laptop [Part 2]
@@ -53,3 +55,5 @@ OK, so was it worth it? For less than €500 this machine outperforms the vast m
 ### What's next?
 
 The machine still needs a WWAN card and the CPU needs to be undervolted. But, more interestingly perhaps, I have been looking closely at security focused operating systems like [QubesOS](https://www.qubes-os.org/) recently and will likely try an install at some point. Stay tuned.
+
+</article>

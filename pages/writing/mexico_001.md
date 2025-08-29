@@ -1,3 +1,5 @@
+<article>
+
 📍 Athens, Greece
 
 # Mexico Insurance Policy
@@ -61,3 +63,5 @@ After 12 months, you will be able to renew your Temporary Residence permit for a
 For some, citizenship may be the aim, for others like myself, having a back-pocket residency permit with extremely low physical presence requirements is enough to help you sleep a little easier at night. I guess you can consider it your Mexican insurance policy.
 
 ¡adios, amigos!
+
+</article>

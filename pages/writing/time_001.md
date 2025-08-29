@@ -1,3 +1,5 @@
+<article>
+
 📍Munich, Germany
 
 # Time and tide wait for no man.
@@ -25,3 +27,5 @@ _"You were given the choice between war and dishonour. You chose dishonour and y
 _Neville Chamberlain returns from Munich_
 
 Let's remain impartial for a moment - ignore some historical inaccuracies, even - and take Churchill's word for it. But instead of war, imagine it is death - for what else is war other than death and suffering. No matter what path in life you chose, you will have death. So will you chose dishonour? Will you suppress each and every dream of yours until your final breath and then lament your cowardice? No, that's not the path for you, and you know it. You don't need another year in your profession, another certificate or more money in your bank account. You need courage and you need time, the first of which is your responsibility to muster and the second of which you will never again have more of that than right in this very moment. Chances are you're already far older than the millions of victims of that war were - of all sides - when their clock timed out. See everything from this point on as a bonus.
+
+</article>

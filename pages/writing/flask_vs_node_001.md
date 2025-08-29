@@ -1,3 +1,5 @@
+<article>
+
 📍Melbourne, Australia
 
 # Flask vs Node.js
@@ -106,3 +108,5 @@ Flask Total Points: 2
 So on a points basis Node.js beats Flask out. This is however, a drastically simplistic look at both technologies, and doesn't take into account specific use cases, or working with the technology best suited to the project, team or otherwise. There are cases where Flask and Python are far more stable than Node.js. Everyone has their preference, after all. I also haven't weighted the categories, whereas in reality, I value code readability and maintainability over some incremental pick-up in performance. Python is also more fun, and writing quick scripts is a painless experience. In conclusion, Node.js is an extremely powerful JavaScript runtime environment, while Flask is a beautiful, minimalistic web framework. Both have their place, and I would implore you to try them both out. For now, I will continue to use both, but am also likely to take a closer look at Deno.
 
 That's all folks.
+
+</article>

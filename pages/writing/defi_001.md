@@ -1,3 +1,5 @@
+<article>
+
 📍Chiang Mai, Thailand
 
 # Decentralisation is the West's Best Hope
@@ -49,3 +51,5 @@ While the situation may seem dire - and it is -, DeFi represents a unique opport
 Want to anonymously transact with a vendor on the other side of the world without Visa, Mastercard or the correspondent banking system? Have a new business idea and want to raise capital? Want to invest your savings in an industry you know like the back of your hand? All of this is entirely possible without the approval of the bank or the existence of financial infrastructure. It can be done at a fraction of the cost, with no risk exposure to any third party and no more government bailouts.
 
 DeFi could represent the abolishment of the entire rent-seeking financial class, and an economic revolution in a post-globalised world. As the US Dollar fades into the financial abyss, DeFi is the West's chance to stay relevant in a changing world order.
+
+</article>

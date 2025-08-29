@@ -1,3 +1,5 @@
+<article>
+
 📍Saigon, Vietnam
 
 # Geopolitical Diversification
@@ -71,3 +73,5 @@ Often overshadowed by its larger, more famous neighbour, Spain, Portugal offers 
 While full of exceptions and not entirely straightforward, the Non-Habitual Residence Program (NHR) may allow new residents to significantly reduce their taxes as a Portuguese tax resident. Compared to Mexico and Thailand, Portugal has a far lower financial means test requirement to qualify for a residence permit (D-7 Visa). Additionally, access to Portugal means access to the entire Schengen area, and Portugal also offers one of the fastest and most attainable paths to citizenship in the European Union - with all that entails, good and bad. However, obtaining citizenship will require you to spend significant time in the country in order to qualify, but is theoretically possible in around 5 years assuming some level of Portuguese language is attained (A2).
 
 While considered by many as "a suburb of Europe", Portugal's small size should rather be considered a net positive, as it is often overlooked and out-of-sight and out-of-mind to the corrupt, bureaucratic European Union institutions in Brussels. Add to that beautiful coastlines, one of the oldest borders of any nation, and a property market that still offers some level of value, Portugal is an excellent choice for those looking for a European foothold.
+
+</article>

@@ -1,3 +1,5 @@
+<article>
+
 📍Kempten, Germany
 
 # Yes, you can learn Chinese in four months. Well, some Chinese.
@@ -37,3 +39,5 @@ Chinese is a difficult language, largely on account of there being no passive le
 ### So where to now?
 
 Beijing was a great experience and I got some excellent insight to the political and financial ongoings in the world’s — likely to be — next superpower which I will discuss in future posts. As for my Chinese language goals now I will look to pass HSK V by the end of 2019 although through part time study rather than at UIBE in Beijing! If you are looking to learn Chinese my only advice is don’t overthink it, it is hard but I’ve used it in Barcelona, Berlin, Bavaria and even Rome. I even feel a little bit wiser for the experience.
+
+</article>

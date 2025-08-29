@@ -1,3 +1,5 @@
+<article>
+
 📍Chiang Mai, Thailand
 
 # Hong Kong and the Crypto Boom: Economic Woes, Money Flows and Sanctions
@@ -42,3 +44,5 @@ China's approach to crypto-currencies has been mixed at best. While officially t
 With approximately 7.5 million inhabitants, Hong Kong just doesn't have the scale to make it a standout start-up hub, and its role as a conduit into the mainland will in all probability be further eroded by the likes of Shanghai and Shenzhen. Nevertheless, its role as a critical financial centre may be reinvigorated by a realignment towards crypto-assets and the newly emerging financial paradigm unfolding before our very eyes.
 
 Whether Trump's reelection will inspire a rapprochement and de-escalation of the now vivid geopolitical schism carving up the world is yet to be seen. Whether it is crypto, or something else, Hong Kong's success has always been through exploiting gaps in the system. As geopolitical tensions rise, so too do these gaps widen, presenting a new hope for one of the world's great cities.
+
+</article>

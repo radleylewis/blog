@@ -1,3 +1,5 @@
+<article>
+
 📍Melbourne, Australia
 
 # Waves of War
@@ -40,3 +42,5 @@ A few years ago, while living in Beijing, I was invited to the Polish embassy wh
 > “Everyone thinks of changing the world, but no one thinks of changing himself.” _- Leo Tolstoy_
 
 Over time, the atmosphere I experienced on visits to China changed. Perhaps it was that I began to understand China better, or perhaps things really have evolved for the worse. The smiling faces and admiration of the West were for the most part harder to find when I was last there in 2019. China no longer respects the West. While once seen through the prism of Ronald Reagan's _shining city upon a hill_, a generation of students that have studied in the West are all too aware of our shortcomings. China's world-class infrastructure, futuristic cities and economic miracle are completely at odds with the homelessness of LA or San Francisco, the dilapidated streets of New York, violent crime in Chicago or decay of once great cities like Detroit. There is more to China than meets the eye, there is excruciating poverty in the interior and corruption is rife. But it is equally true that the West is in many respects just as corrupt, and suffering from massive societal issues and imbalances. China however passes one simple test, was this year better than the year before, will next year be better than this year. In my lifetime China has passed this test year after year, placing it in an exclusive group that Australia might also belong to. Perhaps we should think about why.
+
+</article>

@@ -1,3 +1,5 @@
+<article>
+
 📍Melbourne, Australia
 
 # Tired of your Government? Here are some ideas...
@@ -45,3 +47,5 @@ This option leverages the first two above, and while admittedly it isn't easy to
 The beauty of this option is that it is complimentary to the strategy of buying land or establishing your own business, given that both of these options are often standard pathways to establishing residence in another country. While not always guaranteed, if played right, this option may also lead to a second or third citizenship, allowing for another layer of diversification away from that government you are oh so tired of.
 
 That's all folks!
+
+</article>

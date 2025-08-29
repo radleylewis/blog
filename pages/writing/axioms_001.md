@@ -1,3 +1,5 @@
+<article>
+
 📍Chiang Mai, Thailand
 
 # Flawed Axioms
@@ -56,3 +58,5 @@ The current situation is entirely of their - that is to say, the central banks' 
 One of the best pieces of advice I ever received through my years in banking was that "all these institutional products are bullshit, remember, there is always an equivalent product in the retail bank, we just give them names". Bankers constantly reinvent financial instruments that already exist, in some form or another, in order to circumvent some regulations, or get themselves paid more, or at the very least make themselves look smart. Central banks are no different. There are dozens of instances of currency debasement throughout history, from the Chinese, to the Spanish and now the US - to name but a few. While the vernacular may differ, the cycle is the same. Governments and societies live beyond their means leading to increasing indebtedness. Levels of debt become unsustainable, and need to be paid down, but tax hikes are met with resistance, especially when an economy is stagnant and a society is in the later stages of the cycle and approaching collapse.
 
 So interest rates don't impact economic growth and central banks are debasing their currencies. So what? Well, let's at least agree that central banks cannot be trusted. Most likely they are distracting us from the largest transfer of wealth in our lifetime. In any case, the case for central banks is weaker than ever and the case for decentralised finance is stronger than ever before.
+
+</article>

@@ -1,3 +1,5 @@
+<article>
+
 📍Munich, Germany
 
 # Why I left banking for tech
@@ -35,3 +37,5 @@ On the other hand, customer due diligence requirements for tech companies are ef
 Two years since making the switch into tech and I am still stunned by the **infinite possibilities for business and improving people's lives**. Tech is inclusive, open-source technology means most of the frameworks and languages you use **don't cost anything**. Even better, hardware has made such strides that I can build bleeding-edge web applications on my 2013 ThinkPad and the Internet is available at lightning speeds almost everywhere in the world. Of course, sitting in front of a computer for 10 hours a day isn't for everyone, but companies also need sales, product managers, designers etc. **In hindsight, to not have made the switch would have been a great disservice to myself.**
 
 Finally, it would be remiss of me not to mention that ever since I was young I'd loved computers. Naturally, external factors sometimes more strongly influence one's career decisions than they ought, but such is life. Much like learning a language or an instrument, you have to love what you do. If you don't love technology, then don't work in it. But if you do, then the stars are aligned and you are well placed to help people and businesses and build a lasting career in a growth sector.
+
+</article>
